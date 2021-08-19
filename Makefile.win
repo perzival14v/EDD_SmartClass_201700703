@@ -4,8 +4,8 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = main.o estudiantes.o tareas.o
-LINKOBJ  = main.o estudiantes.o tareas.o
+OBJ      = main.o errores.o estudiantes.o listas.o tareas.o
+LINKOBJ  = main.o errores.o estudiantes.o listas.o tareas.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -27,8 +27,14 @@ $(BIN): $(OBJ)
 main.o: main.cpp
 	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
 
+errores.o: errores.cpp
+	$(CPP) -c errores.cpp -o errores.o $(CXXFLAGS)
+
 estudiantes.o: estudiantes.cpp
 	$(CPP) -c estudiantes.cpp -o estudiantes.o $(CXXFLAGS)
+
+listas.o: listas.cpp
+	$(CPP) -c listas.cpp -o listas.o $(CXXFLAGS)
 
 tareas.o: tareas.cpp
 	$(CPP) -c tareas.cpp -o tareas.o $(CXXFLAGS)

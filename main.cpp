@@ -7,6 +7,8 @@
 #include <stdlib.h>
 #include <sstream>
 
+
+
 #include "listas.h"
 
 #include "estudiantes.h"
@@ -14,6 +16,8 @@
 #include "tareas.h"
 
 #include "errores.h"
+
+#include "graphviz.h"
 
 
 using namespace std;
@@ -23,7 +27,7 @@ int verificarDPI(string dpi);
 int verificarCarnet(string carnet);
 void mostrarDatos(tareas matriz[][30][9]);
 
-
+/*METODOS DE LAS COLAS*/
 void agregarLDC(nodoLDC *&punteroCabeza, estudiantes e1);
 void recorrerLDC(nodoLDC *&cabeza);
 
@@ -39,17 +43,24 @@ int verificarAsignacionCarnet(string carnet, nodoLDC *&cabeza);
 int verificarFecha(string fecha);
 int verificarCorreo(string correo);
 
+/*METODOS PARA GRAFICAR*/
 
+void imprimirCola(nodoCola *&cabeza,int indice);
 
 int main(){
 	
 	SetConsoleOutputCP(CP_UTF8);
 	
 	
+	
 	int opcion=0;
 	int idErrores=0;
 	char ruta[60];
 	string linea="";
+	
+	/*----------------------------Variables para las imagenes de salida de Graphviz--------------------*/
+	int indiceCola=0;
+	
 	
 	//orden de la matriz de tareas, [meses][dias][horas]			
 	tareas matrizTareas[5][30][9];	
@@ -331,7 +342,7 @@ int main(){
 			}				
 			case 3:{
 				
-				int opcionMenuManual
+				int opcionMenuManual;
 				while(opcionMenuManual!=3){		
 					cout << "******** Menu ********"<<endl;
 					cout << " 1. Usuarios"<<endl;
@@ -342,7 +353,7 @@ int main(){
 					
 					switch(opcionMenuManual){
 						case 1:{
-							int opcionMMUsuarios
+							int opcionMMUsuarios;
 							while(opcionMMUsuarios!=4){		
 								cout << "******** Menu USUARIOS********"<<endl;
 								cout << " 1. Ingresar"<<endl;
@@ -357,7 +368,7 @@ int main(){
 						}		
 						case 2:{
 							
-							int opcionMMTareas
+							int opcionMMTareas;
 							while(opcionMMTareas!=4){		
 								cout << "******** Menu TAREAS********"<<endl;
 								cout << " 1. Ingresar"<<endl;
@@ -378,7 +389,49 @@ int main(){
 				break;
 			}				
 			case 4:{
-				recorrerCola(colaErrores);
+				int opcionReportes;
+				while(opcionReportes!=7){		
+					cout << "******** Menu ********"<<endl;
+					cout << " 1. Reporte sobre lista de estudiantes"<<endl;
+					cout << " 2. Reporte sobre lista de tareas linealizadas"<<endl;					
+					cout << " 3. Busqueda en estructura linealizada"<<endl;	
+					cout << " 4. Busqueda de posicion en lista linealizada"<<endl;	
+					cout << " 5. Cola de errores"<<endl;	
+					cout << " 6. Codigo generado de salida"<<endl;	
+					cout << " 7. Salir"<<endl;
+					cout << "Ingrese el numero de opcion"<<endl;
+					cin>>opcionReportes;
+					
+					
+					switch(opcionReportes){
+						case 1:{
+							break;
+						}	
+						case 2:{
+							
+							break;
+						}
+						case 3:{
+							
+							break;
+						}
+						case 4:{
+							
+							break;
+						}
+						case 5:{
+														
+							imprimirCola(colaErrores,indiceCola);
+							indiceCola++;
+							break;
+						}
+						case 6:{
+							
+							break;
+						}
+					};
+					
+				}
 				break;
 			}							
 			default:{

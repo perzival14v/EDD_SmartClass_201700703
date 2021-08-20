@@ -148,9 +148,9 @@ void recorrerLD(nodoLD *&cabeza){
 
 void columnMajor(nodoLD *&cabeza ,tareas matriz[][30][9]){
 	for(int i=0;i<5;i++){
-		for(int j=0;j<30;j++){
-			for(int k=0;k<9;k++){
-				if(matriz[i][j][k].carnet!="vacio"){									
+		for(int j=0;j<9;j++){
+			for(int k=0;k<30;k++){
+				if(matriz[i][k][j].carnet!="vacio"){									
 					agregarLD(cabeza,matriz[i][j][k]);			
 				};																											
 			};

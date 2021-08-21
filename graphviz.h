@@ -10,4 +10,7 @@ class graphviz
 	protected:
 };
 
+void imprimirEstudiantes(nodoLDC *&cabeza,int indice);
+void imprimirTareas(nodoLD *&cabeza,int indice);
+void imprimirTareasFiltradas(nodoLD *&cabeza,int indice);
 #endif

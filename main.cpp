@@ -60,7 +60,8 @@ int main(){
 	
 	/*----------------------------Variables para las imagenes de salida de Graphviz--------------------*/
 	int indiceCola=0;
-	
+	int indiceEstudiantes=0;
+	int indiceTareas=0;
 	
 	//orden de la matriz de tareas, [meses][dias][horas]			
 	tareas matrizTareas[5][30][9];	
@@ -251,28 +252,23 @@ int main(){
 										};
 																																						
 										break;
-									};
-									
+									};									
 									case 3:{
 										carnet = palabra;
 										break;
-									};
-									
+									};									
 									case 4:{
 										nombreTarea=palabra;
 										break;
-									};
-									
+									};									
 									case 5:{
 										descripcion=palabra;
 										break;
-									};
-									
+									};									
 									case 6:{
 										materia=palabra;
 										break;
-									};
-									
+									};									
 									case 7:{
 										fecha=palabra;
 										break;
@@ -298,7 +294,7 @@ int main(){
 						if(error==0){	
 							tareas tarea = 	tareas(ID,carnet,nombreTarea,descripcion,materia,fecha,hora,estado);														
 							matrizTareas[mes-7][dia-1][hora-8] = tarea;
-							
+							ID++;
 												
 							//Analizamos los errores
 																					
@@ -389,7 +385,7 @@ int main(){
 				break;
 			}				
 			case 4:{
-				int opcionReportes;
+				int opcionReportes=0;
 				while(opcionReportes!=7){		
 					cout << "******** Menu ********"<<endl;
 					cout << " 1. Reporte sobre lista de estudiantes"<<endl;
@@ -405,10 +401,15 @@ int main(){
 					
 					switch(opcionReportes){
 						case 1:{
+							imprimirEstudiantes(listaEstudiantes,indiceEstudiantes);
+							indiceEstudiantes++;
+							
 							break;
 						}	
 						case 2:{
-							
+							imprimirTareas(listaTareas,indiceTareas);							
+							imprimirTareasFiltradas(listaTareas,indiceTareas);
+							indiceTareas++;
 							break;
 						}
 						case 3:{

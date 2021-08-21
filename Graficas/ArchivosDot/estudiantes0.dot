@@ -1,0 +1,102 @@
+digraph estudiantes{ 
+ rankdir=LR;
+N0[label="Carnet:201700886
+DPI: 3502451230508
+Nombre: Emilia Miramontes
+Carrera: Ingeniería en Ciencias y Sistemas
+Password: roxodiciqi
+Creditos: 205
+Edad: 21", shape=box];
+N1[label="Carnet:201501786
+DPI: 7249529279753
+Nombre: Juan Curiel
+Carrera: Ingeniería Industrial
+Password: zanolexima
+Creditos: 245
+Edad: 24", shape=box];
+N2[label="Carnet:201822186
+DPI: 9298434863898
+Nombre: Eloisa Rincón
+Carrera: Ingeniería Civil
+Password: toqelijanu
+Creditos: 95
+Edad: 19", shape=box];
+N3[label="Carnet:201901425
+DPI: 4131766125532
+Nombre: Bernardo Hinojosa
+Carrera: Ingeniería Mecánica
+Password: wosopumano
+Creditos: 100
+Edad: 20", shape=box];
+N4[label="Carnet:201503186
+DPI: 8549191766348
+Nombre: Manuel Manzanares
+Carrera: Ingeniería Eléctrica
+Password: rejumudore
+Creditos: 226
+Edad: 24", shape=box];
+N5[label="Carnet:201123146
+DPI: 9616636196552
+Nombre: Julia Corona
+Carrera: Ingeniería Electrónica
+Password: xojobavuji
+Creditos: 237
+Edad: 26", shape=box];
+N6[label="Carnet:201704186
+DPI: 4778315315575
+Nombre: Berta Carrasco
+Carrera: Ingeniería Ambiental
+Password: gayahizatu
+Creditos: 210
+Edad: 22", shape=box];
+N7[label="Carnet:202000786
+DPI: 7382344774121
+Nombre: Lola Delapaz
+Carrera: Ingeniería Química
+Password: hujocikimi
+Creditos: 45
+Edad: 19", shape=box];
+N8[label="Carnet:201611446
+DPI: 2511893949443
+Nombre: Sonia Arteaga
+Carrera: Ingeniería Mecánica Industrial
+Password: rezutafila
+Creditos: 195
+Edad: 23", shape=box];
+N9[label="Carnet:201819852
+DPI: 3423442386382
+Nombre: Benjamín Asencio
+Carrera: Ingeniería Mecánica Eléctrica
+Password: runoqozepo
+Creditos: 117
+Edad: 20", shape=box];
+N0->N1;
+N0->N9;
+
+N1->N0;
+N1->N2;
+
+N2->N1;
+N2->N3;
+
+N3->N2;
+N3->N4;
+
+N4->N3;
+N4->N5;
+
+N5->N4;
+N5->N6;
+
+N6->N5;
+N6->N7;
+
+N7->N6;
+N7->N8;
+
+N8->N7;
+N8->N9;
+
+
+N9->N0;
+concentrate=true }

@@ -4,14 +4,14 @@
 using namespace std;
 
 estudiantes::estudiantes(){
-	carnet=1;
-	dpi=1;
+	carnet="";
+	dpi="";
 	nombre="vacio";
 	carrera="vacio";
 	correo="vacio";
 	contrasenia="vacio";
-	creditos=1;
-	edad=1;
+	creditos="";
+	edad="";
 }
 
 

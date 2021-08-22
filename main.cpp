@@ -28,24 +28,13 @@ int verificarCarnet(string carnet);
 void mostrarDatos(tareas matriz[][30][9]);
 
 /*METODOS DE LAS COLAS*/
-void agregarLDC(nodoLDC *&punteroCabeza, estudiantes e1);
-void recorrerLDC(nodoLDC *&cabeza);
 
-void agregarLD(nodoLD *&punteroCabeza, tareas t1);
-void recorrerLD(nodoLD *&cabeza);
 
-void columnMajor(nodoLD *&cabeza ,tareas matriz[][30][9]);
 
-void encolar(nodoCola *&cabeza,errores e1);
-void recorrerCola(nodoCola *&cola);
-
-int verificarAsignacionCarnet(string carnet, nodoLDC *&cabeza);
-int verificarFecha(string fecha);
-int verificarCorreo(string correo);
 
 /*METODOS PARA GRAFICAR*/
 
-void imprimirCola(nodoCola *&cabeza,int indice);
+
 
 int main(){
 	
@@ -86,7 +75,7 @@ int main(){
 			case 1:{
 				/*Carga de estudiantes*/
 				cout << "Ingrese el nombre del archivo"<<endl;
-				cin>>ruta;
+				cin >> ruta;
 				
 				ifstream archivo;			
 				archivo.open(ruta,ios::in);
@@ -171,7 +160,7 @@ int main(){
 																				
 				
 				cout << "Ingrese el nombre del archivo"<<endl;
-				cin>>ruta;
+				cin >> ruta;
 				
 				ifstream archivo;			
 				archivo.open(ruta,ios::in);
@@ -338,19 +327,20 @@ int main(){
 			}				
 			case 3:{
 				
-				int opcionMenuManual;
+				int opcionMenuManual=0;
 				while(opcionMenuManual!=3){		
 					cout << "******** Menu ********"<<endl;
 					cout << " 1. Usuarios"<<endl;
 					cout << " 2. Tareas"<<endl;					
 					cout << " 3. Salir"<<endl;
 					cout << "Ingrese el numero de opcion"<<endl;
-					cin>>opcionMenuManual;
+					cin >> opcionMenuManual;
 					
 					switch(opcionMenuManual){
 						case 1:{
-							int opcionMMUsuarios;
+							int opcionMMUsuarios=0;
 							while(opcionMMUsuarios!=4){		
+								opcionMMUsuarios=-1;
 								cout << "******** Menu USUARIOS********"<<endl;
 								cout << " 1. Ingresar"<<endl;
 								cout << " 2. Modificar"<<endl;					
@@ -358,13 +348,87 @@ int main(){
 								cout << " 4. Salir"<<endl;
 								cout << "Ingrese el numero de opcion"<<endl;
 								cin>>opcionMMUsuarios;
+								
+								
+								switch(opcionMMUsuarios){
+									case 1:{
+										
+										estudiantes nuevo;
+										
+										cout << "Ingrese carnet" << endl;
+										cin >> nuevo.carnet;
+										
+										cout << "Ingrese DPI" << endl;
+										cin >> nuevo.dpi;
+										
+										cout << "Ingrese nombre del estudiante" << endl;
+										cin >> nuevo.nombre;
+										
+										cout << "Ingrese carrera" << endl;
+										cin >> nuevo.carrera;
+										
+										cout << "Ingrese correo" << endl;
+										cin >> nuevo.correo;
+										
+										cout << "Ingrese numero de contraseña" << endl;
+										cin >> nuevo.contrasenia;
+										
+										cout << "Ingrese creditos" << endl;
+										cin >> nuevo.creditos;
+										
+										cout << "Ingrese edad" << endl;
+										cin >> nuevo.edad;
+										
+										agregarLDC(listaEstudiantes,nuevo);
+										
+										break;
+									}
+									case 2:{
+										
+										string dpiBusqueda;
+										int opcionCambio;
+										
+										
+										cout << "Ingrese DPI a buscar" << endl;
+										cin >> dpiBusqueda;
+										
+										cout << "Seleccione el campo a modificar" << endl;
+										cout << "1. Carnet" << endl;
+										cout << "2. DPI" << endl;
+										cout << "3. Nombre" << endl;
+										cout << "4. Carrera" << endl;
+										cout << "5. Contraseña" << endl;
+										cout << "6. Creditos" << endl;
+										cout << "7. Edad" << endl;
+										cin >> opcionCambio;
+										
+										modificarEstudiante(listaEstudiantes,dpiBusqueda,opcionCambio);
+										
+										
+										break;
+									}
+									case 3:{
+										string dpiBusqueda;										
+										
+										
+										cout << "Ingrese DPI a buscar" << endl;
+										cin >> dpiBusqueda;
+										
+										void eliminarEstudiante(nodoLDC listaEstudiantes,string dpiBusqueda);
+										
+										
+										break;
+									}
+								};
+								
+								
 							}
 							
 							break;
 						}		
 						case 2:{
 							
-							int opcionMMTareas;
+							int opcionMMTareas=0;
 							while(opcionMMTareas!=4){		
 								cout << "******** Menu TAREAS********"<<endl;
 								cout << " 1. Ingresar"<<endl;
@@ -412,12 +476,49 @@ int main(){
 							indiceTareas++;
 							break;
 						}
-						case 3:{
+						case 3:{													
+																				
+							
+							int mesBuscado;
+							int diaBuscado;
+							int horaBuscado;
+							
+							cout << "\nIngrese el mes de la tarea" <<endl;
+							cin >> mesBuscado;
+							
+							cout << "\nIngrese el dia de la tarea" <<endl;
+							cin >> diaBuscado;
+							
+							cout << "\nIngrese el hora de la tarea" <<endl;
+							cin >> horaBuscado;													
+							
+							busquedaTarea(listaTareas,mesBuscado-7,diaBuscado-1,horaBuscado-8);
+							
+							
 							
 							break;
 						}
 						case 4:{
+						
 							
+							int mesBuscado;
+							int diaBuscado;
+							int horaBuscado;
+							
+							cout << "\nIngrese el mes de la tarea" <<endl;
+							cin >> mesBuscado;
+							
+							cout << "\nIngrese el dia de la tarea" <<endl;
+							cin >> diaBuscado;
+							
+							cout << "\nIngrese el hora de la tarea" <<endl;
+							cin >> horaBuscado;
+																
+							
+							int posicion = (30*9*(mesBuscado-7))+(30*(horaBuscado-8))+(diaBuscado-1);
+																
+							cout << "\n La posicion en la lista es: "	<< posicion << endl;
+																					
 							break;
 						}
 						case 5:{

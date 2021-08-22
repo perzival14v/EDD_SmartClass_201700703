@@ -9,6 +9,8 @@
 #include "tareas.h"
 #include "errores.h"
 
+
+
 using namespace std;
 
 /*DIFERENTES TIPOS DE NODO*/
@@ -291,6 +293,171 @@ int verificarFecha(string fecha){
 	
 	return 0;
 	
+}
+
+
+
+/*------------------------------------BUSQUEDAS DENTRO DE LA LISTA---------------------------------------*/
+
+void busquedaTarea(nodoLD *&cabeza,int mes, int dia, int hora){
+	
+	int posicion = (30*9*mes)+(30*hora)+dia;
+	cout << posicion <<endl;
+	nodoLD *aux = cabeza;
+	
+	if(aux!=NULL)	{
+		
+		while(posicion>0){
+			aux=aux->siguiente;
+			posicion--;
+		}
+		tareas tarea = aux->info;
+		
+		if(tarea.carnet!="vacio"){
+			cout<<"\nCarnet:"<<tarea.carnet<<endl;
+			cout<<"ID: " << tarea.idT <<endl;
+			cout<<"Nombre: " << tarea.nombreTarea <<endl;
+			cout<<"Descripcion: " << tarea.descripcion<<endl;
+			cout<<"Materia: " << tarea.materia <<endl;
+			cout<<"Fecha: " << tarea.fecha <<endl;
+			cout<<"Hora: " << tarea.hora <<endl;
+			cout<<"Estado: " << tarea.estado <<endl	;
+		}else{
+			cout << "\n Tarea no existe" <<endl;
+		}
+		
+		
+		
+	}else{
+		cout << "La lista esta vacia" <<endl;
+	}
+	
+	
+	
+}
+
+/*------------------------------------Agregacion/Modificacion/Eliminacion de datos-------------------------------*/
+
+
+void modificarEstudiante(nodoLDC *&cabeza,string dpi,int opcion){				
+	
+	nodoLDC *aux = cabeza;		
+	
+	while(aux->siguiente!=cabeza)	{			
+		if(aux->info.dpi==dpi){
+			break;
+		}								
+		aux = aux->siguiente;	
+		
+	};
+	
+	
+	if(aux->info.dpi==dpi){
+		string datoNuevo;
+		switch(opcion){			
+			case 1:{
+				cout << "ingrese el nuevo carnet" << endl;
+				cin >> datoNuevo;
+				
+				aux->info.carnet=datoNuevo;
+				
+				break;
+			}
+			
+			case 2:{
+				cout << "ingrese el nuevo DPI" << endl;
+				cin >> datoNuevo;
+				
+				aux->info.dpi=datoNuevo;
+				break;
+			}
+			
+			case 3:{
+				cout << "ingrese el nuevo nombre" << endl;
+				cin >> datoNuevo;
+				
+				aux->info.nombre=datoNuevo;
+				break;
+			}
+			
+			case 4:{
+				cout << "ingrese la nueva carrera" << endl;
+				cin >> datoNuevo;
+				
+				aux->info.carrera=datoNuevo;
+				
+				
+				break;
+			}
+			
+			case 5:{
+				cout << "ingrese la nueva contreseña" << endl;
+				cin >> datoNuevo;
+				
+				aux->info.contrasenia=datoNuevo;
+				
+				
+				break;
+			}
+			
+			case 6:{
+				
+				cout << "ingrese la nueva cantidad de creditos" << endl;
+				cin >> datoNuevo;
+				
+				aux->info.creditos=datoNuevo;
+				
+				break;
+			}
+			
+			case 7:{
+				
+				cout << "ingrese la nueva edad" << endl;
+				cin >> datoNuevo;
+				
+				aux->info.edad=datoNuevo;
+				
+				
+				break;
+			}
+		};
+		
+		
+		
+	}else{
+		cout << "Dato no encontrado" << endl;
+	};
+}
+
+void eliminarEstudiante(nodoLDC *&cabeza,string dpi){
+	nodoLDC *aux = cabeza;		
+	
+	while(aux->siguiente!=cabeza)	{			
+		if(aux->info.dpi==dpi){
+			int opcion;
+			
+			cout << "Estudiante Encontrado, ¿Desea eliminarlo?" <<endl;			
+			cout << "1. Si" << endl;
+			cout << "2. No" << endl;
+			cin >> opcion;
+			
+			if(opcion==1){
+				nodoLDC *eliminar;
+				eliminar =aux;
+				aux->anterior->siguiente = aux->siguiente;
+				aux->siguiente->anterior = aux->anterior;
+				
+				delete eliminar;
+			}
+			
+			
+			return;
+		}								
+		aux = aux->siguiente;			
+	};
+	
+	
+	cout << "Dato no encontrado" << endl;	
 }
 
 

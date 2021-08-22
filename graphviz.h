@@ -13,4 +13,5 @@ class graphviz
 void imprimirEstudiantes(nodoLDC *&cabeza,int indice);
 void imprimirTareas(nodoLD *&cabeza,int indice);
 void imprimirTareasFiltradas(nodoLD *&cabeza,int indice);
+void imprimirCola(nodoCola *&cabeza,int indice);
 #endif

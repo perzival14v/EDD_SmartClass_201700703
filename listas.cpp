@@ -172,7 +172,6 @@ int verificarDPI(string dpi){
 			
 }
 
-
 int verificarCarnet(string carnet){
 	
 	if(carnet.length()==9){
@@ -182,7 +181,6 @@ int verificarCarnet(string carnet){
 	};
 			
 }
-
 
 int verificarCorreo(string correo){
 	
@@ -234,7 +232,6 @@ int verificarCorreo(string correo){
 	
 	return 0;
 }
-
 
 int verificarAsignacionCarnet(string carnet, nodoLDC *&cabeza){
 	nodoLDC *aux = cabeza;		
@@ -336,9 +333,7 @@ void busquedaTarea(nodoLD *&cabeza,int mes, int dia, int hora){
 	
 }
 
-/*------------------------------------Agregacion/Modificacion/Eliminacion de datos-------------------------------*/
-
-
+/*------------------------------------Agregacion/Modificacion/Eliminacion de datos USUARIO-------------------------------*/
 void modificarEstudiante(nodoLDC *&cabeza,string dpi,int opcion){				
 	
 	nodoLDC *aux = cabeza;		
@@ -458,6 +453,136 @@ void eliminarEstudiante(nodoLDC *&cabeza,string dpi){
 	
 	
 	cout << "Dato no encontrado" << endl;	
+}
+
+
+/*------------------------------------Agregacion/Modificacion/Eliminacion de datos TAREAS-------------------------------*/
+
+int agregarTareaNueva(nodoLD *&cabeza,tareas nueva,int mes, int dia,int id){
+	nodoLD *aux = cabeza;		
+	int contador=0;
+	int indice = (30*9*(mes-7))+(30*(nueva.hora-8))+(dia-1);
+	
+	
+	
+	while(aux!=NULL){	
+		if(contador==indice && aux->info.carnet=="vacio"){									
+			aux->info.idT=id;
+			aux->info.carnet=nueva.carnet;
+			aux->info.nombreTarea=nueva.nombreTarea;
+			aux->info.descripcion=nueva.descripcion;
+			aux->info.materia=nueva.materia;
+			aux->info.fecha=nueva.fecha;
+			aux->info.hora=nueva.hora;
+			aux->info.estado=nueva.estado;		
+			
+			return	0;
+		};
+		aux=aux->siguiente;
+		contador++;
+	};
+	
+	
+	cout << "No se encontro el indice o la tarea ya existe";
+	return 1;
+}
+
+
+void modificarTarea(nodoLD *&cabeza,int indice,int opcion){
+	nodoLD *aux = cabeza;		
+	int contador=0;
+	
+	
+	while(aux!=NULL){	
+		if(contador==indice && aux->info.carnet!="vacio"){									
+			switch(opcion){			
+			case 1:{
+				cout << "ingrese el nuevo carnet" << endl;
+				cin >> aux->info.carnet;
+							
+				
+				break;
+			}
+			
+			case 2:{
+				cout << "ingrese el nuevo nombre de tarea" << endl;
+				cin >> aux->info.nombreTarea;
+							
+				break;
+			}
+			
+			case 3:{
+				cout << "ingrese la nueva descripcion" << endl;
+				cin >> aux->info.descripcion;
+							
+				break;
+			}
+			
+			case 4:{
+				cout << "ingrese la nueva materia" << endl;
+				cin >> aux->info.materia;
+								
+				
+				
+				break;
+			}
+			
+			case 5:{
+				cout << "ingrese la nueva fecha" << endl;
+				cin >> aux->info.fecha;
+							
+				
+				
+				break;
+			}
+					
+			
+			case 6:{
+				
+				cout << "ingrese el nuevo estado" << endl;
+				cin >> aux->info.estado;
+								
+				
+				
+				break;
+			}
+		};		
+			
+			return	;
+		};
+		contador++;
+		aux=aux->siguiente;
+	};
+	
+	
+	cout << "No se encontro el indice o la tarea no existe";
+}
+
+
+void eliminarTarea(nodoLD *&cabeza,int indice){
+	nodoLD *aux = cabeza;		
+	int contador=0;
+	
+	
+	while(aux!=NULL){	
+		if(contador==indice){									
+			aux->info.idT=-1;
+			aux->info.carnet="vacio";
+			aux->info.nombreTarea="vacio";
+			aux->info.descripcion="vacio";
+			aux->info.materia="vacio";
+			aux->info.fecha="vacio";
+			aux->info.hora=-1;
+			aux->info.estado="vacio";		
+			
+			return;
+		};
+		contador++;
+		aux=aux->siguiente;		
+	};
+			
+	cout << "No se encontro el indice";
+	return;
 }
 
 

@@ -1,11 +1,369 @@
 digraph tf{ 
  rankdir=LR;
-N0[label="Carnet:201901425
-ID: 0
-Nombre: Tarea de Matematica
-Descripcion: Realizar la tarea del curso de matemática intermedia 1.
-Materia: Matemática Intermedia 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N0[label="Carnet:201612867
+ID: 35
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/07/22
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N1[label="Carnet:201166543
+ID: 23
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/07/09
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N2[label="Carnet:201467158
+ID: 32
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/07/26
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+N3[label="Carnet:201953630
+ID: 3
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
 Fecha: 2021/07/01
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N4[label="Carnet:201323986
+ID: 34
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/07/07
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N5[label="Carnet:201323780
+ID: 31
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/07/13
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+N6[label="Carnet:201247201
+ID: 7
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/07/26
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N7[label="Carnet:201351806
+ID: 6
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/07/12
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N8[label="Carnet:201193144
+ID: 19
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/07/09
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N9[label="Carnet:201323780
+ID: 14
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/07/10
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+N10[label="Carnet:201645398
+ID: 27
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/07/13
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N11[label="Carnet:201202517
+ID: 18
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/08/12
 Hora: 8
 Estado: Incumplido", shape=box];
 
@@ -37,49 +395,40 @@ Estado: Incumplido", shape=box];
 
 
 
-N1[label="Carnet:201901425
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N12[label="Carnet:201446563
 ID: 1
-Nombre: Tarea de Matematica
-Descripcion: Modificacion 2.
-Materia: Matemática Intermedia 1
-Fecha: 2021/0447/01
-Hora: 9
-Estado: Incumplido", shape=box];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N2[label="Carnet:201901425
-ID: 2
-Nombre: Tarea de Matematica
-Descripcion: Modificacion 3.
-Materia: Matemática Intermedia 1
-Fecha: 2021/07/01
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/08/10
 Hora: 10
 Estado: Incumplido", shape=box];
 
@@ -91,959 +440,126 @@ Estado: Incumplido", shape=box];
 
 
 
-
-
-
-N3[label="Carnet:201704186
-ID: 4
-Nombre: Tarea de Estadística
-Descripcion: Realizar la tarea del curso de Estadística 1.
-Materia: Estadística 1
-Fecha: 2021/07/14
-Hora: 10
-Estado: Cumplido", shape=box];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N4[label="Carnet:123
-ID: 3
-Nombre: Tarea de Fisica
-Descripcion: Realizar la tarea del curso de Física 1.
-Materia: Física 1
-Fecha: 2021/07/0111
-Hora: 11
-Estado: Pendiente", shape=box];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N5[label="Carnet:201700886
-ID: 5
-Nombre: Codificar en C++
-Descripcion: Realizar la tarea del curso de Estructuras de datos
-Materia: Estructuras de Datos
-Fecha: 2021/07/14
-Hora: 16
-Estado: Pendiente", shape=box];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N6[label="Carnet:201901425
-ID: 6
-Nombre: Tarea de Lógica
-Descripcion: Realizar el resumen del curso de Lógica.
-Materia: Lógica
-Fecha: 2021/10/04
-Hora: 9
-Estado: Pendiente", shape=box];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N7[label="Carnet:201704186
-ID: 7
-Nombre: Tarea 2 de Física 3
-Descripcion: Realizar la tarea del curso de Física 3.
-Materia: FÍsica 3
-Fecha: 202145/10/04
-Hora: 11
-Estado: Pendiente", shape=box];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N8[label="Carnet:201700886
+N13[label="Carnet:201561080
 ID: 9
-Nombre: Proyecto de Lenguajes
-Descripcion: Realizar el proyecto del curso de Lenguajes
-Materia: Lenguajes Formales y de Programación
-Fecha: 2021/10/21
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/08/20
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N14[label="Carnet:201590600
+ID: 10
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/08/27
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N15[label="Carnet:201688284
+ID: 24
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/08/19
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+N16[label="Carnet:201927645
+ID: 12
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/08/24
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N17[label="Carnet:201422428
+ID: 20
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/08/14
 Hora: 13
-Estado: Pendiente", shape=box];
+Estado: Incumplido", shape=box];
 
 
 
@@ -1056,6 +572,14 @@ Estado: Pendiente", shape=box];
 
 
 
+N18[label="Carnet:201554088
+ID: 25
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/08/27
+Hora: 13
+Estado: Incumplido", shape=box];
 
 
 
@@ -1067,20 +591,699 @@ Estado: Pendiente", shape=box];
 
 
 
-
-
-
-
-
-
-N9[label="Carnet:201700703
-ID: 8
-Nombre: Encuesta de Estadística
-Descripcion: Realizar la encuesta del curso de Estadística 1.
-Materia: Estadística 1
-Fecha: 2021/10/21
+N19[label="Carnet:201645398
+ID: 38
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/08/09
 Hora: 14
-Estado: Pendiente", shape=box];
+Estado: Incumplido", shape=box];
+
+
+
+
+N20[label="Carnet:201961401
+ID: 2
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/08/14
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N21[label="Carnet:201370948
+ID: 29
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/08/20
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N22[label="Carnet:201005052
+ID: 28
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/09/02
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+N23[label="Carnet:201561080
+ID: 15
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/12
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+N24[label="Carnet:201202517
+ID: 4
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/09/16
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N25[label="Carnet:201590600
+ID: 5
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/09/05
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N26[label="Carnet:201390187
+ID: 36
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/04
+Hora: 10
+Estado: Incumplido", shape=box];
+N27[label="Carnet:201331236
+ID: 21
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/09/05
+Hora: 10
+Estado: Incumplido", shape=box];
+N28[label="Carnet:201166543
+ID: 33
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/06
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+N29[label="Carnet:201645398
+ID: 17
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/09/14
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+N30[label="Carnet:201458475
+ID: 0
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/22
+Hora: 10
+Estado: Incumplido", shape=box];
+
+N31[label="Carnet:201870722
+ID: 40
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/24
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N32[label="Carnet:201923847
+ID: 26
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/09/19
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N33[label="Carnet:201396514
+ID: 37
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/26
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N34[label="Carnet:201380369
+ID: 30
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/09/12
+Hora: 13
+Estado: Incumplido", shape=box];
+N35[label="Carnet:201452363
+ID: 13
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/09/13
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N36[label="Carnet:201410017
+ID: 22
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/04
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N37[label="Carnet:201351806
+ID: 8
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/20
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N38[label="Carnet:201531441
+ID: 11
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/19
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1447,4 +1650,91 @@ N8->N9;
 
 N9->N8;
 N9->N10;
+
+N10->N9;
+N10->N11;
+
+N11->N10;
+N11->N12;
+
+N12->N11;
+N12->N13;
+
+N13->N12;
+N13->N14;
+
+N14->N13;
+N14->N15;
+
+N15->N14;
+N15->N16;
+
+N16->N15;
+N16->N17;
+
+N17->N16;
+N17->N18;
+
+N18->N17;
+N18->N19;
+
+N19->N18;
+N19->N20;
+
+N20->N19;
+N20->N21;
+
+N21->N20;
+N21->N22;
+
+N22->N21;
+N22->N23;
+
+N23->N22;
+N23->N24;
+
+N24->N23;
+N24->N25;
+
+N25->N24;
+N25->N26;
+
+N26->N25;
+N26->N27;
+
+N27->N26;
+N27->N28;
+
+N28->N27;
+N28->N29;
+
+N29->N28;
+N29->N30;
+
+N30->N29;
+N30->N31;
+
+N31->N30;
+N31->N32;
+
+N32->N31;
+N32->N33;
+
+N33->N32;
+N33->N34;
+
+N34->N33;
+N34->N35;
+
+N35->N34;
+N35->N36;
+
+N36->N35;
+N36->N37;
+
+N37->N36;
+N37->N38;
+
+N38->N37;
+N38->N39;
 concentrate=true; }

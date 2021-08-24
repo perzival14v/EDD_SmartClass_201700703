@@ -49,5 +49,9 @@ int verificarCorreo(string correo);
 void modificarEstudiante(nodoLDC *&cabeza,string dato,int opcion);
 void eliminarEstudiante(nodoLDC *&cabeza,string dpi);
 
+int agregarTareaNueva(nodoLD *&cabeza,tareas nueva,int mes, int dia,int id);
+void modificarTarea(nodoLD *&cabeza,int indice,int opcion);
+void eliminarTarea(nodoLD *&cabeza,int indice);
+
 
 #endif

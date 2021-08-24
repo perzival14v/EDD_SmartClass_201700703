@@ -1,13 +1,13 @@
 digraph tareas{ 
  rankdir=LR;
-N0[label="Carnet:201901425
-ID: 0
-Nombre: Tarea de Matematica
-Descripcion: Realizar la tarea del curso de matemática intermedia 1.
-Materia: Matemática Intermedia 1
-Fecha: 2021/07/01
-Hora: 8
-Estado: Incumplido", shape=box];
+N0[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N1[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -240,14 +240,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N30[label="Carnet:201901425
-ID: 1
-Nombre: Tarea de Matematica
-Descripcion: Modificacion 2.
-Materia: Matemática Intermedia 1
-Fecha: 2021/0447/01
-Hora: 9
-Estado: Incumplido", shape=box];
+N30[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N31[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -408,14 +408,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N51[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N51[label="Carnet:201612867
+ID: 35
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/07/22
+Hora: 9
+Estado: Incumplido", shape=box];
 N52[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -480,14 +480,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N60[label="Carnet:201901425
-ID: 2
-Nombre: Tarea de Matematica
-Descripcion: Modificacion 3.
-Materia: Matemática Intermedia 1
-Fecha: 2021/07/01
-Hora: 10
-Estado: Incumplido", shape=box];
+N60[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N61[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -544,14 +544,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N68[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N68[label="Carnet:201166543
+ID: 23
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/07/09
+Hora: 10
+Estado: Incumplido", shape=box];
 N69[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -584,14 +584,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N73[label="Carnet:201704186
-ID: 4
-Nombre: Tarea de Estadística
-Descripcion: Realizar la tarea del curso de Estadística 1.
-Materia: Estadística 1
-Fecha: 2021/07/14
-Hora: 10
-Estado: Cumplido", shape=box];
+N73[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N74[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -680,14 +680,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N85[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N85[label="Carnet:201467158
+ID: 32
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/07/26
+Hora: 10
+Estado: Incumplido", shape=box];
 N86[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -720,14 +720,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N90[label="Carnet:123
+N90[label="Carnet:201953630
 ID: 3
-Nombre: Tarea de Fisica
-Descripcion: Realizar la tarea del curso de Física 1.
-Materia: Física 1
-Fecha: 2021/07/0111
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/07/01
 Hora: 11
-Estado: Pendiente", shape=box];
+Estado: Incumplido", shape=box];
 N91[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -1008,14 +1008,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N126[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N126[label="Carnet:201323986
+ID: 34
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/07/07
+Hora: 12
+Estado: Incumplido", shape=box];
 N127[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -1056,14 +1056,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N132[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N132[label="Carnet:201323780
+ID: 31
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/07/13
+Hora: 12
+Estado: Incumplido", shape=box];
 N133[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -1160,14 +1160,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N145[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N145[label="Carnet:201247201
+ID: 7
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/07/26
+Hora: 12
+Estado: Incumplido", shape=box];
 N146[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -1288,14 +1288,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N161[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N161[label="Carnet:201351806
+ID: 6
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/07/12
+Hora: 13
+Estado: Incumplido", shape=box];
 N162[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -1504,14 +1504,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N188[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N188[label="Carnet:201193144
+ID: 19
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/07/09
+Hora: 14
+Estado: Incumplido", shape=box];
 N189[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -1752,14 +1752,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N219[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N219[label="Carnet:201323780
+ID: 14
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/07/10
+Hora: 15
+Estado: Incumplido", shape=box];
 N220[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -1776,14 +1776,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N222[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N222[label="Carnet:201645398
+ID: 27
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/07/13
+Hora: 15
+Estado: Incumplido", shape=box];
 N223[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -2024,14 +2024,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N253[label="Carnet:201700886
-ID: 5
-Nombre: Codificar en C++
-Descripcion: Realizar la tarea del curso de Estructuras de datos
-Materia: Estructuras de Datos
-Fecha: 2021/07/14
-Hora: 16
-Estado: Pendiente", shape=box];
+N253[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N254[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -2248,14 +2248,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N281[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N281[label="Carnet:201202517
+ID: 18
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/08/12
+Hora: 8
+Estado: Incumplido", shape=box];
 N282[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -2712,14 +2712,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N339[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N339[label="Carnet:201446563
+ID: 1
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/08/10
+Hora: 10
+Estado: Incumplido", shape=box];
 N340[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -2792,14 +2792,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N349[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N349[label="Carnet:201561080
+ID: 9
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/08/20
+Hora: 10
+Estado: Incumplido", shape=box];
 N350[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -2848,14 +2848,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N356[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N356[label="Carnet:201590600
+ID: 10
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/08/27
+Hora: 10
+Estado: Incumplido", shape=box];
 N357[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -3024,14 +3024,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N378[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N378[label="Carnet:201688284
+ID: 24
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/08/19
+Hora: 11
+Estado: Incumplido", shape=box];
 N379[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -3064,14 +3064,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N383[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N383[label="Carnet:201927645
+ID: 12
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/08/24
+Hora: 11
+Estado: Incumplido", shape=box];
 N384[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -3464,14 +3464,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N433[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N433[label="Carnet:201422428
+ID: 20
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/08/14
+Hora: 13
+Estado: Incumplido", shape=box];
 N434[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -3568,14 +3568,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N446[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N446[label="Carnet:201554088
+ID: 25
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/08/27
+Hora: 13
+Estado: Incumplido", shape=box];
 N447[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -3664,14 +3664,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N458[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N458[label="Carnet:201645398
+ID: 38
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/08/09
+Hora: 14
+Estado: Incumplido", shape=box];
 N459[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -3704,14 +3704,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N463[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N463[label="Carnet:201961401
+ID: 2
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/08/14
+Hora: 14
+Estado: Incumplido", shape=box];
 N464[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -3752,14 +3752,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N469[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N469[label="Carnet:201370948
+ID: 29
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/08/20
+Hora: 14
+Estado: Incumplido", shape=box];
 N470[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -4328,14 +4328,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N541[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N541[label="Carnet:201005052
+ID: 28
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/09/02
+Hora: 8
+Estado: Incumplido", shape=box];
 N542[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -4408,14 +4408,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N551[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N551[label="Carnet:201561080
+ID: 15
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/12
+Hora: 8
+Estado: Incumplido", shape=box];
 N552[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -4440,14 +4440,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N555[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N555[label="Carnet:201202517
+ID: 4
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/09/16
+Hora: 8
+Estado: Incumplido", shape=box];
 N556[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -4592,14 +4592,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N574[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N574[label="Carnet:201590600
+ID: 5
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/09/05
+Hora: 9
+Estado: Incumplido", shape=box];
 N575[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -4824,30 +4824,30 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N603[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
-N604[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
-N605[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N603[label="Carnet:201390187
+ID: 36
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/04
+Hora: 10
+Estado: Incumplido", shape=box];
+N604[label="Carnet:201331236
+ID: 21
+Nombre: investigar edd
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/09/05
+Hora: 10
+Estado: Incumplido", shape=box];
+N605[label="Carnet:201166543
+ID: 33
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/06
+Hora: 10
+Estado: Incumplido", shape=box];
 N606[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -4904,14 +4904,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N613[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N613[label="Carnet:201645398
+ID: 17
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/09/14
+Hora: 10
+Estado: Incumplido", shape=box];
 N614[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -4968,14 +4968,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N621[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N621[label="Carnet:201458475
+ID: 0
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/22
+Hora: 10
+Estado: Incumplido", shape=box];
 N622[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -4984,14 +4984,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N623[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N623[label="Carnet:201870722
+ID: 40
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/24
+Hora: 10
+Estado: Incumplido", shape=box];
 N624[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -5184,14 +5184,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N648[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N648[label="Carnet:201923847
+ID: 26
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/09/19
+Hora: 11
+Estado: Incumplido", shape=box];
 N649[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -5480,14 +5480,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N685[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N685[label="Carnet:201396514
+ID: 37
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/26
+Hora: 12
+Estado: Incumplido", shape=box];
 N686[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -5608,22 +5608,22 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N701[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
-N702[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N701[label="Carnet:201380369
+ID: 30
+Nombre: practica edd
+Descripcion: terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/09/12
+Hora: 13
+Estado: Incumplido", shape=box];
+N702[label="Carnet:201452363
+ID: 13
+Nombre: tarea de mate
+Descripcion: realizar la tarea para el primer parcial
+Materia: matematica intermedia 1
+Fecha: 2021/09/13
+Hora: 13
+Estado: Incumplido", shape=box];
 N703[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -5784,14 +5784,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N723[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N723[label="Carnet:201410017
+ID: 22
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/04
+Hora: 14
+Estado: Incumplido", shape=box];
 N724[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -5912,14 +5912,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N739[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N739[label="Carnet:201351806
+ID: 8
+Nombre: estudiar para examen
+Descripcion: leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/20
+Hora: 14
+Estado: Incumplido", shape=box];
 N740[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -6144,14 +6144,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N768[label="Carnet:vacio
-ID: -1
-Nombre: vacio
-Descripcion: vacio
-Materia: vacio
-Fecha: vacio
-Hora: -1
-Estado: vacio", shape=box];
+N768[label="Carnet:201531441
+ID: 11
+Nombre: tarea 2 fisica1
+Descripcion: realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/19
+Hora: 15
+Estado: Incumplido", shape=box];
 N769[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -6744,14 +6744,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N843[label="Carnet:201901425
-ID: 6
-Nombre: Tarea de Lógica
-Descripcion: Realizar el resumen del curso de Lógica.
-Materia: Lógica
-Fecha: 2021/10/04
-Hora: 9
-Estado: Pendiente", shape=box];
+N843[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N844[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -7224,14 +7224,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N903[label="Carnet:201704186
-ID: 7
-Nombre: Tarea 2 de Física 3
-Descripcion: Realizar la tarea del curso de Física 3.
-Materia: FÍsica 3
-Fecha: 202145/10/04
-Hora: 11
-Estado: Pendiente", shape=box];
+N903[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N904[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -7840,14 +7840,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N980[label="Carnet:201700886
-ID: 9
-Nombre: Proyecto de Lenguajes
-Descripcion: Realizar el proyecto del curso de Lenguajes
-Materia: Lenguajes Formales y de Programación
-Fecha: 2021/10/21
-Hora: 13
-Estado: Pendiente", shape=box];
+N980[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N981[label="Carnet:vacio
 ID: -1
 Nombre: vacio
@@ -8080,14 +8080,14 @@ Materia: vacio
 Fecha: vacio
 Hora: -1
 Estado: vacio", shape=box];
-N1010[label="Carnet:201700703
-ID: 8
-Nombre: Encuesta de Estadística
-Descripcion: Realizar la encuesta del curso de Estadística 1.
-Materia: Estadística 1
-Fecha: 2021/10/21
-Hora: 14
-Estado: Pendiente", shape=box];
+N1010[label="Carnet:vacio
+ID: -1
+Nombre: vacio
+Descripcion: vacio
+Materia: vacio
+Fecha: vacio
+Hora: -1
+Estado: vacio", shape=box];
 N1011[label="Carnet:vacio
 ID: -1
 Nombre: vacio

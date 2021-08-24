@@ -1,0 +1,182 @@
+øElements?
+	øelement type="task"?
+		øitem Carnet = "201901425" $?
+		øitem Nombre = "Tarea de Matematica" $?
+		øitem Descripcion = "Realizar la tarea del curso de matem√°tica intermedia 1." $?
+		øitem Materia = "Matem√°tica Intermedia 1" $?
+		øitem Fecha = "01/07/2021" $?
+		øitem Hora = "8" $?
+		øitem Estado = "Incumplido" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "201901425" $?
+		øitem Nombre = "Tarea de Matematica" $?
+		øitem Descripcion = "Modificacion 2." $?
+		øitem Materia = "Matem√°tica Intermedia 1" $?
+		øitem Fecha = "01/0447/2021" $?
+		øitem Hora = "9" $?
+		øitem Estado = "Incumplido" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "201901425" $?
+		øitem Nombre = "Tarea de Matematica" $?
+		øitem Descripcion = "Modificacion 3." $?
+		øitem Materia = "Matem√°tica Intermedia 1" $?
+		øitem Fecha = "01/07/2021" $?
+		øitem Hora = "10" $?
+		øitem Estado = "Incumplido" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "201704186" $?
+		øitem Nombre = "Tarea de Estad√≠stica" $?
+		øitem Descripcion = "Realizar la tarea del curso de Estad√≠stica 1." $?
+		øitem Materia = "Estad√≠stica 1" $?
+		øitem Fecha = "14/07/2021" $?
+		øitem Hora = "10" $?
+		øitem Estado = "Cumplido" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "123" $?
+		øitem Nombre = "Tarea de Fisica" $?
+		øitem Descripcion = "Realizar la tarea del curso de F√≠sica 1." $?
+		øitem Materia = "F√≠sica 1" $?
+		øitem Fecha = "0111/07/2021" $?
+		øitem Hora = "11" $?
+		øitem Estado = "Pendiente" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "201700886" $?
+		øitem Nombre = "Codificar en C++" $?
+		øitem Descripcion = "Realizar la tarea del curso de Estructuras de datos" $?
+		øitem Materia = "Estructuras de Datos" $?
+		øitem Fecha = "14/07/2021" $?
+		øitem Hora = "16" $?
+		øitem Estado = "Pendiente" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "201901425" $?
+		øitem Nombre = "Tarea de L√≥gica" $?
+		øitem Descripcion = "Realizar el resumen del curso de L√≥gica." $?
+		øitem Materia = "L√≥gica" $?
+		øitem Fecha = "04/10/2021" $?
+		øitem Hora = "9" $?
+		øitem Estado = "Pendiente" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "201704186" $?
+		øitem Nombre = "Tarea 2 de F√≠sica 3" $?
+		øitem Descripcion = "Realizar la tarea del curso de F√≠sica 3." $?
+		øitem Materia = "F√çsica 3" $?
+		øitem Fecha = "04/10/202145" $?
+		øitem Hora = "11" $?
+		øitem Estado = "Pendiente" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "201700886" $?
+		øitem Nombre = "Proyecto de Lenguajes" $?
+		øitem Descripcion = "Realizar el proyecto del curso de Lenguajes" $?
+		øitem Materia = "Lenguajes Formales y de Programaci√≥n" $?
+		øitem Fecha = "21/10/2021" $?
+		øitem Hora = "13" $?
+		øitem Estado = "Pendiente" $?
+	ø$element?
+	øelement type="task"?
+		øitem Carnet = "201700703" $?
+		øitem Nombre = "Encuesta de Estad√≠stica" $?
+		øitem Descripcion = "Realizar la encuesta del curso de Estad√≠stica 1." $?
+		øitem Materia = "Estad√≠stica 1" $?
+		øitem Fecha = "21/10/2021" $?
+		øitem Hora = "14" $?
+		øitem Estado = "Pendiente" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201700886" $?
+		øitem DPI = "3502451230508" $?
+		øitem Nombre = "Emilia Miramontes" $?
+		øitem Carrera = "Ingenier√≠a en Ciencias y Sistemas" $?
+		øitem Password = "roxodiciqi" $?
+		øitem Creditos = "205" $?
+		øitem Edad = "21" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201501786" $?
+		øitem DPI = "7249529279753" $?
+		øitem Nombre = "Juan Curiel" $?
+		øitem Carrera = "Ingenier√≠a Industrial" $?
+		øitem Password = "zanolexima" $?
+		øitem Creditos = "245" $?
+		øitem Edad = "24" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201822186" $?
+		øitem DPI = "9298434863898" $?
+		øitem Nombre = "Eloisa Rinc√≥n" $?
+		øitem Carrera = "Ingenier√≠a Civil" $?
+		øitem Password = "toqelijanu" $?
+		øitem Creditos = "95" $?
+		øitem Edad = "19" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201901425" $?
+		øitem DPI = "4131766125532" $?
+		øitem Nombre = "Bernardo Hinojosa" $?
+		øitem Carrera = "Ingenier√≠a Mec√°nica" $?
+		øitem Password = "wosopumano" $?
+		øitem Creditos = "100" $?
+		øitem Edad = "20" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201503186" $?
+		øitem DPI = "8549191766348" $?
+		øitem Nombre = "Manuel Manzanares" $?
+		øitem Carrera = "Ingenier√≠a El√©ctrica" $?
+		øitem Password = "rejumudore" $?
+		øitem Creditos = "226" $?
+		øitem Edad = "24" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201123146" $?
+		øitem DPI = "9616636196552" $?
+		øitem Nombre = "Julia Corona" $?
+		øitem Carrera = "Ingenier√≠a Electr√≥nica" $?
+		øitem Password = "xojobavuji" $?
+		øitem Creditos = "237" $?
+		øitem Edad = "26" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201704186" $?
+		øitem DPI = "4778315315575" $?
+		øitem Nombre = "Berta Carrasco" $?
+		øitem Carrera = "Ingenier√≠a Ambiental" $?
+		øitem Password = "gayahizatu" $?
+		øitem Creditos = "210" $?
+		øitem Edad = "22" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "202000786" $?
+		øitem DPI = "7382344774121" $?
+		øitem Nombre = "Lola Delapaz" $?
+		øitem Carrera = "Ingenier√≠a Qu√≠mica" $?
+		øitem Password = "hujocikimi" $?
+		øitem Creditos = "45" $?
+		øitem Edad = "19" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201611446" $?
+		øitem DPI = "2511893949443" $?
+		øitem Nombre = "Sonia Arteaga" $?
+		øitem Carrera = "Ingenier√≠a Mec√°nica Industrial" $?
+		øitem Password = "rezutafila" $?
+		øitem Creditos = "195" $?
+		øitem Edad = "23" $?
+	ø$element?
+	øelement type="user"?
+		øitem Carnet = "201819852" $?
+		øitem DPI = "3423442386382" $?
+		øitem Nombre = "Benjam√≠n Asencio" $?
+		øitem Carrera = "Ingenier√≠a Mec√°nica El√©ctrica" $?
+		øitem Password = "runoqozepo" $?
+		øitem Creditos = "117" $?
+		øitem Edad = "20" $?
+	ø$element?ø
+$Elements?

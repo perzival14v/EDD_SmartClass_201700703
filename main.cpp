@@ -19,6 +19,7 @@
 
 #include "graphviz.h"
 
+#include "archivoSalida.h"
 
 using namespace std;
 
@@ -44,6 +45,7 @@ int main(){
 	
 	int opcion=0;
 	int idErrores=0;
+	int idTareas=0;
 	char ruta[60];
 	string linea="";
 	
@@ -171,7 +173,7 @@ int main(){
 					
 					int contador=-1;
 					int contadorLinea=1;
-					int ID=0;
+					
 					
 					while(!archivo.eof()){						
 						/*Lectura linea por linea*/
@@ -281,9 +283,9 @@ int main(){
 						};																
 							//SI DAN UN DIA FUERA DE LA MATRIZ NO ENTRA AL IF											
 						if(error==0){	
-							tareas tarea = 	tareas(ID,carnet,nombreTarea,descripcion,materia,fecha,hora,estado);														
+							tareas tarea = 	tareas(idTareas,carnet,nombreTarea,descripcion,materia,fecha,hora,estado);														
 							matrizTareas[mes-7][dia-1][hora-8] = tarea;
-							ID++;
+							idTareas++;
 												
 							//Analizamos los errores
 																					
@@ -347,8 +349,8 @@ int main(){
 								cout << " 3. Eliminar"<<endl;
 								cout << " 4. Salir"<<endl;
 								cout << "Ingrese el numero de opcion"<<endl;
-								cin>>opcionMMUsuarios;
-								
+								cin >> opcionMMUsuarios;
+								cin.ignore();
 								
 								switch(opcionMMUsuarios){
 									case 1:{
@@ -386,7 +388,7 @@ int main(){
 									case 2:{
 										
 										string dpiBusqueda;
-										int opcionCambio;
+										int opcionCambio=0;
 										
 										
 										cout << "Ingrese DPI a buscar" << endl;
@@ -436,7 +438,90 @@ int main(){
 								cout << " 3. Eliminar"<<endl;
 								cout << " 4. Salir"<<endl;
 								cout << "Ingrese el numero de opcion"<<endl;
-								cin>>opcionMMTareas;
+								cin >> opcionMMTareas;
+								cin.ignore();
+								
+								switch(opcionMMTareas){
+									case 1:{
+										
+										tareas nuevo;
+										int mesNuevaTarea;
+										int diaNuevaTarea;
+										
+										
+										cout << "Ingrese carnet" << endl;
+										cin >> nuevo.carnet;
+										
+										cout << "Ingrese nombre de la tarea" << endl;
+										cin >> nuevo.nombreTarea;
+										
+										cout << "Ingrese descripcion" << endl;
+										cin >> nuevo.descripcion;
+										
+										cout << "Ingrese materia" << endl;
+										cin >> nuevo.materia;
+										
+										cout << "Ingrese fecha" << endl;
+										cin >> nuevo.fecha;
+										
+										cout << "Ingrese mes" << endl;
+										cin >> mesNuevaTarea;
+										
+										cout << "Ingrese dia" << endl;
+										cin >> diaNuevaTarea;
+										
+										cout << "Ingrese hora" << endl;
+										cin >> nuevo.hora;
+										
+										cout << "Ingrese estado" << endl;
+										cin >> nuevo.estado;
+																				
+										//0 significa que todo salio bien
+										if(agregarTareaNueva(listaTareas, nuevo , mesNuevaTarea , diaNuevaTarea , idTareas)==0){											
+											idTareas++;
+										};
+										
+										break;
+									}
+									case 2:{
+										
+										int indiceBusqueda ;
+										int opcionCambio=0;
+										
+										
+										cout << "Ingrese indice a buscar" << endl;
+										cin >> indiceBusqueda;
+										
+										cout << "Seleccione el campo a modificar" << endl;
+										cout << "1. Carnet" << endl;
+										cout << "2. Nombre de la tarea" << endl;
+										cout << "3. Descripcion" << endl;
+										cout << "4. Materia" << endl;
+										cout << "5. Fecha" << endl;
+										cout << "6. Estado" << endl;
+										cin >> opcionCambio;
+										
+										modificarTarea(listaTareas,indiceBusqueda,opcionCambio);
+										
+										
+										break;
+									}
+									case 3:{
+										int indiceBusqueda;										
+										
+										
+										cout << "Ingrese indice a eliminar" << endl;
+										cin >> indiceBusqueda;
+										
+										eliminarTarea(listaTareas,indiceBusqueda);
+										
+										
+										break;
+									}
+								};
+								
+								
+								
 							}
 							
 							
@@ -460,7 +545,7 @@ int main(){
 					cout << " 6. Codigo generado de salida"<<endl;	
 					cout << " 7. Salir"<<endl;
 					cout << "Ingrese el numero de opcion"<<endl;
-					cin>>opcionReportes;
+					cin >>  opcionReportes;
 					
 					
 					switch(opcionReportes){
@@ -528,7 +613,7 @@ int main(){
 							break;
 						}
 						case 6:{
-							
+							generarArchivoSalida(listaEstudiantes,listaTareas);
 							break;
 						}
 					};

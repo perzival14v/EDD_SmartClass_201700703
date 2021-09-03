@@ -1,0 +1,4450 @@
+digraph tf{ 
+ rankdir=LR;
+
+
+
+N0[label="Carnet:201933753
+ID: 13
+Nombre: Proyecto 2 de Matematica Intermedia 3
+Descripcion: Realizar el Proyecto 2 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/07/04
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+N1[label="Carnet:201509061
+ID: 66
+Nombre: Examen de Lenguajes Formales y de Programacion
+Descripcion: Realizar el Examen de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/07/07
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+
+
+
+N2[label="Carnet:201234795
+ID: 249
+Nombre: Ensayo de Manejo e Implementacion de Archios
+Descripcion: Entregar el Ensayo de Manejo e Implementacion de Archios
+Materia: Manejo e Implementacion de Archios
+Fecha: 2021/07/13
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+
+
+
+N3[label="Carnet:201375524
+ID: 181
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/07/19
+Hora: 8
+Estado: Realizado", shape=box];
+N4[label="Carnet:201667272
+ID: 15
+Nombre: Investigacion de EDD
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/07/20
+Hora: 8
+Estado: Realizado", shape=box];
+N5[label="Carnet:201643353
+ID: 17
+Nombre: Tarea 3 de Sistemas Operativos 1
+Descripcion: Empezar la Tarea 3 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/07/21
+Hora: 8
+Estado: Realizado", shape=box];
+N6[label="Carnet:201327675
+ID: 241
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Hacer el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/07/22
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+N7[label="Carnet:201119966
+ID: 11
+Nombre: Hoja de trabajo 2 de Matematica Intermedia 2
+Descripcion: Empezar la Hoja de trabajo 2 de Matematica Intermedia 2
+Materia: Matematica Intermedia 2
+Fecha: 2021/07/26
+Hora: 8
+Estado: Pendiente", shape=box];
+N8[label="Carnet:201210811
+ID: 40
+Nombre: Proyecto 1 de Fisica 2
+Descripcion: Empezar el Proyecto 1 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/07/27
+Hora: 8
+Estado: Pendiente", shape=box];
+
+N9[label="Carnet:201043689
+ID: 258
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Realizar el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/07/29
+Hora: 8
+Estado: Pendiente", shape=box];
+
+
+
+N10[label="Carnet:201582352
+ID: 93
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/07/03
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+N11[label="Carnet:201009015
+ID: 265
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/07/13
+Hora: 9
+Estado: Pendiente", shape=box];
+
+
+
+
+
+N12[label="Carnet:201131811
+ID: 209
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/07/19
+Hora: 9
+Estado: Incumplido", shape=box];
+
+N13[label="Carnet:201327079
+ID: 291
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/07/21
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N14[label="Carnet:201375524
+ID: 175
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/07/28
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+N15[label="Carnet:201412244
+ID: 191
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/07/03
+Hora: 10
+Estado: Realizado", shape=box];
+
+
+
+
+
+N16[label="Carnet:201818908
+ID: 212
+Nombre: Practica 1 de Fisica 1
+Descripcion: Realizar la Practica 1 de Fisica 1
+Materia: Fisica 1
+Fecha: 2021/07/09
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N17[label="Carnet:201173540
+ID: 55
+Nombre: Hoja de trabajo 2 de Practica Intermedia
+Descripcion: Terminar la Hoja de trabajo 2 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/07/16
+Hora: 10
+Estado: Realizado", shape=box];
+
+N18[label="Carnet:201933753
+ID: 161
+Nombre: Tarea 2 de Matematica Computo 1
+Descripcion: Terminar la Tarea 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/07/18
+Hora: 10
+Estado: Realizado", shape=box];
+
+
+N19[label="Carnet:201803912
+ID: 129
+Nombre: Practica 1 de Fisica 1
+Descripcion: Realizar la Practica 1 de Fisica 1
+Materia: Fisica 1
+Fecha: 2021/07/21
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N20[label="Carnet:201897987
+ID: 68
+Nombre: Practica 2 de Fisica 2
+Descripcion: Realizar la Practica 2 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/07/10
+Hora: 11
+Estado: Pendiente", shape=box];
+
+
+
+
+
+N21[label="Carnet:201024489
+ID: 266
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/07/16
+Hora: 11
+Estado: Pendiente", shape=box];
+N22[label="Carnet:201210811
+ID: 157
+Nombre: Proyecto 2 de Matematica Intermedia 3
+Descripcion: Realizar el Proyecto 2 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/07/17
+Hora: 11
+Estado: Realizado", shape=box];
+
+N23[label="Carnet:201210811
+ID: 185
+Nombre: Proyecto 1 de IPC1
+Descripcion: Entregar el Proyecto 1 de IPC1
+Materia: IPC1
+Fecha: 2021/07/19
+Hora: 11
+Estado: Pendiente", shape=box];
+
+
+
+
+N24[label="Carnet:201232485
+ID: 31
+Nombre: Practica 1 de Fisica 1
+Descripcion: Realizar la Practica 1 de Fisica 1
+Materia: Fisica 1
+Fecha: 2021/07/24
+Hora: 11
+Estado: Realizado", shape=box];
+N25[label="Carnet:201740604
+ID: 250
+Nombre: Proyecto 1 de Fisica 2
+Descripcion: Empezar el Proyecto 1 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/07/25
+Hora: 11
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+N26[label="Carnet:201234795
+ID: 96
+Nombre: Examen de Lenguajes Formales y de Programacion
+Descripcion: Realizar el Examen de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/07/07
+Hora: 12
+Estado: Incumplido", shape=box];
+
+N27[label="Carnet:201402462
+ID: 194
+Nombre: Examen de Lenguajes Formales y de Programacion
+Descripcion: Realizar el Examen de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/07/09
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+N28[label="Carnet:201991578
+ID: 26
+Nombre: Practica 1 de Fisica 1
+Descripcion: Realizar la Practica 1 de Fisica 1
+Materia: Fisica 1
+Fecha: 2021/07/18
+Hora: 12
+Estado: Incumplido", shape=box];
+N29[label="Carnet:201818908
+ID: 292
+Nombre: Proyecto 2 de Matematica Intermedia 3
+Descripcion: Realizar el Proyecto 2 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/07/19
+Hora: 12
+Estado: Realizado", shape=box];
+N30[label="Carnet:201921767
+ID: 121
+Nombre: Practica 3 de Quimica General 1
+Descripcion: Terminar la Practica 3 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/07/20
+Hora: 12
+Estado: Pendiente", shape=box];
+
+
+N31[label="Carnet:201232485
+ID: 199
+Nombre: Ensayo de Practica Inicial
+Descripcion: Hacer el Ensayo de Practica Inicial
+Materia: Practica Inicial
+Fecha: 2021/07/23
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N32[label="Carnet:201476680
+ID: 285
+Nombre: Practica 2 de Sistemas de Bases de Datos 2
+Descripcion: Entregar la Practica 2 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/07/08
+Hora: 13
+Estado: Incumplido", shape=box];
+N33[label="Carnet:201125580
+ID: 310
+Nombre: Hoja de trabajo 3 de IPC2
+Descripcion: Terminar la Hoja de trabajo 3 de IPC2
+Materia: IPC2
+Fecha: 2021/07/09
+Hora: 13
+Estado: Pendiente", shape=box];
+
+N34[label="Carnet:201500866
+ID: 256
+Nombre: Corto de Sistemas de Bases de Datos 1
+Descripcion: Entregar el Corto de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/07/11
+Hora: 13
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N35[label="Carnet:201210811
+ID: 170
+Nombre: Estudiar para el examen
+Descripcion: Leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/07/01
+Hora: 14
+Estado: Incumplido", shape=box];
+
+N36[label="Carnet:201119966
+ID: 35
+Nombre: Examen de Sistemas de Bases de Datos 1
+Descripcion: Realizar el Examen de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/07/03
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N37[label="Carnet:201668149
+ID: 98
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/07/10
+Hora: 14
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+N38[label="Carnet:201022466
+ID: 56
+Nombre: Examen de Sistemas de Bases de Datos 1
+Descripcion: Realizar el Examen de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/07/22
+Hora: 14
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+N39[label="Carnet:201110247
+ID: 8
+Nombre: Tarea 2 de Matematica Computo 1
+Descripcion: Terminar la Tarea 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/07/30
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N40[label="Carnet:201461415
+ID: 246
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Hacer la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/07/07
+Hora: 15
+Estado: Realizado", shape=box];
+
+N41[label="Carnet:201147451
+ID: 134
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/07/09
+Hora: 15
+Estado: Realizado", shape=box];
+N42[label="Carnet:201790782
+ID: 130
+Nombre: Proyecto 1 de IPC1
+Descripcion: Entregar el Proyecto 1 de IPC1
+Materia: IPC1
+Fecha: 2021/07/10
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+
+N43[label="Carnet:201428558
+ID: 25
+Nombre: Corto de Sistemas de Bases de Datos 1
+Descripcion: Entregar el Corto de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/07/15
+Hora: 15
+Estado: Pendiente", shape=box];
+
+
+N44[label="Carnet:201511649
+ID: 112
+Nombre: Tarea 2 de IPC1
+Descripcion: Hacer la Tarea 2 de IPC1
+Materia: IPC1
+Fecha: 2021/07/18
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+N45[label="Carnet:201145786
+ID: 94
+Nombre: Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/07/21
+Hora: 15
+Estado: Pendiente", shape=box];
+
+
+N46[label="Carnet:201764124
+ID: 115
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Empezar la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/07/24
+Hora: 15
+Estado: Incumplido", shape=box];
+N47[label="Carnet:201234795
+ID: 272
+Nombre: Tarea 1 de Social Humanistica 1
+Descripcion: Empezar la Tarea 1 de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/07/25
+Hora: 15
+Estado: Pendiente", shape=box];
+N48[label="Carnet:201173540
+ID: 281
+Nombre: Hoja de trabajo 3 de IPC2
+Descripcion: Terminar la Hoja de trabajo 3 de IPC2
+Materia: IPC2
+Fecha: 2021/07/26
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N49[label="Carnet:201119966
+ID: 154
+Nombre: Hoja de trabajo 2 de Sistemas Operativos 1
+Descripcion: Empezar la Hoja de trabajo 2 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/07/02
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+N50[label="Carnet:201210811
+ID: 247
+Nombre: Proyecto 2 de Matematica Basica 2
+Descripcion: Terminar el Proyecto 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/07/05
+Hora: 16
+Estado: Pendiente", shape=box];
+N51[label="Carnet:201389879
+ID: 254
+Nombre: Tarea 2 de Matematica Computo 1
+Descripcion: Terminar la Tarea 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/07/06
+Hora: 16
+Estado: Incumplido", shape=box];
+
+N52[label="Carnet:201698163
+ID: 20
+Nombre: Ensayo de IPC2
+Descripcion: Empezar el Ensayo de IPC2
+Materia: IPC2
+Fecha: 2021/07/08
+Hora: 16
+Estado: Incumplido", shape=box];
+
+N53[label="Carnet:201766242
+ID: 91
+Nombre: Tarea 2 de IPC1
+Descripcion: Hacer la Tarea 2 de IPC1
+Materia: IPC1
+Fecha: 2021/07/10
+Hora: 16
+Estado: Incumplido", shape=box];
+N54[label="Carnet:201864201
+ID: 188
+Nombre: Investigacion de EDD
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/07/11
+Hora: 16
+Estado: Pendiente", shape=box];
+
+N55[label="Carnet:201022466
+ID: 190
+Nombre: Hoja de trabajo 2 de Matematica Intermedia 2
+Descripcion: Empezar la Hoja de trabajo 2 de Matematica Intermedia 2
+Materia: Matematica Intermedia 2
+Fecha: 2021/07/13
+Hora: 16
+Estado: Incumplido", shape=box];
+
+
+N56[label="Carnet:201774497
+ID: 237
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/07/16
+Hora: 16
+Estado: Pendiente", shape=box];
+N57[label="Carnet:201022466
+ID: 251
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Hacer la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/07/17
+Hora: 16
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N58[label="Carnet:201668149
+ID: 207
+Nombre: Tarea 2 de Matematica Computo 1
+Descripcion: Terminar la Tarea 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/07/24
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+N59[label="Carnet:201774497
+ID: 113
+Nombre: Examen de Lenguajes Formales y de Programacion
+Descripcion: Realizar el Examen de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/07/27
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+N60[label="Carnet:201509061
+ID: 298
+Nombre: Examen de Lenguajes Formales y de Programacion
+Descripcion: Realizar el Examen de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/07/30
+Hora: 16
+Estado: Incumplido", shape=box];
+N61[label="Carnet:201991578
+ID: 0
+Nombre: Corto de Sistemas de Bases de Datos 1
+Descripcion: Entregar el Corto de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 01/08/2021
+Hora: 8
+Estado: Incumplido", shape=box];
+
+N62[label="Carnet:201774497
+ID: 78
+Nombre: Tarea de mate
+Descripcion: Realizar la tarea para el primer parcial
+Materia: Matematica Intermedia 1
+Fecha: 2021/08/03
+Hora: 8
+Estado: Realizado", shape=box];
+
+N63[label="Carnet:201476680
+ID: 28
+Nombre: Practica edd
+Descripcion: Terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/08/05
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N64[label="Carnet:201761573
+ID: 211
+Nombre: Hoja de trabajo 2 de Matematica Intermedia 2
+Descripcion: Empezar la Hoja de trabajo 2 de Matematica Intermedia 2
+Materia: Matematica Intermedia 2
+Fecha: 2021/08/11
+Hora: 8
+Estado: Realizado", shape=box];
+
+N65[label="Carnet:201359507
+ID: 116
+Nombre: Hoja de trabajo 2 de Matematica Intermedia 2
+Descripcion: Empezar la Hoja de trabajo 2 de Matematica Intermedia 2
+Materia: Matematica Intermedia 2
+Fecha: 2021/08/13
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+N66[label="Carnet:201315898
+ID: 174
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/08/22
+Hora: 8
+Estado: Pendiente", shape=box];
+
+
+
+N67[label="Carnet:201234795
+ID: 58
+Nombre: Investigacion de Social Humanistica 1
+Descripcion: Hacer la Investigacion de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/08/26
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N68[label="Carnet:201232485
+ID: 166
+Nombre: Examen de Lenguajes Formales y de Programacion
+Descripcion: Realizar el Examen de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/08/02
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+N69[label="Carnet:201825364
+ID: 184
+Nombre: Tarea 2 de IPC1
+Descripcion: Hacer la Tarea 2 de IPC1
+Materia: IPC1
+Fecha: 2021/08/11
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+N70[label="Carnet:201669286
+ID: 76
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Realizar el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/08/14
+Hora: 9
+Estado: Pendiente", shape=box];
+N71[label="Carnet:201412244
+ID: 186
+Nombre: Proyecto 2 de Matematica Intermedia 3
+Descripcion: Realizar el Proyecto 2 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/08/15
+Hora: 9
+Estado: Realizado", shape=box];
+N72[label="Carnet:201773473
+ID: 228
+Nombre: Investigacion de EDD
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/08/16
+Hora: 9
+Estado: Realizado", shape=box];
+
+
+
+
+N73[label="Carnet:201761573
+ID: 38
+Nombre: Ensayo de Sistemas Operativos 1
+Descripcion: Terminar el Ensayo de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/08/21
+Hora: 9
+Estado: Pendiente", shape=box];
+
+N74[label="Carnet:201374369
+ID: 225
+Nombre: Ensayo de Organizacion de Lenguajes y Compiladores 1
+Descripcion: Terminar el Ensayo de Organizacion de Lenguajes y Compiladores 1
+Materia: Organizacion de Lenguajes y Compiladores 1
+Fecha: 2021/08/23
+Hora: 9
+Estado: Realizado", shape=box];
+
+
+N75[label="Carnet:201897987
+ID: 57
+Nombre: Hoja de trabajo 3 de IPC2
+Descripcion: Terminar la Hoja de trabajo 3 de IPC2
+Materia: IPC2
+Fecha: 2021/08/26
+Hora: 9
+Estado: Realizado", shape=box];
+N76[label="Carnet:201024489
+ID: 10
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/08/27
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+N77[label="Carnet:201157605
+ID: 21
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/08/05
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+
+N78[label="Carnet:201594265
+ID: 2
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/08/09
+Hora: 10
+Estado: Realizado", shape=box];
+N79[label="Carnet:201669286
+ID: 42
+Nombre: Ensayo de Organizacion de Lenguajes y Compiladores 1
+Descripcion: Terminar el Ensayo de Organizacion de Lenguajes y Compiladores 1
+Materia: Organizacion de Lenguajes y Compiladores 1
+Fecha: 2021/08/10
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+N80[label="Carnet:201131811
+ID: 65
+Nombre: Practica 1 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Practica 1 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/08/13
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+
+N81[label="Carnet:201375524
+ID: 163
+Nombre: Investigacion de Practica Intermedia
+Descripcion: Hacer la Investigacion de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/08/17
+Hora: 10
+Estado: Realizado", shape=box];
+
+
+
+N82[label="Carnet:201389879
+ID: 192
+Nombre: Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/08/21
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+N83[label="Carnet:201709702
+ID: 180
+Nombre: Tarea 1 de Estructuras de Datos
+Descripcion: Entregar la Tarea 1 de Estructuras de Datos
+Materia: Estructuras de Datos
+Fecha: 2021/08/29
+Hora: 10
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+N84[label="Carnet:201043689
+ID: 9
+Nombre: Ensayo de Organizacion de Lenguajes y Compiladores 1
+Descripcion: Terminar el Ensayo de Organizacion de Lenguajes y Compiladores 1
+Materia: Organizacion de Lenguajes y Compiladores 1
+Fecha: 2021/08/08
+Hora: 11
+Estado: Pendiente", shape=box];
+
+
+
+N85[label="Carnet:201646518
+ID: 140
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Realizar el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/08/12
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N86[label="Carnet:201635991
+ID: 62
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Empezar la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/08/19
+Hora: 11
+Estado: Incumplido", shape=box];
+
+N87[label="Carnet:201210811
+ID: 24
+Nombre: Tarea 3 de Sistemas Operativos 1
+Descripcion: Empezar la Tarea 3 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/08/21
+Hora: 11
+Estado: Realizado", shape=box];
+
+N88[label="Carnet:201210811
+ID: 296
+Nombre: Hoja de trabajo 3 de IPC2
+Descripcion: Terminar la Hoja de trabajo 3 de IPC2
+Materia: IPC2
+Fecha: 2021/08/23
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N89[label="Carnet:201864201
+ID: 277
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/08/29
+Hora: 11
+Estado: Pendiente", shape=box];
+
+
+
+
+N90[label="Carnet:201173540
+ID: 230
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Empezar la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/08/04
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N91[label="Carnet:201764124
+ID: 253
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/08/11
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+N92[label="Carnet:201947729
+ID: 295
+Nombre: Practica 1 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Practica 1 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/08/22
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+N93[label="Carnet:201740604
+ID: 14
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/08/27
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+N94[label="Carnet:201309890
+ID: 109
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Hacer el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/08/30
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+N95[label="Carnet:201110247
+ID: 4
+Nombre: Tarea 2 de Matematica Basica 2
+Descripcion: Entregar la Tarea 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/08/04
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+N96[label="Carnet:201389879
+ID: 233
+Nombre: Tarea 4 de Matematica Computo 1
+Descripcion: Realizar la Tarea 4 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/08/15
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+N97[label="Carnet:201803912
+ID: 137
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/08/18
+Hora: 13
+Estado: Pendiente", shape=box];
+N98[label="Carnet:201131811
+ID: 27
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/08/19
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N99[label="Carnet:201137248
+ID: 195
+Nombre: Ensayo de Practica Inicial
+Descripcion: Hacer el Ensayo de Practica Inicial
+Materia: Practica Inicial
+Fecha: 2021/08/26
+Hora: 13
+Estado: Realizado", shape=box];
+
+
+
+
+
+N100[label="Carnet:201635991
+ID: 155
+Nombre: Tarea 2 de Matematica Computo 1
+Descripcion: Terminar la Tarea 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/08/02
+Hora: 14
+Estado: Pendiente", shape=box];
+
+N101[label="Carnet:201537627
+ID: 182
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/08/04
+Hora: 14
+Estado: Incumplido", shape=box];
+
+N102[label="Carnet:201803912
+ID: 132
+Nombre: Proyecto 2 de Matematica Intermedia 3
+Descripcion: Realizar el Proyecto 2 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/08/06
+Hora: 14
+Estado: Realizado", shape=box];
+
+
+
+
+N103[label="Carnet:201954202
+ID: 142
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Hacer el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/08/11
+Hora: 14
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N104[label="Carnet:201537627
+ID: 70
+Nombre: Tarea 1 de Estructuras de Datos
+Descripcion: Entregar la Tarea 1 de Estructuras de Datos
+Materia: Estructuras de Datos
+Fecha: 2021/08/30
+Hora: 14
+Estado: Realizado", shape=box];
+
+N105[label="Carnet:201006295
+ID: 171
+Nombre: Ensayo de Organizacion de Lenguajes y Compiladores 1
+Descripcion: Terminar el Ensayo de Organizacion de Lenguajes y Compiladores 1
+Materia: Organizacion de Lenguajes y Compiladores 1
+Fecha: 2021/08/02
+Hora: 15
+Estado: Incumplido", shape=box];
+N106[label="Carnet:201145786
+ID: 22
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/08/03
+Hora: 15
+Estado: Incumplido", shape=box];
+N107[label="Carnet:201210811
+ID: 268
+Nombre: Tarea 2 Fisica 2
+Descripcion: Realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/08/04
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+N108[label="Carnet:201489697
+ID: 274
+Nombre: Hoja de trabajo 2 de Practica Intermedia
+Descripcion: Terminar la Hoja de trabajo 2 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/08/17
+Hora: 15
+Estado: Pendiente", shape=box];
+
+
+
+
+N109[label="Carnet:201137248
+ID: 302
+Nombre: Proyecto 2 de Lenguajes Formales y de Programacion
+Descripcion: Hacer el Proyecto 2 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/08/22
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N110[label="Carnet:201818908
+ID: 44
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Hacer el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/08/29
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+N111[label="Carnet:201476680
+ID: 297
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/08/02
+Hora: 16
+Estado: Pendiente", shape=box];
+
+N112[label="Carnet:201412244
+ID: 260
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/08/04
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+N113[label="Carnet:201764124
+ID: 99
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/08/12
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+
+N114[label="Carnet:201476680
+ID: 101
+Nombre: Ensayo de Practica Inicial
+Descripcion: Hacer el Ensayo de Practica Inicial
+Materia: Practica Inicial
+Fecha: 2021/08/23
+Hora: 16
+Estado: Incumplido", shape=box];
+N115[label="Carnet:201761573
+ID: 301
+Nombre: Hoja de trabajo 3 de IPC2
+Descripcion: Terminar la Hoja de trabajo 3 de IPC2
+Materia: IPC2
+Fecha: 2021/08/24
+Hora: 16
+Estado: Incumplido", shape=box];
+N116[label="Carnet:201582352
+ID: 206
+Nombre: Hoja de trabajo 2 de Sistemas Operativos 1
+Descripcion: Empezar la Hoja de trabajo 2 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/08/25
+Hora: 16
+Estado: Pendiente", shape=box];
+N117[label="Carnet:201635991
+ID: 177
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Realizar el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/08/26
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+N118[label="Carnet:201709702
+ID: 141
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/04
+Hora: 8
+Estado: Realizado", shape=box];
+
+N119[label="Carnet:201897987
+ID: 153
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/06
+Hora: 8
+Estado: Incumplido", shape=box];
+
+N120[label="Carnet:201635991
+ID: 45
+Nombre: Ensayo de Sistemas Operativos 1
+Descripcion: Terminar el Ensayo de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/09/08
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+N121[label="Carnet:201350393
+ID: 232
+Nombre: Investigacion de Social Humanistica 1
+Descripcion: Hacer la Investigacion de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/09/11
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+N122[label="Carnet:201933753
+ID: 176
+Nombre: Practica 3 de Quimica General 1
+Descripcion: Terminar la Practica 3 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/09/20
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N123[label="Carnet:201667272
+ID: 169
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/09/26
+Hora: 8
+Estado: Realizado", shape=box];
+
+N124[label="Carnet:201009015
+ID: 3
+Nombre: Ensayo de Practica Inicial
+Descripcion: Hacer el Ensayo de Practica Inicial
+Materia: Practica Inicial
+Fecha: 2021/09/28
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+N125[label="Carnet:201309890
+ID: 200
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/09/01
+Hora: 9
+Estado: Pendiente", shape=box];
+
+N126[label="Carnet:201537627
+ID: 69
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Empezar la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/09/03
+Hora: 9
+Estado: Incumplido", shape=box];
+N127[label="Carnet:201489697
+ID: 217
+Nombre: Proyecto 2 de Matematica Intermedia 3
+Descripcion: Realizar el Proyecto 2 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/09/04
+Hora: 9
+Estado: Incumplido", shape=box];
+
+N128[label="Carnet:201500866
+ID: 106
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Realizar el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/09/06
+Hora: 9
+Estado: Realizado", shape=box];
+
+
+
+N129[label="Carnet:201210811
+ID: 308
+Nombre: Hoja de trabajo 1 de Sistemas Operativos 2
+Descripcion: Hacer la Hoja de trabajo 1 de Sistemas Operativos 2
+Materia: Sistemas Operativos 2
+Fecha: 2021/09/10
+Hora: 9
+Estado: Realizado", shape=box];
+
+
+
+N130[label="Carnet:201906670
+ID: 215
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/09/14
+Hora: 9
+Estado: Pendiente", shape=box];
+N131[label="Carnet:201991578
+ID: 82
+Nombre: Hoja de trabajo 2 de Sistemas Operativos 1
+Descripcion: Empezar la Hoja de trabajo 2 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/09/15
+Hora: 9
+Estado: Incumplido", shape=box];
+N132[label="Carnet:201402462
+ID: 164
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/16
+Hora: 9
+Estado: Realizado", shape=box];
+
+
+
+N133[label="Carnet:201402462
+ID: 64
+Nombre: Tarea 4 de Matematica Computo 1
+Descripcion: Realizar la Tarea 4 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/20
+Hora: 9
+Estado: Pendiente", shape=box];
+
+N134[label="Carnet:201667272
+ID: 36
+Nombre: Ensayo de Practica Inicial
+Descripcion: Hacer el Ensayo de Practica Inicial
+Materia: Practica Inicial
+Fecha: 2021/09/22
+Hora: 9
+Estado: Incumplido", shape=box];
+N135[label="Carnet:201991578
+ID: 269
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/23
+Hora: 9
+Estado: Realizado", shape=box];
+
+N136[label="Carnet:201009015
+ID: 307
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/25
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+N137[label="Carnet:201516603
+ID: 100
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/28
+Hora: 9
+Estado: Pendiente", shape=box];
+
+
+
+N138[label="Carnet:201125580
+ID: 63
+Nombre: Proyecto 2 de Matematica Intermedia 3
+Descripcion: Realizar el Proyecto 2 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/09/02
+Hora: 10
+Estado: Realizado", shape=box];
+N139[label="Carnet:201210811
+ID: 110
+Nombre: Proyecto 1 de Fisica 2
+Descripcion: Empezar el Proyecto 1 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/09/03
+Hora: 10
+Estado: Realizado", shape=box];
+N140[label="Carnet:201933753
+ID: 48
+Nombre: Ensayo de Manejo e Implementacion de Archios
+Descripcion: Entregar el Ensayo de Manejo e Implementacion de Archios
+Materia: Manejo e Implementacion de Archios
+Fecha: 2021/09/04
+Hora: 10
+Estado: Realizado", shape=box];
+N141[label="Carnet:201709702
+ID: 239
+Nombre: Tarea 5 de Lenguajes Formales y de Programacion
+Descripcion: Terminar la Tarea 5 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/09/05
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N142[label="Carnet:201489697
+ID: 49
+Nombre: Tarea 2 de Matematica Basica 2
+Descripcion: Entregar la Tarea 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/09/28
+Hora: 10
+Estado: Realizado", shape=box];
+N143[label="Carnet:201043689
+ID: 229
+Nombre: Corto de Sistemas de Bases de Datos 1
+Descripcion: Entregar el Corto de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/09/29
+Hora: 10
+Estado: Incumplido", shape=box];
+
+N144[label="Carnet:201643353
+ID: 23
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/01
+Hora: 11
+Estado: Pendiente", shape=box];
+
+
+N145[label="Carnet:201389879
+ID: 282
+Nombre: Practica edd
+Descripcion: Terminar la practica
+Materia: Estructuras de datos
+Fecha: 2021/09/04
+Hora: 11
+Estado: Incumplido", shape=box];
+N146[label="Carnet:201991578
+ID: 108
+Nombre: Tarea 1 de Social Humanistica 1
+Descripcion: Empezar la Tarea 1 de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/09/05
+Hora: 11
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+
+N147[label="Carnet:201906670
+ID: 216
+Nombre: Practica 3 de Quimica General 1
+Descripcion: Terminar la Practica 3 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/09/15
+Hora: 11
+Estado: Pendiente", shape=box];
+
+N148[label="Carnet:201825364
+ID: 165
+Nombre: Tarea 4 de Matematica Computo 1
+Descripcion: Realizar la Tarea 4 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/17
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+N149[label="Carnet:201006295
+ID: 52
+Nombre: Hoja de trabajo 1 de Sistemas Operativos 2
+Descripcion: Hacer la Hoja de trabajo 1 de Sistemas Operativos 2
+Materia: Sistemas Operativos 2
+Fecha: 2021/09/21
+Hora: 11
+Estado: Pendiente", shape=box];
+N150[label="Carnet:201803912
+ID: 74
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/22
+Hora: 11
+Estado: Realizado", shape=box];
+
+N151[label="Carnet:201864201
+ID: 5
+Nombre: Investigacion de EDD
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/09/24
+Hora: 11
+Estado: Realizado", shape=box];
+
+
+N152[label="Carnet:201764124
+ID: 119
+Nombre: Hoja de trabajo 1 de Matematica Intermedia 3
+Descripcion: Terminar la Hoja de trabajo 1 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/09/27
+Hora: 11
+Estado: Incumplido", shape=box];
+N153[label="Carnet:201476680
+ID: 67
+Nombre: Tarea 2 de IPC1
+Descripcion: Hacer la Tarea 2 de IPC1
+Materia: IPC1
+Fecha: 2021/09/28
+Hora: 11
+Estado: Pendiente", shape=box];
+
+
+N154[label="Carnet:201509061
+ID: 97
+Nombre: Proyecto 2 de Matematica Basica 2
+Descripcion: Terminar el Proyecto 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/09/01
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N155[label="Carnet:201489697
+ID: 120
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/17
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+N156[label="Carnet:201646518
+ID: 118
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/21
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+N157[label="Carnet:201375524
+ID: 204
+Nombre: Ensayo de IPC2
+Descripcion: Empezar el Ensayo de IPC2
+Materia: IPC2
+Fecha: 2021/09/26
+Hora: 12
+Estado: Realizado", shape=box];
+
+
+N158[label="Carnet:201773473
+ID: 238
+Nombre: Proyecto 1 de IPC1
+Descripcion: Entregar el Proyecto 1 de IPC1
+Materia: IPC1
+Fecha: 2021/09/29
+Hora: 12
+Estado: Pendiente", shape=box];
+
+
+
+
+
+N159[label="Carnet:201698163
+ID: 236
+Nombre: Tarea 2 Fisica 2
+Descripcion: Realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/09/05
+Hora: 13
+Estado: Pendiente", shape=box];
+
+
+
+
+N160[label="Carnet:201327675
+ID: 136
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/10
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+N161[label="Carnet:201661519
+ID: 303
+Nombre: Tarea 5 de Lenguajes Formales y de Programacion
+Descripcion: Terminar la Tarea 5 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/09/13
+Hora: 13
+Estado: Realizado", shape=box];
+
+N162[label="Carnet:201402462
+ID: 198
+Nombre: Tarea 2 de IPC1
+Descripcion: Hacer la Tarea 2 de IPC1
+Materia: IPC1
+Fecha: 2021/09/15
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+
+N163[label="Carnet:201991578
+ID: 234
+Nombre: Investigacion de Social Humanistica 1
+Descripcion: Hacer la Investigacion de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/09/19
+Hora: 13
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+N164[label="Carnet:201582352
+ID: 146
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/02
+Hora: 14
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+N165[label="Carnet:201119966
+ID: 300
+Nombre: Practica 3 de Quimica General 1
+Descripcion: Terminar la Practica 3 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/09/09
+Hora: 14
+Estado: Pendiente", shape=box];
+N166[label="Carnet:201582352
+ID: 150
+Nombre: Estudiar para el examen
+Descripcion: Leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/10
+Hora: 14
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N167[label="Carnet:201147451
+ID: 264
+Nombre: Tarea de mate
+Descripcion: Realizar la tarea para el primer parcial
+Materia: Matematica Intermedia 1
+Fecha: 2021/09/27
+Hora: 14
+Estado: Realizado", shape=box];
+N168[label="Carnet:201509061
+ID: 227
+Nombre: Tarea 1 de Matematica Computo 1
+Descripcion: Entregar la Tarea 1 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/28
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+N169[label="Carnet:201234795
+ID: 30
+Nombre: Tarea de mate
+Descripcion: Realizar la tarea para el primer parcial
+Materia: Matematica Intermedia 1
+Fecha: 2021/09/02
+Hora: 15
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+
+
+N170[label="Carnet:201991578
+ID: 220
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/13
+Hora: 15
+Estado: Pendiente", shape=box];
+N171[label="Carnet:201009015
+ID: 287
+Nombre: Examen de Sistemas de Bases de Datos 1
+Descripcion: Realizar el Examen de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/09/14
+Hora: 15
+Estado: Pendiente", shape=box];
+
+N172[label="Carnet:201006295
+ID: 151
+Nombre: Practica 2 de Sistemas de Bases de Datos 2
+Descripcion: Entregar la Practica 2 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/09/16
+Hora: 15
+Estado: Realizado", shape=box];
+N173[label="Carnet:201643353
+ID: 262
+Nombre: Proyecto 2 de Matematica Basica 2
+Descripcion: Terminar el Proyecto 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/09/17
+Hora: 15
+Estado: Realizado", shape=box];
+N174[label="Carnet:201125580
+ID: 111
+Nombre: Hoja de trabajo 2 de Practica Intermedia
+Descripcion: Terminar la Hoja de trabajo 2 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/09/18
+Hora: 15
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+N175[label="Carnet:201119966
+ID: 275
+Nombre: Tarea 3 de Sistemas Operativos 1
+Descripcion: Empezar la Tarea 3 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/09/25
+Hora: 15
+Estado: Pendiente", shape=box];
+
+
+
+N176[label="Carnet:201255643
+ID: 255
+Nombre: Proyecto 2 de Lenguajes Formales y de Programacion
+Descripcion: Hacer el Proyecto 2 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/09/29
+Hora: 15
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+N177[label="Carnet:201635991
+ID: 235
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/06
+Hora: 16
+Estado: Realizado", shape=box];
+
+N178[label="Carnet:201412244
+ID: 53
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/08
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+N179[label="Carnet:201125580
+ID: 41
+Nombre: Estudiar para el examen
+Descripcion: Leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/09/15
+Hora: 16
+Estado: Realizado", shape=box];
+
+N180[label="Carnet:201774497
+ID: 77
+Nombre: Tarea 1 de Matematica Computo 1
+Descripcion: Entregar la Tarea 1 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/09/17
+Hora: 16
+Estado: Realizado", shape=box];
+
+N181[label="Carnet:201389879
+ID: 252
+Nombre: Investigacion de Practica Intermedia
+Descripcion: Hacer la Investigacion de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/09/19
+Hora: 16
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+N182[label="Carnet:201500866
+ID: 88
+Nombre: Proyecto 2 de Lenguajes Formales y de Programacion
+Descripcion: Hacer el Proyecto 2 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/09/30
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+
+N183[label="Carnet:201933753
+ID: 86
+Nombre: Practica 2 de Sistemas de Bases de Datos 2
+Descripcion: Entregar la Practica 2 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/10/04
+Hora: 8
+Estado: Incumplido", shape=box];
+N184[label="Carnet:201698163
+ID: 187
+Nombre: Ensayo de Manejo e Implementacion de Archios
+Descripcion: Entregar el Ensayo de Manejo e Implementacion de Archios
+Materia: Manejo e Implementacion de Archios
+Fecha: 2021/10/05
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+N185[label="Carnet:201947729
+ID: 293
+Nombre: Examen de Lenguajes Formales y de Programacion
+Descripcion: Realizar el Examen de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/10/12
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+
+
+
+N186[label="Carnet:201137248
+ID: 133
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/18
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+
+
+N187[label="Carnet:201790782
+ID: 257
+Nombre: Examen de Sistemas de Bases de Datos 1
+Descripcion: Realizar el Examen de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/10/23
+Hora: 8
+Estado: Realizado", shape=box];
+
+N188[label="Carnet:201110247
+ID: 61
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/10/25
+Hora: 8
+Estado: Pendiente", shape=box];
+N189[label="Carnet:201157605
+ID: 221
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Hacer el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/10/26
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+N190[label="Carnet:201234795
+ID: 104
+Nombre: Proyecto 1 de IPC1
+Descripcion: Entregar el Proyecto 1 de IPC1
+Materia: IPC1
+Fecha: 2021/10/01
+Hora: 9
+Estado: Realizado", shape=box];
+N191[label="Carnet:201500866
+ID: 92
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Hacer el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/10/02
+Hora: 9
+Estado: Incumplido", shape=box];
+N192[label="Carnet:201183728
+ID: 299
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/03
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+N193[label="Carnet:201350393
+ID: 124
+Nombre: Tarea 3 de Sistemas Operativos 1
+Descripcion: Empezar la Tarea 3 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/10/06
+Hora: 9
+Estado: Pendiente", shape=box];
+N194[label="Carnet:201774497
+ID: 218
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/10/07
+Hora: 9
+Estado: Pendiente", shape=box];
+
+
+
+
+
+N195[label="Carnet:201359507
+ID: 173
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/10/13
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+N196[label="Carnet:201255643
+ID: 243
+Nombre: Hoja de trabajo 1 de Matematica Intermedia 1
+Descripcion: Entregar la Hoja de trabajo 1 de Matematica Intermedia 1
+Materia: Matematica Intermedia 1
+Fecha: 2021/10/26
+Hora: 9
+Estado: Pendiente", shape=box];
+N197[label="Carnet:201537627
+ID: 261
+Nombre: Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/10/27
+Hora: 9
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+N198[label="Carnet:201906670
+ID: 276
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Hacer la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/10/09
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+N199[label="Carnet:201232485
+ID: 286
+Nombre: Proyecto 1 de Fisica 2
+Descripcion: Empezar el Proyecto 1 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/10/17
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+N200[label="Carnet:201359507
+ID: 71
+Nombre: Tarea 2 Fisica 2
+Descripcion: Realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/10/20
+Hora: 10
+Estado: Pendiente", shape=box];
+
+N201[label="Carnet:201375524
+ID: 80
+Nombre: Corto de Sistemas de Bases de Datos 1
+Descripcion: Entregar el Corto de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/10/22
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+N202[label="Carnet:201764124
+ID: 189
+Nombre: Hoja de trabajo 1 de Social Humanistica 1
+Descripcion: Entregar la Hoja de trabajo 1 de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/10/30
+Hora: 10
+Estado: Realizado", shape=box];
+
+
+
+N203[label="Carnet:201511649
+ID: 87
+Nombre: Hoja de trabajo 1 de Social Humanistica 1
+Descripcion: Entregar la Hoja de trabajo 1 de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/10/04
+Hora: 11
+Estado: Realizado", shape=box];
+
+
+N204[label="Carnet:201006295
+ID: 50
+Nombre: Practica 2 de Fisica 2
+Descripcion: Realizar la Practica 2 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/10/07
+Hora: 11
+Estado: Realizado", shape=box];
+
+
+N205[label="Carnet:201906670
+ID: 224
+Nombre: Proyecto 1 de Fisica 2
+Descripcion: Empezar el Proyecto 1 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/10/10
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N206[label="Carnet:201646518
+ID: 231
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/10/17
+Hora: 11
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+N207[label="Carnet:201157605
+ID: 214
+Nombre: Tarea de mate
+Descripcion: Realizar la tarea para el primer parcial
+Materia: Matematica Intermedia 1
+Fecha: 2021/10/25
+Hora: 11
+Estado: Incumplido", shape=box];
+
+N208[label="Carnet:201110247
+ID: 202
+Nombre: Tarea 5 de Lenguajes Formales y de Programacion
+Descripcion: Terminar la Tarea 5 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/10/27
+Hora: 11
+Estado: Incumplido", shape=box];
+N209[label="Carnet:201774497
+ID: 126
+Nombre: Tarea 2 Fisica 2
+Descripcion: Realizar la tarea para el primer parcial
+Materia: Fisica 2
+Fecha: 2021/10/28
+Hora: 11
+Estado: Incumplido", shape=box];
+N210[label="Carnet:201669286
+ID: 245
+Nombre: Practica 2 de Fisica 2
+Descripcion: Realizar la Practica 2 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/10/29
+Hora: 11
+Estado: Incumplido", shape=box];
+N211[label="Carnet:201816850
+ID: 123
+Nombre: Investigacion de EDD
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/10/30
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+N212[label="Carnet:201375524
+ID: 138
+Nombre: Hoja de trabajo 1 de Matematica Intermedia 1
+Descripcion: Entregar la Hoja de trabajo 1 de Matematica Intermedia 1
+Materia: Matematica Intermedia 1
+Fecha: 2021/10/08
+Hora: 12
+Estado: Pendiente", shape=box];
+N213[label="Carnet:201773473
+ID: 127
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/09
+Hora: 12
+Estado: Realizado", shape=box];
+
+
+
+
+
+N214[label="Carnet:201147451
+ID: 34
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Empezar la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/10/15
+Hora: 12
+Estado: Realizado", shape=box];
+
+
+
+
+
+N215[label="Carnet:201119966
+ID: 158
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/10/21
+Hora: 12
+Estado: Pendiente", shape=box];
+
+N216[label="Carnet:201350393
+ID: 259
+Nombre: Investigacion de Practica Intermedia
+Descripcion: Hacer la Investigacion de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/10/23
+Hora: 12
+Estado: Pendiente", shape=box];
+N217[label="Carnet:201906670
+ID: 280
+Nombre: Hoja de trabajo 1 de Sistemas Operativos 2
+Descripcion: Hacer la Hoja de trabajo 1 de Sistemas Operativos 2
+Materia: Sistemas Operativos 2
+Fecha: 2021/10/24
+Hora: 12
+Estado: Realizado", shape=box];
+N218[label="Carnet:201402462
+ID: 19
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/10/25
+Hora: 12
+Estado: Pendiente", shape=box];
+
+N219[label="Carnet:201816850
+ID: 205
+Nombre: Hoja de trabajo 2 de Matematica Intermedia 2
+Descripcion: Empezar la Hoja de trabajo 2 de Matematica Intermedia 2
+Materia: Matematica Intermedia 2
+Fecha: 2021/10/27
+Hora: 12
+Estado: Incumplido", shape=box];
+
+N220[label="Carnet:201646518
+ID: 197
+Nombre: Tarea 2 de Matematica Computo 1
+Descripcion: Terminar la Tarea 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/29
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+N221[label="Carnet:201709702
+ID: 1
+Nombre: Proyecto 2 de Matematica Basica 2
+Descripcion: Terminar el Proyecto 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/10/02
+Hora: 13
+Estado: Incumplido", shape=box];
+N222[label="Carnet:201921767
+ID: 240
+Nombre: Ensayo de Sistemas Operativos 1
+Descripcion: Terminar el Ensayo de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/10/03
+Hora: 13
+Estado: Realizado", shape=box];
+
+
+
+
+N223[label="Carnet:201661519
+ID: 193
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/08
+Hora: 13
+Estado: Realizado", shape=box];
+
+
+
+N224[label="Carnet:201740604
+ID: 149
+Nombre: Estudiar para el examen
+Descripcion: Leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/10/12
+Hora: 13
+Estado: Realizado", shape=box];
+
+
+N225[label="Carnet:201210811
+ID: 213
+Nombre: Hoja de trabajo 1 de Social Humanistica 1
+Descripcion: Entregar la Hoja de trabajo 1 de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/10/15
+Hora: 13
+Estado: Pendiente", shape=box];
+
+
+
+N226[label="Carnet:201173540
+ID: 131
+Nombre: Ensayo de IPC2
+Descripcion: Empezar el Ensayo de IPC2
+Materia: IPC2
+Fecha: 2021/10/19
+Hora: 13
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+N227[label="Carnet:201646518
+ID: 6
+Nombre: Practica 1 de Fisica 1
+Descripcion: Realizar la Practica 1 de Fisica 1
+Materia: Fisica 1
+Fecha: 2021/10/26
+Hora: 13
+Estado: Pendiente", shape=box];
+N228[label="Carnet:201537627
+ID: 305
+Nombre: Proyecto 2 de Lenguajes Formales y de Programacion
+Descripcion: Hacer el Proyecto 2 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/10/27
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+
+
+N229[label="Carnet:201125580
+ID: 278
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/10/02
+Hora: 14
+Estado: Realizado", shape=box];
+N230[label="Carnet:201115140
+ID: 196
+Nombre: Practica 1 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Practica 1 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/10/03
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+N231[label="Carnet:201803912
+ID: 145
+Nombre: Examen de Matematica Computo 1
+Descripcion: Realizar el Examen de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/08
+Hora: 14
+Estado: Pendiente", shape=box];
+
+
+N232[label="Carnet:201803912
+ID: 79
+Nombre: Hoja de trabajo 1 de Sistemas Operativos 2
+Descripcion: Hacer la Hoja de trabajo 1 de Sistemas Operativos 2
+Materia: Sistemas Operativos 2
+Fecha: 2021/10/11
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+N233[label="Carnet:201933753
+ID: 271
+Nombre: Proyecto 2 de Matematica Basica 2
+Descripcion: Terminar el Proyecto 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/10/15
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N234[label="Carnet:201327675
+ID: 201
+Nombre: Ensayo de Practica Inicial
+Descripcion: Hacer el Ensayo de Practica Inicial
+Materia: Practica Inicial
+Fecha: 2021/10/22
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+N235[label="Carnet:201183728
+ID: 156
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/10/29
+Hora: 14
+Estado: Incumplido", shape=box];
+
+N236[label="Carnet:201864201
+ID: 168
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/10/01
+Hora: 15
+Estado: Pendiente", shape=box];
+N237[label="Carnet:201803912
+ID: 73
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/02
+Hora: 15
+Estado: Incumplido", shape=box];
+N238[label="Carnet:201773473
+ID: 117
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Empezar la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/10/03
+Hora: 15
+Estado: Pendiente", shape=box];
+
+
+
+
+N239[label="Carnet:201661519
+ID: 242
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/10/08
+Hora: 15
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+N240[label="Carnet:201157605
+ID: 32
+Nombre: Tarea 1 de Social Humanistica 1
+Descripcion: Empezar la Tarea 1 de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/10/20
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+N241[label="Carnet:201374369
+ID: 263
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/24
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N242[label="Carnet:201774497
+ID: 279
+Nombre: Proyecto 1 de Fisica 2
+Descripcion: Empezar el Proyecto 1 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/10/30
+Hora: 15
+Estado: Realizado", shape=box];
+
+
+
+
+N243[label="Carnet:201173540
+ID: 179
+Nombre: Ensayo de Manejo e Implementacion de Archios
+Descripcion: Entregar el Ensayo de Manejo e Implementacion de Archios
+Materia: Manejo e Implementacion de Archios
+Fecha: 2021/10/05
+Hora: 16
+Estado: Pendiente", shape=box];
+
+N244[label="Carnet:201461415
+ID: 208
+Nombre: Tarea 2 de Matematica Basica 2
+Descripcion: Entregar la Tarea 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/10/07
+Hora: 16
+Estado: Realizado", shape=box];
+
+N245[label="Carnet:201864201
+ID: 210
+Nombre: Hoja de trabajo 2 de Practica Intermedia
+Descripcion: Terminar la Hoja de trabajo 2 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/10/09
+Hora: 16
+Estado: Realizado", shape=box];
+N246[label="Carnet:201131811
+ID: 122
+Nombre: Tarea 4 de Matematica Computo 1
+Descripcion: Realizar la Tarea 4 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/10
+Hora: 16
+Estado: Realizado", shape=box];
+
+N247[label="Carnet:201137248
+ID: 51
+Nombre: Ensayo de IPC2
+Descripcion: Empezar el Ensayo de IPC2
+Materia: IPC2
+Fecha: 2021/10/12
+Hora: 16
+Estado: Incumplido", shape=box];
+
+
+N248[label="Carnet:201764124
+ID: 284
+Nombre: Tarea 2 de Matematica Basica 2
+Descripcion: Entregar la Tarea 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/10/15
+Hora: 16
+Estado: Incumplido", shape=box];
+
+
+N249[label="Carnet:201068965
+ID: 288
+Nombre: Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/10/18
+Hora: 16
+Estado: Incumplido", shape=box];
+
+
+
+N250[label="Carnet:201669286
+ID: 102
+Nombre: Hoja de trabajo 3 de IPC2
+Descripcion: Terminar la Hoja de trabajo 3 de IPC2
+Materia: IPC2
+Fecha: 2021/10/22
+Hora: 16
+Estado: Incumplido", shape=box];
+
+
+N251[label="Carnet:201137248
+ID: 107
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Realizar el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/10/25
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+N252[label="Carnet:201661519
+ID: 223
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/10/28
+Hora: 16
+Estado: Realizado", shape=box];
+
+
+
+
+N253[label="Carnet:201803912
+ID: 183
+Nombre: Hoja de trabajo 2 de Sistemas Operativos 1
+Descripcion: Empezar la Hoja de trabajo 2 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/11/03
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+N254[label="Carnet:201947729
+ID: 128
+Nombre: Practica 2 de IPC1
+Descripcion: Realizar la Practica 2 de IPC1
+Materia: IPC1
+Fecha: 2021/11/08
+Hora: 8
+Estado: Incumplido", shape=box];
+N255[label="Carnet:201183728
+ID: 267
+Nombre: Proyecto 1 de IPC1
+Descripcion: Entregar el Proyecto 1 de IPC1
+Materia: IPC1
+Fecha: 2021/11/09
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+N256[label="Carnet:201210811
+ID: 248
+Nombre: Ensayo de Practica Inicial
+Descripcion: Hacer el Ensayo de Practica Inicial
+Materia: Practica Inicial
+Fecha: 2021/11/12
+Hora: 8
+Estado: Realizado", shape=box];
+N257[label="Carnet:201309890
+ID: 144
+Nombre: Hoja de trabajo 2 de Matematica Computo 1
+Descripcion: Entregar la Hoja de trabajo 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/11/13
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+N258[label="Carnet:201933753
+ID: 72
+Nombre: Practica 1 de Fisica 1
+Descripcion: Realizar la Practica 1 de Fisica 1
+Materia: Fisica 1
+Fecha: 2021/11/21
+Hora: 8
+Estado: Realizado", shape=box];
+
+
+
+
+N259[label="Carnet:201582352
+ID: 37
+Nombre: Proyecto 2 de Matematica Basica 2
+Descripcion: Terminar el Proyecto 2 de Matematica Basica 2
+Materia: Matematica Basica 2
+Fecha: 2021/11/26
+Hora: 8
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N260[label="Carnet:201509061
+ID: 226
+Nombre: Tarea 2 de IPC1
+Descripcion: Hacer la Tarea 2 de IPC1
+Materia: IPC1
+Fecha: 2021/11/02
+Hora: 9
+Estado: Pendiente", shape=box];
+
+N261[label="Carnet:201489697
+ID: 222
+Nombre: Ensayo de Sistemas Operativos 1
+Descripcion: Terminar el Ensayo de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/11/04
+Hora: 9
+Estado: Realizado", shape=box];
+
+N262[label="Carnet:201698163
+ID: 29
+Nombre: Practica 1 de Fisica 1
+Descripcion: Realizar la Practica 1 de Fisica 1
+Materia: Fisica 1
+Fecha: 2021/11/06
+Hora: 9
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+N263[label="Carnet:201667272
+ID: 60
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Hacer el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/11/16
+Hora: 9
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+N264[label="Carnet:201327675
+ID: 135
+Nombre: Practica 1 de Fisica 1
+Descripcion: Realizar la Practica 1 de Fisica 1
+Materia: Fisica 1
+Fecha: 2021/11/25
+Hora: 9
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+N265[label="Carnet:201991578
+ID: 147
+Nombre: Hoja de trabajo 3 de IPC2
+Descripcion: Terminar la Hoja de trabajo 3 de IPC2
+Materia: IPC2
+Fecha: 2021/11/04
+Hora: 10
+Estado: Realizado", shape=box];
+
+
+N266[label="Carnet:201125580
+ID: 85
+Nombre: Hoja de trabajo 1 de Matematica Intermedia 3
+Descripcion: Terminar la Hoja de trabajo 1 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/11/07
+Hora: 10
+Estado: Pendiente", shape=box];
+
+N267[label="Carnet:201661519
+ID: 75
+Nombre: Corto de Sistemas de Bases de Datos 1
+Descripcion: Entregar el Corto de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/11/09
+Hora: 10
+Estado: Incumplido", shape=box];
+N268[label="Carnet:201790782
+ID: 95
+Nombre: Hoja de trabajo 1 de Matematica Intermedia 1
+Descripcion: Entregar la Hoja de trabajo 1 de Matematica Intermedia 1
+Materia: Matematica Intermedia 1
+Fecha: 2021/11/10
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+
+
+
+N269[label="Carnet:201210811
+ID: 306
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/11/16
+Hora: 10
+Estado: Pendiente", shape=box];
+
+N270[label="Carnet:201428558
+ID: 39
+Nombre: Hoja de trabajo 1 de Matematica Intermedia 1
+Descripcion: Entregar la Hoja de trabajo 1 de Matematica Intermedia 1
+Materia: Matematica Intermedia 1
+Fecha: 2021/11/18
+Hora: 10
+Estado: Realizado", shape=box];
+
+N271[label="Carnet:201790782
+ID: 125
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/11/20
+Hora: 10
+Estado: Incumplido", shape=box];
+
+N272[label="Carnet:201461415
+ID: 273
+Nombre: Proyecto 1 de Fisica 2
+Descripcion: Empezar el Proyecto 1 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/11/22
+Hora: 10
+Estado: Incumplido", shape=box];
+
+
+
+
+
+N273[label="Carnet:201173540
+ID: 16
+Nombre: Proyecto 2 de Matematica Intermedia 3
+Descripcion: Realizar el Proyecto 2 de Matematica Intermedia 3
+Materia: Matematica Intermedia 3
+Fecha: 2021/11/28
+Hora: 10
+Estado: Pendiente", shape=box];
+
+N274[label="Carnet:201461415
+ID: 54
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/11/30
+Hora: 10
+Estado: Pendiente", shape=box];
+
+
+
+N275[label="Carnet:201509061
+ID: 172
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/11/04
+Hora: 11
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+N276[label="Carnet:201402462
+ID: 89
+Nombre: Proyecto 1 de Fisica 2
+Descripcion: Empezar el Proyecto 1 de Fisica 2
+Materia: Fisica 2
+Fecha: 2021/11/14
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+N277[label="Carnet:201389879
+ID: 114
+Nombre: Investigacion de Practica Intermedia
+Descripcion: Hacer la Investigacion de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/11/23
+Hora: 11
+Estado: Incumplido", shape=box];
+
+
+N278[label="Carnet:201173540
+ID: 46
+Nombre: Ensayo de Practica Inicial
+Descripcion: Hacer el Ensayo de Practica Inicial
+Materia: Practica Inicial
+Fecha: 2021/11/26
+Hora: 11
+Estado: Realizado", shape=box];
+
+
+
+
+
+N279[label="Carnet:201131811
+ID: 283
+Nombre: Practica 2 de Sistemas de Bases de Datos 2
+Descripcion: Entregar la Practica 2 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/11/02
+Hora: 12
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+N280[label="Carnet:201210811
+ID: 160
+Nombre: Practica 3 de Sistemas de Bases de Datos 2
+Descripcion: Terminar la Practica 3 de Sistemas de Bases de Datos 2
+Materia: Sistemas de Bases de Datos 2
+Fecha: 2021/11/11
+Hora: 12
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+N281[label="Carnet:201389879
+ID: 105
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/11/21
+Hora: 12
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+N282[label="Carnet:201761573
+ID: 152
+Nombre: Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/11/30
+Hora: 12
+Estado: Realizado", shape=box];
+N283[label="Carnet:201315898
+ID: 84
+Nombre: Hoja de trabajo 1 de Matematica Intermedia 1
+Descripcion: Entregar la Hoja de trabajo 1 de Matematica Intermedia 1
+Materia: Matematica Intermedia 1
+Fecha: 2021/11/01
+Hora: 13
+Estado: Incumplido", shape=box];
+N284[label="Carnet:201315898
+ID: 178
+Nombre: Hoja de trabajo 2 de Sistemas Operativos 1
+Descripcion: Empezar la Hoja de trabajo 2 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/11/02
+Hora: 13
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+N285[label="Carnet:201157605
+ID: 289
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Empezar la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/11/15
+Hora: 13
+Estado: Pendiente", shape=box];
+N286[label="Carnet:201119966
+ID: 139
+Nombre: Hoja de trabajo 2 de Matematica Intermedia 2
+Descripcion: Empezar la Hoja de trabajo 2 de Matematica Intermedia 2
+Materia: Matematica Intermedia 2
+Fecha: 2021/11/16
+Hora: 13
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N287[label="Carnet:201667272
+ID: 270
+Nombre: Investigacion de EDD
+Descripcion: empezar a investigar las estructuras en python
+Materia: Estructuras de datos
+Fecha: 2021/11/01
+Hora: 14
+Estado: Incumplido", shape=box];
+N288[label="Carnet:201309890
+ID: 103
+Nombre: Corto de Sistemas de Bases de Datos 1
+Descripcion: Entregar el Corto de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/11/02
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+
+N289[label="Carnet:201068965
+ID: 143
+Nombre: Tarea 1 de Matematica Computo 1
+Descripcion: Entregar la Tarea 1 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/11/11
+Hora: 14
+Estado: Pendiente", shape=box];
+
+
+
+
+
+
+
+
+N290[label="Carnet:201068965
+ID: 7
+Nombre: Tarea 3 de Sistemas Operativos 1
+Descripcion: Empezar la Tarea 3 de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/11/20
+Hora: 14
+Estado: Realizado", shape=box];
+
+
+
+
+N291[label="Carnet:201359507
+ID: 219
+Nombre: Tarea 1 de Social Humanistica 1
+Descripcion: Empezar la Tarea 1 de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/11/25
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+N292[label="Carnet:201954202
+ID: 294
+Nombre: Hoja de trabajo 1 de Sistemas Operativos 2
+Descripcion: Hacer la Hoja de trabajo 1 de Sistemas Operativos 2
+Materia: Sistemas Operativos 2
+Fecha: 2021/11/28
+Hora: 14
+Estado: Incumplido", shape=box];
+
+
+
+N293[label="Carnet:201022466
+ID: 290
+Nombre: Hoja de trabajo 2 de Practica Intermedia
+Descripcion: Terminar la Hoja de trabajo 2 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/11/02
+Hora: 15
+Estado: Pendiente", shape=box];
+
+N294[label="Carnet:201803912
+ID: 18
+Nombre: Corto de Sistemas de Bases de Datos 1
+Descripcion: Entregar el Corto de Sistemas de Bases de Datos 1
+Materia: Sistemas de Bases de Datos 1
+Fecha: 2021/11/04
+Hora: 15
+Estado: Realizado", shape=box];
+N295[label="Carnet:201461415
+ID: 83
+Nombre: Hoja de trabajo 1 de Social Humanistica 1
+Descripcion: Entregar la Hoja de trabajo 1 de Social Humanistica 1
+Materia: Social Humanistica 1
+Fecha: 2021/11/05
+Hora: 15
+Estado: Realizado", shape=box];
+
+
+
+N296[label="Carnet:201704168
+ID: 59
+Nombre: Ensayo de Quimica General 1
+Descripcion: Entregar el Ensayo de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/11/09
+Hora: 15
+Estado: Pendiente", shape=box];
+
+N297[label="Carnet:201309890
+ID: 304
+Nombre: Estudiar para el examen
+Descripcion: Leer las presentaciones de la 1 a la 5
+Materia: Investigacion de operaciones
+Fecha: 2021/11/11
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+
+
+
+
+N298[label="Carnet:201232485
+ID: 81
+Nombre: Tarea 1 idioma
+Descripcion: Tarea 1 de indioma 4
+Materia: Idioma Tecnico 1
+Fecha: 2021/11/19
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+
+N299[label="Carnet:201661519
+ID: 90
+Nombre: Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Descripcion: Empezar la Tarea 3 de Organizacion de Lenguajes y Compiladores 2
+Materia: Organizacion de Lenguajes y Compiladores 2
+Fecha: 2021/11/23
+Hora: 15
+Estado: Incumplido", shape=box];
+
+
+N300[label="Carnet:201125580
+ID: 43
+Nombre: Tarea 2 de Quimica General 1
+Descripcion: Empezar la Tarea 2 de Quimica General 1
+Materia: Quimica General 1
+Fecha: 2021/11/26
+Hora: 15
+Estado: Pendiente", shape=box];
+
+N301[label="Carnet:201790782
+ID: 47
+Nombre: Hoja de trabajo 3 de Fisica 3
+Descripcion: Terminar la Hoja de trabajo 3 de Fisica 3
+Materia: Fisica 3
+Fecha: 2021/11/28
+Hora: 15
+Estado: Realizado", shape=box];
+
+
+N302[label="Carnet:201183728
+ID: 167
+Nombre: Proyecto 1 de Practica Intermedia
+Descripcion: Hacer el Proyecto 1 de Practica Intermedia
+Materia: Practica Intermedia
+Fecha: 2021/11/01
+Hora: 16
+Estado: Incumplido", shape=box];
+N303[label="Carnet:201803912
+ID: 162
+Nombre: Proyecto 2 de Lenguajes Formales y de Programacion
+Descripcion: Hacer el Proyecto 2 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/11/02
+Hora: 16
+Estado: Realizado", shape=box];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N304[label="Carnet:201350393
+ID: 159
+Nombre: Proyecto 2 de Lenguajes Formales y de Programacion
+Descripcion: Hacer el Proyecto 2 de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 2021/11/20
+Hora: 16
+Estado: Pendiente", shape=box];
+
+N305[label="Carnet:201327079
+ID: 12
+Nombre: Tarea 2 de Matematica Computo 1
+Descripcion: Terminar la Tarea 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/11/22
+Hora: 16
+Estado: Incumplido", shape=box];
+N306[label="Carnet:201210811
+ID: 244
+Nombre: Hoja de trabajo 1 de Matematica Intermedia 1
+Descripcion: Entregar la Hoja de trabajo 1 de Matematica Intermedia 1
+Materia: Matematica Intermedia 1
+Fecha: 2021/11/23
+Hora: 16
+Estado: Incumplido", shape=box];
+N307[label="Carnet:201043689
+ID: 33
+Nombre: Ensayo de Sistemas Operativos 1
+Descripcion: Terminar el Ensayo de Sistemas Operativos 1
+Materia: Sistemas Operativos 1
+Fecha: 2021/11/24
+Hora: 16
+Estado: Realizado", shape=box];
+N308[label="Carnet:201489697
+ID: 148
+Nombre: Tarea 2 de Matematica Computo 1
+Descripcion: Terminar la Tarea 2 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/11/25
+Hora: 16
+Estado: Pendiente", shape=box];
+
+
+
+N309[label="Carnet:201594265
+ID: 203
+Nombre: Tarea 1 de Matematica Computo 1
+Descripcion: Entregar la Tarea 1 de Matematica Computo 1
+Materia: Matematica Computo 1
+Fecha: 2021/11/29
+Hora: 16
+Estado: Pendiente", shape=box];
+N0->N1;
+
+N1->N0;
+N1->N2;
+
+N2->N1;
+N2->N3;
+
+N3->N2;
+N3->N4;
+
+N4->N3;
+N4->N5;
+
+N5->N4;
+N5->N6;
+
+N6->N5;
+N6->N7;
+
+N7->N6;
+N7->N8;
+
+N8->N7;
+N8->N9;
+
+N9->N8;
+N9->N10;
+
+N10->N9;
+N10->N11;
+
+N11->N10;
+N11->N12;
+
+N12->N11;
+N12->N13;
+
+N13->N12;
+N13->N14;
+
+N14->N13;
+N14->N15;
+
+N15->N14;
+N15->N16;
+
+N16->N15;
+N16->N17;
+
+N17->N16;
+N17->N18;
+
+N18->N17;
+N18->N19;
+
+N19->N18;
+N19->N20;
+
+N20->N19;
+N20->N21;
+
+N21->N20;
+N21->N22;
+
+N22->N21;
+N22->N23;
+
+N23->N22;
+N23->N24;
+
+N24->N23;
+N24->N25;
+
+N25->N24;
+N25->N26;
+
+N26->N25;
+N26->N27;
+
+N27->N26;
+N27->N28;
+
+N28->N27;
+N28->N29;
+
+N29->N28;
+N29->N30;
+
+N30->N29;
+N30->N31;
+
+N31->N30;
+N31->N32;
+
+N32->N31;
+N32->N33;
+
+N33->N32;
+N33->N34;
+
+N34->N33;
+N34->N35;
+
+N35->N34;
+N35->N36;
+
+N36->N35;
+N36->N37;
+
+N37->N36;
+N37->N38;
+
+N38->N37;
+N38->N39;
+
+N39->N38;
+N39->N40;
+
+N40->N39;
+N40->N41;
+
+N41->N40;
+N41->N42;
+
+N42->N41;
+N42->N43;
+
+N43->N42;
+N43->N44;
+
+N44->N43;
+N44->N45;
+
+N45->N44;
+N45->N46;
+
+N46->N45;
+N46->N47;
+
+N47->N46;
+N47->N48;
+
+N48->N47;
+N48->N49;
+
+N49->N48;
+N49->N50;
+
+N50->N49;
+N50->N51;
+
+N51->N50;
+N51->N52;
+
+N52->N51;
+N52->N53;
+
+N53->N52;
+N53->N54;
+
+N54->N53;
+N54->N55;
+
+N55->N54;
+N55->N56;
+
+N56->N55;
+N56->N57;
+
+N57->N56;
+N57->N58;
+
+N58->N57;
+N58->N59;
+
+N59->N58;
+N59->N60;
+
+N60->N59;
+N60->N61;
+
+N61->N60;
+N61->N62;
+
+N62->N61;
+N62->N63;
+
+N63->N62;
+N63->N64;
+
+N64->N63;
+N64->N65;
+
+N65->N64;
+N65->N66;
+
+N66->N65;
+N66->N67;
+
+N67->N66;
+N67->N68;
+
+N68->N67;
+N68->N69;
+
+N69->N68;
+N69->N70;
+
+N70->N69;
+N70->N71;
+
+N71->N70;
+N71->N72;
+
+N72->N71;
+N72->N73;
+
+N73->N72;
+N73->N74;
+
+N74->N73;
+N74->N75;
+
+N75->N74;
+N75->N76;
+
+N76->N75;
+N76->N77;
+
+N77->N76;
+N77->N78;
+
+N78->N77;
+N78->N79;
+
+N79->N78;
+N79->N80;
+
+N80->N79;
+N80->N81;
+
+N81->N80;
+N81->N82;
+
+N82->N81;
+N82->N83;
+
+N83->N82;
+N83->N84;
+
+N84->N83;
+N84->N85;
+
+N85->N84;
+N85->N86;
+
+N86->N85;
+N86->N87;
+
+N87->N86;
+N87->N88;
+
+N88->N87;
+N88->N89;
+
+N89->N88;
+N89->N90;
+
+N90->N89;
+N90->N91;
+
+N91->N90;
+N91->N92;
+
+N92->N91;
+N92->N93;
+
+N93->N92;
+N93->N94;
+
+N94->N93;
+N94->N95;
+
+N95->N94;
+N95->N96;
+
+N96->N95;
+N96->N97;
+
+N97->N96;
+N97->N98;
+
+N98->N97;
+N98->N99;
+
+N99->N98;
+N99->N100;
+
+N100->N99;
+N100->N101;
+
+N101->N100;
+N101->N102;
+
+N102->N101;
+N102->N103;
+
+N103->N102;
+N103->N104;
+
+N104->N103;
+N104->N105;
+
+N105->N104;
+N105->N106;
+
+N106->N105;
+N106->N107;
+
+N107->N106;
+N107->N108;
+
+N108->N107;
+N108->N109;
+
+N109->N108;
+N109->N110;
+
+N110->N109;
+N110->N111;
+
+N111->N110;
+N111->N112;
+
+N112->N111;
+N112->N113;
+
+N113->N112;
+N113->N114;
+
+N114->N113;
+N114->N115;
+
+N115->N114;
+N115->N116;
+
+N116->N115;
+N116->N117;
+
+N117->N116;
+N117->N118;
+
+N118->N117;
+N118->N119;
+
+N119->N118;
+N119->N120;
+
+N120->N119;
+N120->N121;
+
+N121->N120;
+N121->N122;
+
+N122->N121;
+N122->N123;
+
+N123->N122;
+N123->N124;
+
+N124->N123;
+N124->N125;
+
+N125->N124;
+N125->N126;
+
+N126->N125;
+N126->N127;
+
+N127->N126;
+N127->N128;
+
+N128->N127;
+N128->N129;
+
+N129->N128;
+N129->N130;
+
+N130->N129;
+N130->N131;
+
+N131->N130;
+N131->N132;
+
+N132->N131;
+N132->N133;
+
+N133->N132;
+N133->N134;
+
+N134->N133;
+N134->N135;
+
+N135->N134;
+N135->N136;
+
+N136->N135;
+N136->N137;
+
+N137->N136;
+N137->N138;
+
+N138->N137;
+N138->N139;
+
+N139->N138;
+N139->N140;
+
+N140->N139;
+N140->N141;
+
+N141->N140;
+N141->N142;
+
+N142->N141;
+N142->N143;
+
+N143->N142;
+N143->N144;
+
+N144->N143;
+N144->N145;
+
+N145->N144;
+N145->N146;
+
+N146->N145;
+N146->N147;
+
+N147->N146;
+N147->N148;
+
+N148->N147;
+N148->N149;
+
+N149->N148;
+N149->N150;
+
+N150->N149;
+N150->N151;
+
+N151->N150;
+N151->N152;
+
+N152->N151;
+N152->N153;
+
+N153->N152;
+N153->N154;
+
+N154->N153;
+N154->N155;
+
+N155->N154;
+N155->N156;
+
+N156->N155;
+N156->N157;
+
+N157->N156;
+N157->N158;
+
+N158->N157;
+N158->N159;
+
+N159->N158;
+N159->N160;
+
+N160->N159;
+N160->N161;
+
+N161->N160;
+N161->N162;
+
+N162->N161;
+N162->N163;
+
+N163->N162;
+N163->N164;
+
+N164->N163;
+N164->N165;
+
+N165->N164;
+N165->N166;
+
+N166->N165;
+N166->N167;
+
+N167->N166;
+N167->N168;
+
+N168->N167;
+N168->N169;
+
+N169->N168;
+N169->N170;
+
+N170->N169;
+N170->N171;
+
+N171->N170;
+N171->N172;
+
+N172->N171;
+N172->N173;
+
+N173->N172;
+N173->N174;
+
+N174->N173;
+N174->N175;
+
+N175->N174;
+N175->N176;
+
+N176->N175;
+N176->N177;
+
+N177->N176;
+N177->N178;
+
+N178->N177;
+N178->N179;
+
+N179->N178;
+N179->N180;
+
+N180->N179;
+N180->N181;
+
+N181->N180;
+N181->N182;
+
+N182->N181;
+N182->N183;
+
+N183->N182;
+N183->N184;
+
+N184->N183;
+N184->N185;
+
+N185->N184;
+N185->N186;
+
+N186->N185;
+N186->N187;
+
+N187->N186;
+N187->N188;
+
+N188->N187;
+N188->N189;
+
+N189->N188;
+N189->N190;
+
+N190->N189;
+N190->N191;
+
+N191->N190;
+N191->N192;
+
+N192->N191;
+N192->N193;
+
+N193->N192;
+N193->N194;
+
+N194->N193;
+N194->N195;
+
+N195->N194;
+N195->N196;
+
+N196->N195;
+N196->N197;
+
+N197->N196;
+N197->N198;
+
+N198->N197;
+N198->N199;
+
+N199->N198;
+N199->N200;
+
+N200->N199;
+N200->N201;
+
+N201->N200;
+N201->N202;
+
+N202->N201;
+N202->N203;
+
+N203->N202;
+N203->N204;
+
+N204->N203;
+N204->N205;
+
+N205->N204;
+N205->N206;
+
+N206->N205;
+N206->N207;
+
+N207->N206;
+N207->N208;
+
+N208->N207;
+N208->N209;
+
+N209->N208;
+N209->N210;
+
+N210->N209;
+N210->N211;
+
+N211->N210;
+N211->N212;
+
+N212->N211;
+N212->N213;
+
+N213->N212;
+N213->N214;
+
+N214->N213;
+N214->N215;
+
+N215->N214;
+N215->N216;
+
+N216->N215;
+N216->N217;
+
+N217->N216;
+N217->N218;
+
+N218->N217;
+N218->N219;
+
+N219->N218;
+N219->N220;
+
+N220->N219;
+N220->N221;
+
+N221->N220;
+N221->N222;
+
+N222->N221;
+N222->N223;
+
+N223->N222;
+N223->N224;
+
+N224->N223;
+N224->N225;
+
+N225->N224;
+N225->N226;
+
+N226->N225;
+N226->N227;
+
+N227->N226;
+N227->N228;
+
+N228->N227;
+N228->N229;
+
+N229->N228;
+N229->N230;
+
+N230->N229;
+N230->N231;
+
+N231->N230;
+N231->N232;
+
+N232->N231;
+N232->N233;
+
+N233->N232;
+N233->N234;
+
+N234->N233;
+N234->N235;
+
+N235->N234;
+N235->N236;
+
+N236->N235;
+N236->N237;
+
+N237->N236;
+N237->N238;
+
+N238->N237;
+N238->N239;
+
+N239->N238;
+N239->N240;
+
+N240->N239;
+N240->N241;
+
+N241->N240;
+N241->N242;
+
+N242->N241;
+N242->N243;
+
+N243->N242;
+N243->N244;
+
+N244->N243;
+N244->N245;
+
+N245->N244;
+N245->N246;
+
+N246->N245;
+N246->N247;
+
+N247->N246;
+N247->N248;
+
+N248->N247;
+N248->N249;
+
+N249->N248;
+N249->N250;
+
+N250->N249;
+N250->N251;
+
+N251->N250;
+N251->N252;
+
+N252->N251;
+N252->N253;
+
+N253->N252;
+N253->N254;
+
+N254->N253;
+N254->N255;
+
+N255->N254;
+N255->N256;
+
+N256->N255;
+N256->N257;
+
+N257->N256;
+N257->N258;
+
+N258->N257;
+N258->N259;
+
+N259->N258;
+N259->N260;
+
+N260->N259;
+N260->N261;
+
+N261->N260;
+N261->N262;
+
+N262->N261;
+N262->N263;
+
+N263->N262;
+N263->N264;
+
+N264->N263;
+N264->N265;
+
+N265->N264;
+N265->N266;
+
+N266->N265;
+N266->N267;
+
+N267->N266;
+N267->N268;
+
+N268->N267;
+N268->N269;
+
+N269->N268;
+N269->N270;
+
+N270->N269;
+N270->N271;
+
+N271->N270;
+N271->N272;
+
+N272->N271;
+N272->N273;
+
+N273->N272;
+N273->N274;
+
+N274->N273;
+N274->N275;
+
+N275->N274;
+N275->N276;
+
+N276->N275;
+N276->N277;
+
+N277->N276;
+N277->N278;
+
+N278->N277;
+N278->N279;
+
+N279->N278;
+N279->N280;
+
+N280->N279;
+N280->N281;
+
+N281->N280;
+N281->N282;
+
+N282->N281;
+N282->N283;
+
+N283->N282;
+N283->N284;
+
+N284->N283;
+N284->N285;
+
+N285->N284;
+N285->N286;
+
+N286->N285;
+N286->N287;
+
+N287->N286;
+N287->N288;
+
+N288->N287;
+N288->N289;
+
+N289->N288;
+N289->N290;
+
+N290->N289;
+N290->N291;
+
+N291->N290;
+N291->N292;
+
+N292->N291;
+N292->N293;
+
+N293->N292;
+N293->N294;
+
+N294->N293;
+N294->N295;
+
+N295->N294;
+N295->N296;
+
+N296->N295;
+N296->N297;
+
+N297->N296;
+N297->N298;
+
+N298->N297;
+N298->N299;
+
+N299->N298;
+N299->N300;
+
+N300->N299;
+N300->N301;
+
+N301->N300;
+N301->N302;
+
+N302->N301;
+N302->N303;
+
+N303->N302;
+N303->N304;
+
+N304->N303;
+N304->N305;
+
+N305->N304;
+N305->N306;
+
+N306->N305;
+N306->N307;
+
+N307->N306;
+N307->N308;
+
+N308->N307;
+N308->N309;
+
+N309->N308;
+N309->N310;
+concentrate=true; }

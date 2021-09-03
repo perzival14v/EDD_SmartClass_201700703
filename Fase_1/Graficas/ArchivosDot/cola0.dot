@@ -1,0 +1,25 @@
+digraph cola{ 
+ rankdir=LR;
+N0[label="id:5
+Tipo: Tarea
+Descripcion: Carnet no existe dentro de los estudiantes", shape=box];
+N1[label="id:4
+Tipo: Tarea
+Descripcion: Carnet no existe dentro de los estudiantes", shape=box];
+N2[label="id:3
+Tipo: Tarea
+Descripcion: Fecha no tiene el formato correcto", shape=box];
+N3[label="id:2
+Tipo: Estudiante
+Descripcion: Correo no tiene un formato correcto", shape=box];
+N4[label="id:1
+Tipo: Estudiante
+Descripcion: DPI no tiene la cantidad de digitos correctos", shape=box];
+N5[label="id:0
+Tipo: Estudiante
+Descripcion: Carnet no tiene la cantidad de digitos correctos", shape=box];
+N0->N1;
+N1->N2;
+N2->N3;
+N3->N4;
+N4->N5;}

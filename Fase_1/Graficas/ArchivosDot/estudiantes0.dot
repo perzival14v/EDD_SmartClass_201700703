@@ -1,0 +1,752 @@
+digraph estudiantes{ 
+ rankdir=LR;
+N0[label="Carnet:201183728
+DPI: 2050740201006
+Nombre: Alvin Huckett
+Carrera: Ingenieria Quimica
+Password: DGHS2Xi
+Creditos: 222
+Edad: 20", shape=box];
+N1[label="Carnet:2010244
+DPI: 5970926381748
+Nombre: Nertie Laurenzi
+Carrera: Ingenieria Mecanica Industrial
+Password: 198yxel
+Creditos: 139
+Edad: 19", shape=box];
+N2[label="Carnet:201210811
+DPI: 879575888
+Nombre: Lamont Barthrup
+Carrera: Ingenieria Mecanica
+Password: j60uy9
+Creditos: 53
+Edad: 25", shape=box];
+N3[label="Carnet:201315898
+DPI: 5531711621404
+Nombre: Bernadette Pescud
+Carrera: Ingenieria Mecanica Industrial
+Password: TXz6b
+Creditos: 190
+Edad: 28", shape=box];
+N4[label="Carnet:201582352
+DPI: 4172564417242
+Nombre: Bobina Delacroux
+Carrera: Ingenieria Mecanica Industrial
+Password: m6ILxd
+Creditos: 113
+Edad: 23", shape=box];
+N5[label="Carnet:201115140
+DPI: 8429519350118
+Nombre: Pebrook Gircke
+Carrera: Ingenieria Mecanica
+Password: Ysgy3Vt
+Creditos: 172
+Edad: 19", shape=box];
+N6[label="Carnet:201350393
+DPI: 9029374304090
+Nombre: Laurie Tumilty
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: UKazTS0
+Creditos: 124
+Edad: 20", shape=box];
+N7[label="Carnet:201698163
+DPI: 8010354636352
+Nombre: Barn Killingbeck
+Carrera: Ingenieria Mecanica Electrica
+Password: 38KWHL
+Creditos: 130
+Edad: 20", shape=box];
+N8[label="Carnet:201402462
+DPI: 3594915493584
+Nombre: Joscelin Fewings
+Carrera: Ingenieria Mecanica
+Password: tF7ZroZ
+Creditos: 202
+Edad: 25", shape=box];
+N9[label="Carnet:201643353
+DPI: 9692561360208
+Nombre: Llywellyn Woodnutt
+Carrera: Ingenieria Mecanica Electrica
+Password: ui708GE
+Creditos: 44
+Edad: 27", shape=box];
+N10[label="Carnet:201043689
+DPI: 0714796787404
+Nombre: Ardene Benediktovich
+Carrera: Ingenieria Mecanica
+Password: muiPC17
+Creditos: 13
+Edad: 23", shape=box];
+N11[label="Carnet:201489697
+DPI: 3310894947855
+Nombre: Judye Rossborough
+Carrera: Ingenieria Mecanica Electrica
+Password: k9oGtrw
+Creditos: 3
+Edad: 26", shape=box];
+N12[label="Carnet:201818908
+DPI: 2689202578134
+Nombre: Wilbur Alberts
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: SSeRj8d
+Creditos: 64
+Edad: 18", shape=box];
+N13[label="Carnet:201816850
+DPI: 0154497044345
+Nombre: Emili Palleske
+Carrera: Ingenieria Mecanica
+Password: 17x8L
+Creditos: 28
+Edad: 21", shape=box];
+N14[label="Carnet:201232485
+DPI: 3762365704505
+Nombre: Vivian Currer
+Carrera: Ingenieria Quimica
+Password: xe7yeho
+Creditos: 218
+Edad: 28", shape=box];
+N15[label="Carnet:201131811
+DPI: 3347258005328
+Nombre: Eloise Trevarthen
+Carrera: Ingenieria Mecanica
+Password: B8FP4
+Creditos: 201
+Edad: 22", shape=box];
+N16[label="Carnet:201476680
+DPI: 4293824642888
+Nombre: Kim Westphal
+Carrera: Ingenieria Quimica
+Password: qtry5
+Creditos: 159
+Edad: 19", shape=box];
+N17[label="Carnet:201511649
+DPI: 5648266954532
+Nombre: Aylmar Raubenheimer
+Carrera: Ingenieria Mecanica
+Password: 76816q
+Creditos: 163
+Edad: 23", shape=box];
+N18[label="Carnet:201255643
+DPI: 7672150791181
+Nombre: Alvin Huckett
+Carrera: Ingenieria Industrial
+Password: g4X4Ak
+Creditos: 65
+Edad: 29", shape=box];
+N19[label="Carnet:201947729
+DPI: 1430797138430
+Nombre: Camila Dibbert
+Carrera: Ingenieria Mecanica Industrial
+Password: b4wdeP
+Creditos: 188
+Edad: 21", shape=box];
+N20[label="Carnet:201173540
+DPI: 3235002226847
+Nombre: Alvin Huckett
+Carrera: Ingenieria Industrial
+Password: ITrpSM0
+Creditos: 104
+Edad: 22", shape=box];
+N21[label="Carnet:201704168
+DPI: 3379162068993
+Nombre: Tim Goldspink
+Carrera: Ingenieria Mecanica Electrica
+Password: Cmg7g
+Creditos: 137
+Edad: 19", shape=box];
+N22[label="Carnet:201661519
+DPI: 9302712249273
+Nombre: Harvey Darbyshire
+Carrera: Ingenieria Mecanica
+Password: Asv30
+Creditos: 55
+Edad: 26", shape=box];
+N23[label="Carnet:201309890
+DPI: 6364119505269
+Nombre: Grayce Poltone
+Carrera: Ingenieria Industrial
+Password: bCp3F57
+Creditos: 133
+Edad: 18", shape=box];
+N24[label="Carnet:201740604
+DPI: 2625352358554
+Nombre: Llywellyn Woodnutt
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: Bk8jU
+Creditos: 3
+Edad: 19", shape=box];
+N25[label="Carnet:201646518
+DPI: 8696013129504
+Nombre: Aylmar Raubenheimer
+Carrera: Ingenieria Mecanica Electrica
+Password: 3j9MHF
+Creditos: 192
+Edad: 22", shape=box];
+N26[label="Carnet:201766242
+DPI: 3780452896411
+Nombre: Franky Viney
+Carrera: Ingenieria Mecanica Electrica
+Password: UC1hKp
+Creditos: 164
+Edad: 20", shape=box];
+N27[label="Carnet:201537627
+DPI: 6000394094296
+Nombre: Aylmar Raubenheimer
+Carrera: Ingenieria Mecanica Electrica
+Password: 82MID7
+Creditos: 3
+Edad: 24", shape=box];
+N28[label="Carnet:201327675
+DPI: 5005953751371
+Nombre: Lamont Barthrup
+Carrera: Ingenieria Mecanica Electrica
+Password: CAt1n
+Creditos: 171
+Edad: 20", shape=box];
+N29[label="Carnet:201897987
+DPI: 2193345266141
+Nombre: Michelle Glanister
+Carrera: Ingenieria Quimica
+Password: 8cIUD
+Creditos: 226
+Edad: 25", shape=box];
+N30[label="Carnet:201500866
+DPI: 7040168688236
+Nombre: Claybourne Nelmes
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: 4xCS04
+Creditos: 121
+Edad: 19", shape=box];
+N31[label="Carnet:201359507
+DPI: 6474775706799
+Nombre: Olly Brunelleschi
+Carrera: Ingenieria Quimica
+Password: rdjy6j
+Creditos: 52
+Edad: 22", shape=box];
+N32[label="Carnet:201954202
+DPI: 2496399691941
+Nombre: Eloise Trevarthen
+Carrera: Ingenieria Mecanica Industrial
+Password: 6RNgz
+Creditos: 196
+Edad: 29", shape=box];
+N33[label="Carnet:201412244
+DPI: 3239472177167
+Nombre: Eba Keitley
+Carrera: Ingenieria Industrial
+Password: BRdQj
+Creditos: 238
+Edad: 22", shape=box];
+N34[label="Carnet:201234795
+DPI: 9082300809939
+Nombre: Wilbur Alberts
+Carrera: Ingenieria Mecanica Industrial
+Password: 0oXnv
+Creditos: 80
+Edad: 29", shape=box];
+N35[label="Carnet:201594265
+DPI: 2831630574772
+Nombre: Ardene Benediktovich
+Carrera: Ingenieria Mecanica Industrial
+Password: 15Asd
+Creditos: 242
+Edad: 26", shape=box];
+N36[label="Carnet:201790782
+DPI: 3168522176927
+Nombre: Claybourne Nelmes
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: d70Vi
+Creditos: 0
+Edad: 22", shape=box];
+N37[label="Carnet:201374369
+DPI: 8311431297185
+Nombre: Lionel Messi
+Carrera: Ingenieria Mecanica Industrial
+Password: cVzaR8
+Creditos: 93
+Edad: 20", shape=box];
+N38[label="Carnet:201709702
+DPI: 4245428187625
+Nombre: Dillon Blandamere
+Carrera: Ingenieria Industrial
+Password: 3f5qj
+Creditos: 84
+Edad: 20", shape=box];
+N39[label="Carnet:201635991
+DPI: 2702608963916
+Nombre: Boycie Langlais
+Carrera: Ingenieria Industrial
+Password: vCGgb2
+Creditos: 113
+Edad: 29", shape=box];
+N40[label="Carnet:201389879
+DPI: 1332692632257
+Nombre: Darn Studdal
+Carrera: Ingenieria Industrial
+Password: r80ja
+Creditos: 244
+Edad: 23", shape=box];
+N41[label="Carnet:201375524
+DPI: 3164173770900
+Nombre: Tim Goldspink
+Carrera: Ingenieria Quimica
+Password: Nu96Sq3
+Creditos: 1
+Edad: 20", shape=box];
+N42[label="Carnet:201428558
+DPI: 8783633019549
+Nombre: Llywellyn Woodnutt
+Carrera: Ingenieria Mecanica
+Password: qWlnP7
+Creditos: 5
+Edad: 24", shape=box];
+N43[label="Carnet:201933753
+DPI: 6467642780621
+Nombre: Bobina Delacroux
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: 8DGPFmN
+Creditos: 147
+Edad: 25", shape=box];
+N44[label="Carnet:201774497
+DPI: 6327689577005
+Nombre: Llywellyn Woodnutt
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: RN1Dgbd
+Creditos: 90
+Edad: 26", shape=box];
+N45[label="Carnet:201145786
+DPI: 4820546644233
+Nombre: Harvey Darbyshire
+Carrera: Ingenieria Mecanica
+Password: uJW2Q
+Creditos: 88
+Edad: 22", shape=box];
+N46[label="Carnet:201509061
+DPI: 3761268073554
+Nombre: Tim Goldspink
+Carrera: Ingenieria Mecanica Electrica
+Password: DPx0LQ0
+Creditos: 108
+Edad: 23", shape=box];
+N47[label="Carnet:201068965
+DPI: 7207003476187
+Nombre: Tim Goldspink
+Carrera: Ingenieria Mecanica Industrial
+Password: MF4vc6
+Creditos: 112
+Edad: 26", shape=box];
+N48[label="Carnet:201991578
+DPI: 7437219208336
+Nombre: Olly Brunelleschi
+Carrera: Ingenieria Mecanica Industrial
+Password: H1xi3
+Creditos: 102
+Edad: 29", shape=box];
+N49[label="Carnet:201803912
+DPI: 3995410773680
+Nombre: Emili Palleske
+Carrera: Ingenieria Mecanica Industrial
+Password: ODYgI
+Creditos: 205
+Edad: 26", shape=box];
+N50[label="Carnet:201921767
+DPI: 5042024988582
+Nombre: Consolata Reskelly
+Carrera: Ingenieria Mecanica
+Password: cBP1bt7
+Creditos: 200
+Edad: 27", shape=box];
+N51[label="Carnet:201157605
+DPI: 2503385887437
+Nombre: Alonzo Seagrove
+Carrera: Ingenieria Industrial
+Password: 92V6h
+Creditos: 226
+Edad: 22", shape=box];
+N52[label="Carnet:201761573
+DPI: 5372214388411
+Nombre: Alonzo Seagrove
+Carrera: Ingenieria Quimica
+Password: 24ldm
+Creditos: 51
+Edad: 22", shape=box];
+N53[label="Carnet:201825364
+DPI: 6772854332066
+Nombre: Phillis Syrie
+Carrera: Ingenieria Quimica
+Password: rU2QYr
+Creditos: 111
+Edad: 28", shape=box];
+N54[label="Carnet:201022466
+DPI: 0579054127201
+Nombre: Wash Sedgemore
+Carrera: Ingenieria Mecanica Electrica
+Password: 1E8vp8
+Creditos: 130
+Edad: 29", shape=box];
+N55[label="Carnet:201006295
+DPI: 6483009710551
+Nombre: Roderigo Gomme
+Carrera: Ingenieria Mecanica Electrica
+Password: w1E8BW
+Creditos: 23
+Edad: 24", shape=box];
+N56[label="Carnet:201116100
+DPI: 7247421869888
+Nombre: Franky Viney
+Carrera: Ingenieria Quimica
+Password: 5K0p7N
+Creditos: 42
+Edad: 26", shape=box];
+N57[label="Carnet:201773473
+DPI: 1563507262381
+Nombre: Krystal Crellin
+Carrera: Ingenieria Mecanica
+Password: 3KgBk
+Creditos: 88
+Edad: 26", shape=box];
+N58[label="Carnet:201119966
+DPI: 9030770152211
+Nombre: Michelle Glanister
+Carrera: Ingenieria Industrial
+Password: J9Tq39
+Creditos: 225
+Edad: 23", shape=box];
+N59[label="Carnet:201669286
+DPI: 3126321523297
+Nombre: Tim Goldspink
+Carrera: Ingenieria Mecanica
+Password: QQNPe8
+Creditos: 187
+Edad: 21", shape=box];
+N60[label="Carnet:201147451
+DPI: 9093933675701
+Nombre: Ellerey Sherwyn
+Carrera: Ingenieria Mecanica Electrica
+Password: 20H3Hx
+Creditos: 80
+Edad: 23", shape=box];
+N61[label="Carnet:201864201
+DPI: 8208413026556
+Nombre: Claybourne Nelmes
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: 69548z
+Creditos: 25
+Edad: 25", shape=box];
+N62[label="Carnet:201667272
+DPI: 9443025623424
+Nombre: Adriaens Timms
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: Pe8Ucp
+Creditos: 237
+Edad: 21", shape=box];
+N63[label="Carnet:201668149
+DPI: 6435886693765
+Nombre: Harvey Darbyshire
+Carrera: Ingenieria Mecanica
+Password: u4jxe57
+Creditos: 31
+Edad: 27", shape=box];
+N64[label="Carnet:201764124
+DPI: 6773833243077
+Nombre: Harvey Darbyshire
+Carrera: Ingenieria Industrial
+Password: 0DDF8
+Creditos: 219
+Edad: 21", shape=box];
+N65[label="Carnet:201516603
+DPI: 4062043125856
+Nombre: Aylmar Raubenheimer
+Carrera: Ingenieria Mecanica Industrial
+Password: Sv4HFP
+Creditos: 168
+Edad: 19", shape=box];
+N66[label="Carnet:201327079
+DPI: 8292286385716
+Nombre: Franky Viney
+Carrera: Ingenieria Industrial
+Password: GhhLi
+Creditos: 179
+Edad: 21", shape=box];
+N67[label="Carnet:201906670
+DPI: 2245119831085
+Nombre: Franky Viney
+Carrera: Ingenieria Mecanica Industrial
+Password: PCAanL
+Creditos: 198
+Edad: 23", shape=box];
+N68[label="Carnet:201461415
+DPI: 8579079230016
+Nombre: Roderigo Gomme
+Carrera: Ingenieria Mecanica Industrial
+Password: 6GEfOg
+Creditos: 113
+Edad: 20", shape=box];
+N69[label="Carnet:201009015
+DPI: 1962623323417
+Nombre: Afton Hounson
+Carrera: Ingenieria Mecanica
+Password: PQvEC5
+Creditos: 12
+Edad: 23", shape=box];
+N70[label="Carnet:201137248
+DPI: 4264540703955
+Nombre: Eba Keitley
+Carrera: Ingenieria Mecanica
+Password: K8ZY0mI
+Creditos: 35
+Edad: 22", shape=box];
+N71[label="Carnet:201339503
+DPI: 1169570189320
+Nombre: Drusilla Louca
+Carrera: Ingenieria Mecanica Industrial
+Password: xW0NS
+Creditos: 41
+Edad: 29", shape=box];
+N72[label="Carnet:201110247
+DPI: 7882408800987
+Nombre: Aylmar Raubenheimer
+Carrera: Ingenieria Mecanica Electrica
+Password: oKlY9O7
+Creditos: 171
+Edad: 19", shape=box];
+N73[label="Carnet:201125580
+DPI: 1846903502498
+Nombre: Boycie Langlais
+Carrera: Ingenieria en Ciencias y Sistemas
+Password: MhBaUtl
+Creditos: 190
+Edad: 21", shape=box];
+N74[label="Carnet:201315288
+DPI: 7044319749868
+Nombre: Joscelin Fewings
+Carrera: Ingenieria Mecanica Electrica
+Password: 3htilF
+Creditos: 89
+Edad: 27", shape=box];
+N0->N1;
+N0->N74;
+
+N1->N0;
+N1->N2;
+
+N2->N1;
+N2->N3;
+
+N3->N2;
+N3->N4;
+
+N4->N3;
+N4->N5;
+
+N5->N4;
+N5->N6;
+
+N6->N5;
+N6->N7;
+
+N7->N6;
+N7->N8;
+
+N8->N7;
+N8->N9;
+
+N9->N8;
+N9->N10;
+
+N10->N9;
+N10->N11;
+
+N11->N10;
+N11->N12;
+
+N12->N11;
+N12->N13;
+
+N13->N12;
+N13->N14;
+
+N14->N13;
+N14->N15;
+
+N15->N14;
+N15->N16;
+
+N16->N15;
+N16->N17;
+
+N17->N16;
+N17->N18;
+
+N18->N17;
+N18->N19;
+
+N19->N18;
+N19->N20;
+
+N20->N19;
+N20->N21;
+
+N21->N20;
+N21->N22;
+
+N22->N21;
+N22->N23;
+
+N23->N22;
+N23->N24;
+
+N24->N23;
+N24->N25;
+
+N25->N24;
+N25->N26;
+
+N26->N25;
+N26->N27;
+
+N27->N26;
+N27->N28;
+
+N28->N27;
+N28->N29;
+
+N29->N28;
+N29->N30;
+
+N30->N29;
+N30->N31;
+
+N31->N30;
+N31->N32;
+
+N32->N31;
+N32->N33;
+
+N33->N32;
+N33->N34;
+
+N34->N33;
+N34->N35;
+
+N35->N34;
+N35->N36;
+
+N36->N35;
+N36->N37;
+
+N37->N36;
+N37->N38;
+
+N38->N37;
+N38->N39;
+
+N39->N38;
+N39->N40;
+
+N40->N39;
+N40->N41;
+
+N41->N40;
+N41->N42;
+
+N42->N41;
+N42->N43;
+
+N43->N42;
+N43->N44;
+
+N44->N43;
+N44->N45;
+
+N45->N44;
+N45->N46;
+
+N46->N45;
+N46->N47;
+
+N47->N46;
+N47->N48;
+
+N48->N47;
+N48->N49;
+
+N49->N48;
+N49->N50;
+
+N50->N49;
+N50->N51;
+
+N51->N50;
+N51->N52;
+
+N52->N51;
+N52->N53;
+
+N53->N52;
+N53->N54;
+
+N54->N53;
+N54->N55;
+
+N55->N54;
+N55->N56;
+
+N56->N55;
+N56->N57;
+
+N57->N56;
+N57->N58;
+
+N58->N57;
+N58->N59;
+
+N59->N58;
+N59->N60;
+
+N60->N59;
+N60->N61;
+
+N61->N60;
+N61->N62;
+
+N62->N61;
+N62->N63;
+
+N63->N62;
+N63->N64;
+
+N64->N63;
+N64->N65;
+
+N65->N64;
+N65->N66;
+
+N66->N65;
+N66->N67;
+
+N67->N66;
+N67->N68;
+
+N68->N67;
+N68->N69;
+
+N69->N68;
+N69->N70;
+
+N70->N69;
+N70->N71;
+
+N71->N70;
+N71->N72;
+
+N72->N71;
+N72->N73;
+
+N73->N72;
+N73->N74;
+
+
+N74->N0;
+concentrate=true }

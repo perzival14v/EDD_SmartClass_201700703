@@ -1,6 +1,523 @@
-graph G {
-	10 -- 5
-	10 -- 15
-	15 -- 12
-	15 -- 20
+digraph G {
+	node [shape=box]
+	splines=ortho
+	nodesep=0.5
+	201582352 [label="201582352
+Bobina Delacroux
+Ingenieria Mecanica Industrial"]
+	201350393 [label="201350393
+Laurie Tumilty
+Ingenieria en Ciencias y Sistemas"]
+	201582352 -> 201350393
+	201350393 [label="201350393
+Laurie Tumilty
+Ingenieria en Ciencias y Sistemas"]
+	201183728 [label="201183728
+Alvin Huckett
+Ingenieria Quimica"]
+	201350393 -> 201183728
+	201183728 [label="201183728
+Alvin Huckett
+Ingenieria Quimica"]
+	201115140 [label="201115140
+Pebrook Gircke
+Ingenieria Mecanica"]
+	201183728 -> 201115140
+	201115140 [label="201115140
+Pebrook Gircke
+Ingenieria Mecanica"]
+	201022466 [label="201022466
+Wash Sedgemore
+Ingenieria Mecanica Electrica"]
+	201115140 -> 201022466
+	201022466 [label="201022466
+Wash Sedgemore
+Ingenieria Mecanica Electrica"]
+	201006295 [label="201006295
+Roderigo Gomme
+Ingenieria Mecanica Electrica"]
+	201022466 -> 201006295
+	201006295 [label="201006295
+Roderigo Gomme
+Ingenieria Mecanica Electrica"]
+	201009015 [label="201009015
+Afton Hounson
+Ingenieria Mecanica"]
+	201006295 -> 201009015
+	201022466 [label="201022466
+Wash Sedgemore
+Ingenieria Mecanica Electrica"]
+	201043689 [label="201043689
+Ardene Benediktovich
+Ingenieria Mecanica"]
+	201022466 -> 201043689
+	201043689 [label="201043689
+Ardene Benediktovich
+Ingenieria Mecanica"]
+	2010244 [label="2010244
+Nertie Laurenzi
+Ingenieria Mecanica Industrial"]
+	201043689 -> 2010244
+	201043689 [label="201043689
+Ardene Benediktovich
+Ingenieria Mecanica"]
+	201068965 [label="201068965
+Tim Goldspink
+Ingenieria Mecanica Industrial"]
+	201043689 -> 201068965
+	201068965 [label="201068965
+Tim Goldspink
+Ingenieria Mecanica Industrial"]
+	201110247 [label="201110247
+Aylmar Raubenheimer
+Ingenieria Mecanica Electrica"]
+	201068965 -> 201110247
+	201115140 [label="201115140
+Pebrook Gircke
+Ingenieria Mecanica"]
+	201131811 [label="201131811
+Eloise Trevarthen
+Ingenieria Mecanica"]
+	201115140 -> 201131811
+	201131811 [label="201131811
+Eloise Trevarthen
+Ingenieria Mecanica"]
+	201119966 [label="201119966
+Michelle Glanister
+Ingenieria Industrial"]
+	201131811 -> 201119966
+	201119966 [label="201119966
+Michelle Glanister
+Ingenieria Industrial"]
+	201116100 [label="201116100
+Franky Viney
+Ingenieria Quimica"]
+	201119966 -> 201116100
+	201119966 [label="201119966
+Michelle Glanister
+Ingenieria Industrial"]
+	201125580 [label="201125580
+Boycie Langlais
+Ingenieria en Ciencias y Sistemas"]
+	201119966 -> 201125580
+	201131811 [label="201131811
+Eloise Trevarthen
+Ingenieria Mecanica"]
+	201157605 [label="201157605
+Alonzo Seagrove
+Ingenieria Industrial"]
+	201131811 -> 201157605
+	201157605 [label="201157605
+Alonzo Seagrove
+Ingenieria Industrial"]
+	201145786 [label="201145786
+Harvey Darbyshire
+Ingenieria Mecanica"]
+	201157605 -> 201145786
+	201145786 [label="201145786
+Harvey Darbyshire
+Ingenieria Mecanica"]
+	201137248 [label="201137248
+Eba Keitley
+Ingenieria Mecanica"]
+	201145786 -> 201137248
+	201145786 [label="201145786
+Harvey Darbyshire
+Ingenieria Mecanica"]
+	201147451 [label="201147451
+Ellerey Sherwyn
+Ingenieria Mecanica Electrica"]
+	201145786 -> 201147451
+	201157605 [label="201157605
+Alonzo Seagrove
+Ingenieria Industrial"]
+	201173540 [label="201173540
+Alvin Huckett
+Ingenieria Industrial"]
+	201157605 -> 201173540
+	201183728 [label="201183728
+Alvin Huckett
+Ingenieria Quimica"]
+	201309890 [label="201309890
+Grayce Poltone
+Ingenieria Industrial"]
+	201183728 -> 201309890
+	201309890 [label="201309890
+Grayce Poltone
+Ingenieria Industrial"]
+	201232485 [label="201232485
+Vivian Currer
+Ingenieria Quimica"]
+	201309890 -> 201232485
+	201232485 [label="201232485
+Vivian Currer
+Ingenieria Quimica"]
+	201210811 [label="201210811
+Lamont Barthrup
+Ingenieria Mecanica"]
+	201232485 -> 201210811
+	201232485 [label="201232485
+Vivian Currer
+Ingenieria Quimica"]
+	201255643 [label="201255643
+Alvin Huckett
+Ingenieria Industrial"]
+	201232485 -> 201255643
+	201255643 [label="201255643
+Alvin Huckett
+Ingenieria Industrial"]
+	201234795 [label="201234795
+Wilbur Alberts
+Ingenieria Mecanica Industrial"]
+	201255643 -> 201234795
+	201309890 [label="201309890
+Grayce Poltone
+Ingenieria Industrial"]
+	201327079 [label="201327079
+Franky Viney
+Ingenieria Industrial"]
+	201309890 -> 201327079
+	201327079 [label="201327079
+Franky Viney
+Ingenieria Industrial"]
+	201315898 [label="201315898
+Bernadette Pescud
+Ingenieria Mecanica Industrial"]
+	201327079 -> 201315898
+	201315898 [label="201315898
+Bernadette Pescud
+Ingenieria Mecanica Industrial"]
+	201315288 [label="201315288
+Joscelin Fewings
+Ingenieria Mecanica Electrica"]
+	201315898 -> 201315288
+	201327079 [label="201327079
+Franky Viney
+Ingenieria Industrial"]
+	201327675 [label="201327675
+Lamont Barthrup
+Ingenieria Mecanica Electrica"]
+	201327079 -> 201327675
+	201327675 [label="201327675
+Lamont Barthrup
+Ingenieria Mecanica Electrica"]
+	201339503 [label="201339503
+Drusilla Louca
+Ingenieria Mecanica Industrial"]
+	201327675 -> 201339503
+	201350393 [label="201350393
+Laurie Tumilty
+Ingenieria en Ciencias y Sistemas"]
+	201402462 [label="201402462
+Joscelin Fewings
+Ingenieria Mecanica"]
+	201350393 -> 201402462
+	201402462 [label="201402462
+Joscelin Fewings
+Ingenieria Mecanica"]
+	201374369 [label="201374369
+Lionel Messi
+Ingenieria Mecanica Industrial"]
+	201402462 -> 201374369
+	201374369 [label="201374369
+Lionel Messi
+Ingenieria Mecanica Industrial"]
+	201359507 [label="201359507
+Olly Brunelleschi
+Ingenieria Quimica"]
+	201374369 -> 201359507
+	201374369 [label="201374369
+Lionel Messi
+Ingenieria Mecanica Industrial"]
+	201389879 [label="201389879
+Darn Studdal
+Ingenieria Industrial"]
+	201374369 -> 201389879
+	201389879 [label="201389879
+Darn Studdal
+Ingenieria Industrial"]
+	201375524 [label="201375524
+Tim Goldspink
+Ingenieria Quimica"]
+	201389879 -> 201375524
+	201402462 [label="201402462
+Joscelin Fewings
+Ingenieria Mecanica"]
+	201489697 [label="201489697
+Judye Rossborough
+Ingenieria Mecanica Electrica"]
+	201402462 -> 201489697
+	201489697 [label="201489697
+Judye Rossborough
+Ingenieria Mecanica Electrica"]
+	201428558 [label="201428558
+Llywellyn Woodnutt
+Ingenieria Mecanica"]
+	201489697 -> 201428558
+	201428558 [label="201428558
+Llywellyn Woodnutt
+Ingenieria Mecanica"]
+	201412244 [label="201412244
+Eba Keitley
+Ingenieria Industrial"]
+	201428558 -> 201412244
+	201428558 [label="201428558
+Llywellyn Woodnutt
+Ingenieria Mecanica"]
+	201476680 [label="201476680
+Kim Westphal
+Ingenieria Quimica"]
+	201428558 -> 201476680
+	201476680 [label="201476680
+Kim Westphal
+Ingenieria Quimica"]
+	201461415 [label="201461415
+Roderigo Gomme
+Ingenieria Mecanica Industrial"]
+	201476680 -> 201461415
+	201489697 [label="201489697
+Judye Rossborough
+Ingenieria Mecanica Electrica"]
+	201511649 [label="201511649
+Aylmar Raubenheimer
+Ingenieria Mecanica"]
+	201489697 -> 201511649
+	201511649 [label="201511649
+Aylmar Raubenheimer
+Ingenieria Mecanica"]
+	201500866 [label="201500866
+Claybourne Nelmes
+Ingenieria en Ciencias y Sistemas"]
+	201511649 -> 201500866
+	201500866 [label="201500866
+Claybourne Nelmes
+Ingenieria en Ciencias y Sistemas"]
+	201509061 [label="201509061
+Tim Goldspink
+Ingenieria Mecanica Electrica"]
+	201500866 -> 201509061
+	201511649 [label="201511649
+Aylmar Raubenheimer
+Ingenieria Mecanica"]
+	201537627 [label="201537627
+Aylmar Raubenheimer
+Ingenieria Mecanica Electrica"]
+	201511649 -> 201537627
+	201537627 [label="201537627
+Aylmar Raubenheimer
+Ingenieria Mecanica Electrica"]
+	201516603 [label="201516603
+Aylmar Raubenheimer
+Ingenieria Mecanica Industrial"]
+	201537627 -> 201516603
+	201582352 [label="201582352
+Bobina Delacroux
+Ingenieria Mecanica Industrial"]
+	201740604 [label="201740604
+Llywellyn Woodnutt
+Ingenieria en Ciencias y Sistemas"]
+	201582352 -> 201740604
+	201740604 [label="201740604
+Llywellyn Woodnutt
+Ingenieria en Ciencias y Sistemas"]
+	201667272 [label="201667272
+Adriaens Timms
+Ingenieria en Ciencias y Sistemas"]
+	201740604 -> 201667272
+	201667272 [label="201667272
+Adriaens Timms
+Ingenieria en Ciencias y Sistemas"]
+	201646518 [label="201646518
+Aylmar Raubenheimer
+Ingenieria Mecanica Electrica"]
+	201667272 -> 201646518
+	201646518 [label="201646518
+Aylmar Raubenheimer
+Ingenieria Mecanica Electrica"]
+	201635991 [label="201635991
+Boycie Langlais
+Ingenieria Industrial"]
+	201646518 -> 201635991
+	201635991 [label="201635991
+Boycie Langlais
+Ingenieria Industrial"]
+	201594265 [label="201594265
+Ardene Benediktovich
+Ingenieria Mecanica Industrial"]
+	201635991 -> 201594265
+	201635991 [label="201635991
+Boycie Langlais
+Ingenieria Industrial"]
+	201643353 [label="201643353
+Llywellyn Woodnutt
+Ingenieria Mecanica Electrica"]
+	201635991 -> 201643353
+	201646518 [label="201646518
+Aylmar Raubenheimer
+Ingenieria Mecanica Electrica"]
+	201661519 [label="201661519
+Harvey Darbyshire
+Ingenieria Mecanica"]
+	201646518 -> 201661519
+	201667272 [label="201667272
+Adriaens Timms
+Ingenieria en Ciencias y Sistemas"]
+	201698163 [label="201698163
+Barn Killingbeck
+Ingenieria Mecanica Electrica"]
+	201667272 -> 201698163
+	201698163 [label="201698163
+Barn Killingbeck
+Ingenieria Mecanica Electrica"]
+	201669286 [label="201669286
+Tim Goldspink
+Ingenieria Mecanica"]
+	201698163 -> 201669286
+	201669286 [label="201669286
+Tim Goldspink
+Ingenieria Mecanica"]
+	201668149 [label="201668149
+Harvey Darbyshire
+Ingenieria Mecanica"]
+	201669286 -> 201668149
+	201698163 [label="201698163
+Barn Killingbeck
+Ingenieria Mecanica Electrica"]
+	201704168 [label="201704168
+Tim Goldspink
+Ingenieria Mecanica Electrica"]
+	201698163 -> 201704168
+	201704168 [label="201704168
+Tim Goldspink
+Ingenieria Mecanica Electrica"]
+	201709702 [label="201709702
+Dillon Blandamere
+Ingenieria Industrial"]
+	201704168 -> 201709702
+	201740604 [label="201740604
+Llywellyn Woodnutt
+Ingenieria en Ciencias y Sistemas"]
+	201816850 [label="201816850
+Emili Palleske
+Ingenieria Mecanica"]
+	201740604 -> 201816850
+	201816850 [label="201816850
+Emili Palleske
+Ingenieria Mecanica"]
+	201774497 [label="201774497
+Llywellyn Woodnutt
+Ingenieria en Ciencias y Sistemas"]
+	201816850 -> 201774497
+	201774497 [label="201774497
+Llywellyn Woodnutt
+Ingenieria en Ciencias y Sistemas"]
+	201766242 [label="201766242
+Franky Viney
+Ingenieria Mecanica Electrica"]
+	201774497 -> 201766242
+	201766242 [label="201766242
+Franky Viney
+Ingenieria Mecanica Electrica"]
+	201761573 [label="201761573
+Alonzo Seagrove
+Ingenieria Quimica"]
+	201766242 -> 201761573
+	201761573 [label="201761573
+Alonzo Seagrove
+Ingenieria Quimica"]
+	201764124 [label="201764124
+Harvey Darbyshire
+Ingenieria Industrial"]
+	201761573 -> 201764124
+	201766242 [label="201766242
+Franky Viney
+Ingenieria Mecanica Electrica"]
+	201773473 [label="201773473
+Krystal Crellin
+Ingenieria Mecanica"]
+	201766242 -> 201773473
+	201774497 [label="201774497
+Llywellyn Woodnutt
+Ingenieria en Ciencias y Sistemas"]
+	201790782 [label="201790782
+Claybourne Nelmes
+Ingenieria en Ciencias y Sistemas"]
+	201774497 -> 201790782
+	201790782 [label="201790782
+Claybourne Nelmes
+Ingenieria en Ciencias y Sistemas"]
+	201803912 [label="201803912
+Emili Palleske
+Ingenieria Mecanica Industrial"]
+	201790782 -> 201803912
+	201816850 [label="201816850
+Emili Palleske
+Ingenieria Mecanica"]
+	201947729 [label="201947729
+Camila Dibbert
+Ingenieria Mecanica Industrial"]
+	201816850 -> 201947729
+	201947729 [label="201947729
+Camila Dibbert
+Ingenieria Mecanica Industrial"]
+	201897987 [label="201897987
+Michelle Glanister
+Ingenieria Quimica"]
+	201947729 -> 201897987
+	201897987 [label="201897987
+Michelle Glanister
+Ingenieria Quimica"]
+	201825364 [label="201825364
+Phillis Syrie
+Ingenieria Quimica"]
+	201897987 -> 201825364
+	201825364 [label="201825364
+Phillis Syrie
+Ingenieria Quimica"]
+	201818908 [label="201818908
+Wilbur Alberts
+Ingenieria en Ciencias y Sistemas"]
+	201825364 -> 201818908
+	201825364 [label="201825364
+Phillis Syrie
+Ingenieria Quimica"]
+	201864201 [label="201864201
+Claybourne Nelmes
+Ingenieria en Ciencias y Sistemas"]
+	201825364 -> 201864201
+	201897987 [label="201897987
+Michelle Glanister
+Ingenieria Quimica"]
+	201921767 [label="201921767
+Consolata Reskelly
+Ingenieria Mecanica"]
+	201897987 -> 201921767
+	201921767 [label="201921767
+Consolata Reskelly
+Ingenieria Mecanica"]
+	201906670 [label="201906670
+Franky Viney
+Ingenieria Mecanica Industrial"]
+	201921767 -> 201906670
+	201921767 [label="201921767
+Consolata Reskelly
+Ingenieria Mecanica"]
+	201933753 [label="201933753
+Bobina Delacroux
+Ingenieria en Ciencias y Sistemas"]
+	201921767 -> 201933753
+	201947729 [label="201947729
+Camila Dibbert
+Ingenieria Mecanica Industrial"]
+	201954202 [label="201954202
+Eloise Trevarthen
+Ingenieria Mecanica Industrial"]
+	201947729 -> 201954202
+	201954202 [label="201954202
+Eloise Trevarthen
+Ingenieria Mecanica Industrial"]
+	201991578 [label="201991578
+Olly Brunelleschi
+Ingenieria Mecanica Industrial"]
+	201954202 -> 201991578
 }

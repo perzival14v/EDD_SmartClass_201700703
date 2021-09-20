@@ -6,6 +6,6 @@ import json
 
 def cargaMasivaEstudiantes(path,arbol):
 
-    analizador(open(path,"r"),arbol)
+    analizador(open(path,"r").read(),arbol)
     
     

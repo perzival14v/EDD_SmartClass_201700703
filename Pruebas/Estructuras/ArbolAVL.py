@@ -1,5 +1,5 @@
-from Estructuras.NodoArbol import nodoArbol as nA
-from Objetos.Estudiantes import estudiante
+from Fase2.Estructuras.NodoArbol import nodoArbol as nA
+from Fase2.Objetos.Estudiantes import estudiante
 import copy
 
 def correccionNivel(nodo:nA):

@@ -1,4 +1,4 @@
-from Estructuras import NodoArbol
+from Fase2.Estructuras import NodoArbol
 
 
 class nodoLD:

@@ -14,4 +14,5 @@ class listaDoble:
             while aux.siguiente != None:
                 aux = aux.siguiente
             aux.siguiente = nuevo
+            aux.siguiente.anterior = aux
     

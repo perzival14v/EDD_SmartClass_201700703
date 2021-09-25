@@ -1,4 +1,4 @@
-from Fase2.Estructuras.NodoArbol import nodoArbol as nA
+from Fase2.Estructuras.NodoArbolAVL import nodoArbol as nA
 from Fase2.Objetos.Estudiantes import estudiante
 import copy
 

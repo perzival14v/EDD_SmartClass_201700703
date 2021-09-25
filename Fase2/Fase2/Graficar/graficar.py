@@ -1,5 +1,5 @@
 from Fase2.Estructuras.NodoLD import nodoLD
-from Fase2.Estructuras.NodoArbol import nodoArbol
+from Fase2.Estructuras.NodoArbolAVL import nodoArbol
 from typing import Type
 import graphviz
 

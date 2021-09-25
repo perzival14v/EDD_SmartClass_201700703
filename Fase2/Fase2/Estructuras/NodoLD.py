@@ -1,6 +1,3 @@
-from Fase2.Estructuras import NodoArbol
-
-
 class nodoLD:
     def __init__(self):
         self.info=None

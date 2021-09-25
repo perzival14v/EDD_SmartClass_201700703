@@ -8,7 +8,7 @@
             "name": "Django",
             "type": "python",
             "request": "launch",
-            "pythonPath":"C:/Users/USUARIO/AppData/Local/Programs/Python/Python38/python.exe",
+            "python":"C:/Users/USUARIO/AppData/Local/Programs/Python/Python38/python.exe",
             "program": "${workspaceFolder}\\manage.py",
             "args": [
                 "runserver",

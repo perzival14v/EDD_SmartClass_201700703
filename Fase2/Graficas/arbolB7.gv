@@ -1,0 +1,20 @@
+digraph G {
+	graph [rankdir=LR]
+	node [height=.1 shape=record]
+	edge [dir=both]
+	nodesep=0.5
+	compound=true
+	nodo0_0 [label="<f0> |<f1>90|<f2>"]
+	"nodo1|nodo0_0I|0" [label="<f0> |<f1>30|<f2>"]
+	"nodo2|nodo1|nodo0_0I|0I|0" [label="<f0> |<f1>20|<f2>"]
+	"nodo1|nodo0_0I|0":f0 -> "nodo2|nodo1|nodo0_0I|0I|0":f1
+	"nodo2|nodo1|nodo0_0I|0D|0" [label="<f0> |<f1>40|<f2>"]
+	"nodo1|nodo0_0I|0":f2 -> "nodo2|nodo1|nodo0_0I|0D|0":f1
+	nodo0_0:f0 -> "nodo1|nodo0_0I|0":f1
+	"nodo1|nodo0_0D|0" [label="<f0> |<f1>150|<f2>"]
+	"nodo2|nodo1|nodo0_0D|0I|0" [label="<f0> |<f1>100|<f2>"]
+	"nodo1|nodo0_0D|0":f0 -> "nodo2|nodo1|nodo0_0D|0I|0":f1
+	"nodo2|nodo1|nodo0_0D|0D|0" [label="<f0> |<f1>200|<f2>"]
+	"nodo1|nodo0_0D|0":f2 -> "nodo2|nodo1|nodo0_0D|0D|0":f1
+	nodo0_0:f2 -> "nodo1|nodo0_0D|0":f1
+}

@@ -1,3 +1,4 @@
+from Fase2.Estructuras.NodoArbolB import nodoArbolB
 from Fase2.Estructuras.ArbolB import arbolB
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse, response
@@ -7,7 +8,7 @@ from Fase2.Estructuras.ArbolAVL import *
 import json
 
 arbolEstudiantes = arbolAVL()
-arbol_cursos_pensum = arbolB(5)
+arbol_cursos_pensum = arbolB(3)
 
 
 @csrf_exempt
@@ -30,11 +31,23 @@ def estudiantes(request):
 def cursosEstudiantes(request):    
     if request.method=="POST":        
         instrucciones_json = json.loads(request.body)
-        arbol_cursos_pensum.agregar(8)
-        arbol_cursos_pensum.agregar(10)
-        arbol_cursos_pensum.agregar(12)
-        arbol_cursos_pensum.agregar(14)
-        arbol_cursos_pensum.agregar(16)
+        arbol_cursos_pensum.agregar(nodoArbolB(100,"nodo1"))
+        arbol_cursos_pensum.agregar(nodoArbolB(90,"nodo2"))
+        arbol_cursos_pensum.agregar(nodoArbolB(40,"nodo3"))
+        arbol_cursos_pensum.agregar(nodoArbolB(30,"nodo4"))
+        arbol_cursos_pensum.agregar(nodoArbolB(20,"nodo5"))        
+        arbol_cursos_pensum.agregar(nodoArbolB(200,"nodo6"))        
+        arbol_cursos_pensum.agregar(nodoArbolB(300,"nodo7"))
+        arbol_cursos_pensum.agregar(nodoArbolB(400,"nodo8"))
+        arbol_cursos_pensum.agregar(nodoArbolB(500,"nodo9"))
+        arbol_cursos_pensum.agregar(nodoArbolB(600,"nodo10"))
+        arbol_cursos_pensum.agregar(nodoArbolB(700,"nodo11"))
+        arbol_cursos_pensum.agregar(nodoArbolB(800,"nodo12"))
+        arbol_cursos_pensum.agregar(nodoArbolB(900,"nodo13"))
+        graficar_arbol_b(arbol_cursos_pensum,0)
+        arbol_cursos_pensum.agregar(nodoArbolB(1000,"nodo14"))
+        graficar_arbol_b(arbol_cursos_pensum,1)
+
         print("Prueba de arbol")
 
 

@@ -1,6 +1,9 @@
 from Fase2.Estructuras.NodoArbolB import nodoArbolB
 from Fase2.Estructuras.contenedor_nodos_arbolB import *
-import copy
+import copy,gc
+
+gc.disable()
+
 
 class arbolB:
     def __init__(self,orden):
@@ -11,13 +14,16 @@ class arbolB:
 
         if self.raiz == None:
             self.raiz = Contenedor()
-            Contenedor.agregar(self.raiz,dato.indice,dato)
+            Contenedor.agregar(self.raiz,dato.indice,dato,self.raiz.padre)
         else:
-            
-            retorno = Contenedor.agregar(self.raiz,dato.indice,dato)
+            #AQUI ESTA EL ERROR            
+            gc.disable()
+            retorno = Contenedor.agregar(self.raiz,dato.indice,dato,self.raiz.padre)
 
             padre = retorno[0]
+            
             padre = detectar_division(retorno,self.orden)
+
 
 def eliminar_hijo(padre,hijo):
 

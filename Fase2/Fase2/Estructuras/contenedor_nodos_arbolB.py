@@ -1,4 +1,8 @@
 from Fase2.Estructuras.NodoArbolB import nodoArbolB
+import gc
+
+gc.disable()
+
 
 class Contenedor:
     def __init__(self):
@@ -7,11 +11,13 @@ class Contenedor:
         self.contador=0
 
     @staticmethod
-    def agregar(contenedor,indice:int,dato:nodoArbolB):
-
+    def agregar(contenedor,indice:int,dato:nodoArbolB,padre):
+        
+        #se agrega esta linea por el error que olvida al padre de donde viene
+        
         index = 0
         contenedorUsado = contenedor
-
+        
         if contenedor.lista == []:
             contenedor.lista.append(dato)
             return [contenedorUsado,len(contenedor.lista)]
@@ -21,15 +27,22 @@ class Contenedor:
             if indice > x.indice:
                 if x.hijoDer != None:
                     if index == len(contenedor.lista)-1:
-                        return Contenedor.agregar(x.hijoDer,indice,dato)
+                        gc.disable()                        
+                        try:
+                            return Contenedor.agregar(x.hijoDer,indice,dato,x.hijoDer.padre)
+                        except:
+                            print("error")
+                         
                         
                     elif indice <= contenedor.lista[index+1].indice:
-                        return Contenedor.agregar(x.hijoDer,indice,dato)
+                        gc.disable()
+                        return Contenedor.agregar(x.hijoDer,indice,dato,x.hijoDer.padre)
                     else:
                         index += 1
                         continue
                 else:
                     if index+1 == len(contenedor.lista):
+                        gc.disable()
                         contenedor.lista.insert(index+1,dato)
                         break
                     else:
@@ -37,8 +50,10 @@ class Contenedor:
 
             if indice <= x.indice:
                 if x.hijoIzq != None:
-                    return Contenedor.agregar(x.hijoIzq,indice,dato)                    
+                    gc.disable()
+                    return Contenedor.agregar(x.hijoIzq,indice,dato,x.hijoIzq.padre)                    
                 else:
+                    gc.disable()
                     contenedor.lista.insert(index,dato)
                     break
 
@@ -47,7 +62,7 @@ class Contenedor:
 
     @staticmethod
     def agregar_y_quitar(contenedor_origen,contenedor_destino,indice:int,dato:nodoArbolB):
-        Contenedor.agregar(contenedor_destino,indice,dato)
+        Contenedor.agregar(contenedor_destino,indice,dato,contenedor_destino.padre)
         contenedor_origen.lista.remove(dato)
 
     def subir_contenedor(contenedor_ascendente,contenedor_destino):
@@ -55,7 +70,7 @@ class Contenedor:
 
         Contenedor.agregar(contenedor_destino,
                             contenedor_ascendente.lista[0].indice,
-                            contenedor_ascendente.lista[0])
+                            contenedor_ascendente.lista[0],contenedor_destino.padre)
 
         
 

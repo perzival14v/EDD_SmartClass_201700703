@@ -5,10 +5,11 @@ from django.http import HttpResponse, response
 from Fase2.Graficar.graficar import *
 from Fase2.CargaArchivos.CargaMasiva import *
 from Fase2.Estructuras.ArbolAVL import *
-import json
+import json,gc
 
 arbolEstudiantes = arbolAVL()
 arbol_cursos_pensum = arbolB(3)
+
 
 
 @csrf_exempt
@@ -38,7 +39,10 @@ def cursosEstudiantes(request):
         arbol_cursos_pensum.agregar(nodoArbolB(20,"nodo5"))        
         arbol_cursos_pensum.agregar(nodoArbolB(200,"nodo6"))        
         arbol_cursos_pensum.agregar(nodoArbolB(300,"nodo7"))
+        #HASTA EL 300 VA BIEN
         arbol_cursos_pensum.agregar(nodoArbolB(400,"nodo8"))
+        
+
         arbol_cursos_pensum.agregar(nodoArbolB(500,"nodo9"))
         arbol_cursos_pensum.agregar(nodoArbolB(600,"nodo10"))
         arbol_cursos_pensum.agregar(nodoArbolB(700,"nodo11"))

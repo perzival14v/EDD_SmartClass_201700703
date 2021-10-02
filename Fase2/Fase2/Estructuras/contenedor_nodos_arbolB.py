@@ -11,7 +11,7 @@ class Contenedor:
         self.contador=0
 
     @staticmethod
-    def agregar(contenedor,indice:int,dato:nodoArbolB,padre):
+    def agregar(contenedor,indice:int,dato:nodoArbolB,orden):
         
         #se agrega esta linea por el error que olvida al padre de donde viene
         
@@ -27,22 +27,21 @@ class Contenedor:
             if indice > x.indice:
                 if x.hijoDer != None:
                     if index == len(contenedor.lista)-1:
-                        gc.disable()                        
-                        try:
-                            return Contenedor.agregar(x.hijoDer,indice,dato,x.hijoDer.padre)
-                        except:
-                            print("error")
-                         
-                        
+                                                                      
+                        hoja = Contenedor.agregar(x.hijoDer,indice,dato,orden)                        
+                        detectar_division([hoja,len(hoja.lista),contenedor],orden)
+                        break
                     elif indice <= contenedor.lista[index+1].indice:
-                        gc.disable()
-                        return Contenedor.agregar(x.hijoDer,indice,dato,x.hijoDer.padre)
+                        
+                        hoja = Contenedor.agregar(x.hijoDer,indice,dato,orden)
+                        detectar_division([hoja,len(hoja.lista),contenedor],orden)
+                        break
                     else:
                         index += 1
                         continue
                 else:
                     if index+1 == len(contenedor.lista):
-                        gc.disable()
+                        
                         contenedor.lista.insert(index+1,dato)
                         break
                     else:
@@ -50,27 +49,29 @@ class Contenedor:
 
             if indice <= x.indice:
                 if x.hijoIzq != None:
-                    gc.disable()
-                    return Contenedor.agregar(x.hijoIzq,indice,dato,x.hijoIzq.padre)                    
-                else:
-                    gc.disable()
+                    
+                    hoja = Contenedor.agregar(x.hijoIzq,indice,dato,orden)
+                    detectar_division([hoja,len(hoja.lista),contenedor],orden) 
+                    break                
+                else:                    
                     contenedor.lista.insert(index,dato)
+                    detectar_division([contenedor,len(contenedor.lista),contenedor.padre],orden)  
                     break
 
 
-        return [contenedorUsado,len(contenedor.lista)]
+        return contenedorUsado
 
     @staticmethod
-    def agregar_y_quitar(contenedor_origen,contenedor_destino,indice:int,dato:nodoArbolB):
-        Contenedor.agregar(contenedor_destino,indice,dato,contenedor_destino.padre)
+    def agregar_y_quitar(contenedor_origen,contenedor_destino,indice:int,dato:nodoArbolB,orden):
+        Contenedor.agregar(contenedor_destino,indice,dato,orden)
         contenedor_origen.lista.remove(dato)
 
-    def subir_contenedor(contenedor_ascendente,contenedor_destino):
+    def subir_contenedor(contenedor_ascendente,contenedor_destino,orden):
         contenedor_ascendente.padre = contenedor_destino.padre        
 
         Contenedor.agregar(contenedor_destino,
                             contenedor_ascendente.lista[0].indice,
-                            contenedor_ascendente.lista[0],contenedor_destino.padre)
+                            contenedor_ascendente.lista[0],orden)
 
         
 
@@ -94,4 +95,60 @@ class Contenedor:
 
         #contenedor_ascendente.lista.remove(contenedor_ascendente.lista[0])
 
-        return [contenedor_destino,len(contenedor_destino.lista)]
+        #return [contenedor_destino,len(contenedor_destino.lista),contenedor_destino.padre ]
+
+def eliminar_hijo(padre,hijo):
+
+    for i in padre.lista:
+        if i.hijoIzq == hijo:
+            i.hijoIzq = None
+        if i == padre.lista[len(padre.lista)-1]:
+            if i.hijoDer == hijo:
+                i.hijoDer = None
+
+def detectar_division(retorno,orden):
+    if retorno[1] == orden:
+
+        if retorno[2] != None:
+            nodoMedio = dividir(orden,retorno[0])
+            
+            eliminar_hijo(retorno[2],retorno[0])
+            
+            Contenedor.subir_contenedor(nodoMedio,retorno[2],orden)
+            
+        else:
+            return dividir(orden,retorno[0])                      
+
+def dividir(orden,contenedor:Contenedor):
+    if orden%2==1:
+        posicion = (orden+1)/2                
+    else:
+        posicion = orden/2 
+
+
+    separacion_izq = Contenedor()
+    separacion_der = Contenedor() 
+
+    
+    for i in range(int(posicion-1)):
+        Contenedor.agregar_y_quitar(contenedor,
+        separacion_izq,contenedor.lista[0].indice,
+        contenedor.lista[0],orden) 
+
+    separacion_izq.lista[len(separacion_izq.lista)-1].hijoDer = contenedor.lista[0].hijoIzq
+
+    for j in range(1,len(contenedor.lista)):
+        Contenedor.agregar_y_quitar(contenedor,
+        separacion_der,
+        contenedor.lista[1].indice,contenedor.lista[1],orden)
+                            
+    separacion_der.lista[0].hijoIzq = contenedor.lista[0].hijoDer
+    
+
+
+    contenedor.lista[0].hijoIzq = separacion_izq
+    contenedor.lista[0].hijoIzq.padre = contenedor
+    contenedor.lista[0].hijoDer = separacion_der
+    contenedor.lista[0].hijoDer.padre = contenedor               
+
+    return contenedor

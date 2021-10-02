@@ -1,0 +1,65 @@
+digraph G {
+	node [height=.1 shape=record]
+	edge [dir=both]
+	nodesep=0.5
+	compound=true
+	subgraph cluster_raiz {
+		graph [rankdir=LR]
+		nodo0_0 [label="<f0> |<f1>101|<f2>"]
+	}
+	subgraph "cluster_nodo1|nodo0_0I|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_0I|0" [label="<f0> |<f1>5|<f2>"]
+	}
+	subgraph "cluster_nodo1|nodo0_0I|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_0I|1" [label="<f0> |<f1>18|<f2>"]
+	}
+	"nodo1|nodo0_0I|1":f0 -> "nodo1|nodo0_0I|0":f2
+	subgraph "cluster_nodo1|nodo0_0I|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_0I|2" [label="<f0> |<f1>39|<f2>"]
+	}
+	nodo0_0:f0 -> "nodo1|nodo0_0I|0" [lhead="cluster_nodo1|nodo0_0I|0_contenedor"]
+	subgraph cluster_raiz {
+		graph [rankdir=LR]
+		nodo0_1 [label="<f0> |<f1>348|<f2>"]
+	}
+	subgraph "cluster_nodo1|nodo0_1I|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_1I|0" [label="<f0> |<f1>103|<f2>"]
+	}
+	subgraph "cluster_nodo1|nodo0_1I|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_1I|1" [label="<f0> |<f1>107|<f2>"]
+	}
+	"nodo1|nodo0_1I|1":f0 -> "nodo1|nodo0_1I|0":f2
+	subgraph "cluster_nodo1|nodo0_1I|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_1I|2" [label="<f0> |<f1>281|<f2>"]
+	}
+	nodo0_1:f0 -> "nodo1|nodo0_1I|0" [lhead="cluster_nodo1|nodo0_1I|0_contenedor"]
+	subgraph cluster_raiz {
+		graph [rankdir=LR]
+		nodo0_1 [label="<f0> |<f1>348|<f2>"]
+	}
+	subgraph "cluster_nodo1|nodo0_1D|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_1D|0" [label="<f0> |<f1>770|<f2>"]
+	}
+	subgraph "cluster_nodo1|nodo0_1D|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_1D|1" [label="<f0> |<f1>772|<f2>"]
+	}
+	"nodo1|nodo0_1D|1":f0 -> "nodo1|nodo0_1D|0":f2
+	subgraph "cluster_nodo1|nodo0_1D|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_1D|2" [label="<f0> |<f1>774|<f2>"]
+	}
+	"nodo1|nodo0_1D|2":f0 -> "nodo1|nodo0_1D|1":f2
+	subgraph "cluster_nodo1|nodo0_1D|0_contenedor" {
+		graph [rankdir=LR]
+		"nodo1|nodo0_1D|3" [label="<f0> |<f1>2036|<f2>"]
+	}
+	nodo0_1:f2 -> "nodo1|nodo0_1D|0" [lhead="cluster_nodo1|nodo0_1D|0_contenedor"]
+}

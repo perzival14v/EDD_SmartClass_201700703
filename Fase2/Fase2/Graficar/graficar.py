@@ -53,7 +53,8 @@ def graficarLD(nodo:nodoLD, contador):
 def graficar_arbol_b_recursivo(arbolB:arbolB, g, cr):
     contador=1 
     pos=0  
-    regreso="nodo" + str(cr[0]) + "|" + str(cr[2]) + cr[1] + "|" + str(pos)
+    nombre="nodo" + str(cr[0]) + "|" + str(cr[2]) + cr[1] + "|" + str(pos)
+    regreso=[nombre,"cluster_"+nombre+"_contenedor"]
     infoDentroNodo=""
     
     #nodo # <- indica el nivel del arbol | # <- indica del nodo que proviene |# <- indica la posicion dentro del nivel
@@ -67,9 +68,13 @@ def graficar_arbol_b_recursivo(arbolB:arbolB, g, cr):
 
         if i.hijoIzq != None:
             #CAMINO SI EL NODO ACTUAL TIENE UN HIJO IZQUIERDO 
-            
-            g.node(tag, nohtml("<f0> |<f1>" + str(i.indice) + "|<f2>"))                        
-            g.edge(tag+":f0",str(graficar_arbol_b_recursivo(i.hijoIzq,g,[cr[0]+1,"I", tag])) + ":f1")
+                        
+            with g.subgraph(name='cluster_'+nombre+"_contenedor") as c:   
+                c.graph_attr['rankdir'] = 'LR' 
+                c.node(tag, nohtml("<f0> |<f1>" + str(i.indice) + "|<f2>"))
+
+            retorno =  graficar_arbol_b_recursivo(i.hijoIzq,g,[cr[0]+1,"I", tag])         
+            g.edge(tag+":f0",retorno[0] , lhead=retorno[1])
             creado = True
 
         if i != arbolB.lista[len(arbolB.lista)-1] and pos != 0:
@@ -77,7 +82,9 @@ def graficar_arbol_b_recursivo(arbolB:arbolB, g, cr):
             #CAMINO SI YA TERMINO CON LOS HIJOS IZQUIERDO Y ES DIFERENTE AL ULTIMO NODO
             if not creado:
                 #PRIMER NODO
-                g.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))
+                with g.subgraph(name='cluster_'+nombre+"_contenedor") as c:   
+                    c.graph_attr['rankdir'] = 'LR'
+                    c.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))
 
             #SEGUNDO NODO
             
@@ -89,20 +96,30 @@ def graficar_arbol_b_recursivo(arbolB:arbolB, g, cr):
 
             
         else:
+            #CAMINO SI ES EL ULTIMO NODO EN LA LISTA (SE TERMINA CON EL NODO DERECHO)
             if i.hijoDer != None and pos+1 == len(arbolB.lista):
-                
-                g.edge(tag+":f2",str(graficar_arbol_b_recursivo(i.hijoDer,g,[cr[0]+1,"D", tag])+":f1"))
-                if pos != 0:
-                    tagAnterior = "nodo" + str(cr[0]) + "|" + str(cr[2]) + cr[1] + "|" + str(pos-1)                       
-                    g.edge(tag+":f0",tagAnterior+":f2")                    
-            else:      
 
-                if not creado:          
-                    g.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>")) 
+                with g.subgraph(name='cluster_'+nombre+"_contenedor") as c:   
+                    c.graph_attr['rankdir'] = 'LR'             
+                    c.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))
+
+                retorno = graficar_arbol_b_recursivo(i.hijoDer,g,[cr[0]+1,"D", tag])                           
+                g.edge(tag+":f2",retorno[0], lhead=retorno[1]) 
+                
+                                
+                if pos != 0:
+                    tagAnterior = "nodo" + str(cr[0]) + "|" + str(cr[2]) + cr[1] + "|" + str(pos-1)                       
+                    #g.edge(tag+":f0",tagAnterior+":f2")                    
+            else:      
+                #CAMINO SI ES EL ULTIMO NODO EN LA LISTA Y NO TIENE HIJO DERECHO
+                if not creado:
+                    with g.subgraph(name='cluster_'+nombre+"_contenedor") as c:   
+                        c.graph_attr['rankdir'] = 'LR'             
+                        c.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))                    
                 
                 if pos != 0:
                     tagAnterior = "nodo" + str(cr[0]) + "|" + str(cr[2]) + cr[1] + "|" + str(pos-1)                       
-                    g.edge(tag+":f0",tagAnterior+":f2")
+                    #g.edge(tag+":f0",tagAnterior+":f2")
 
         pos+=1
 
@@ -110,11 +127,11 @@ def graficar_arbol_b_recursivo(arbolB:arbolB, g, cr):
 
 def graficar_arbol_b(arbolB:arbolB, contador):
     g = graphviz.Digraph('G', filename='Graficas/arbolB' + str(contador) + '.gv', format='svg'
-                        , node_attr={'shape': 'record', 'height': '.1'})    
+                        , node_attr={'shape':'record', 'height': '.1'})    
     
     g.attr(nodesep="0.5")
     g.attr(compound="true")
-
+    
         
     #contador esta adelantado en una posicion para poder elegir el siguiente nodo de la lista
     contador = 1
@@ -134,8 +151,13 @@ def graficar_arbol_b(arbolB:arbolB, contador):
 
         if i.hijoIzq != None:
             #CAMINO SI EL NODO ACTUAL TIENE UN HIJO IZQUIERDO                        
-            g.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))
-            g.edge(tag+":f0",str(graficar_arbol_b_recursivo(i.hijoIzq,g,[1,"I", tag])) + ":f1")
+            
+            with g.subgraph(name='cluster_raiz') as c:   
+                c.graph_attr['rankdir'] = 'LR'             
+                c.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))
+
+            retorno = graficar_arbol_b_recursivo(i.hijoIzq,g,[1,"I", tag])
+            g.edge(tag+":f0", retorno[0], lhead=retorno[1])            
             creado = True
             
 
@@ -144,7 +166,9 @@ def graficar_arbol_b(arbolB:arbolB, contador):
             
             if not creado:
                 #PRIMER NODO
-                g.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))
+                with g.subgraph(name='cluster_raiz') as c:   
+                    c.graph_attr['rankdir'] = 'LR'             
+                    c.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))                
                 creado = True
 
             #SEGUNDO NODO (anterior)             
@@ -159,11 +183,17 @@ def graficar_arbol_b(arbolB:arbolB, contador):
             #CAMINO SI ES EL ULTIMO NODO EN LA LISTA (SE TERMINA CON EL NODO DERECHO)
             if i.hijoDer != None and pos+1 == len(arbolB.raiz.lista):
                 #g.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))
-                
-                g.edge(tag+":f2",str(graficar_arbol_b_recursivo(i.hijoDer,g,[1,"D", tag])+":f1"))               
+
+                with g.subgraph(name='cluster_raiz') as c:   
+                    c.graph_attr['rankdir'] = 'LR'             
+                    c.node(tag, nohtml("<f0> |<f1>" + infoDentroNodo + "|<f2>"))
+
+                retorno = graficar_arbol_b_recursivo(i.hijoDer,g,[1,"D", tag])                             
+                g.edge(tag+":f2",retorno[0], lhead=retorno[1])               
+
                 if pos != 0:
                     tagAnterior = "nodo" + str(nivel) + "_" + str(pos-1)                         
-                    g.edge(tag+":f0",tagAnterior+":f2")
+                    #g.edge(tag+":f0",tagAnterior+":f2")
                     
 
                 
@@ -175,14 +205,14 @@ def graficar_arbol_b(arbolB:arbolB, contador):
 
                 if pos != 0:
                     tagAnterior = "nodo" + str(nivel) + "_" + str(pos-1)                         
-                    g.edge(tag+":f0",tagAnterior+":f2")
-                    g.view()
+                    #g.edge(tag+":f0",tagAnterior+":f2")
+                    
                 
 
         pos+=1
                                 
     g.edge_attr['dir'] = 'both'
-    g.graph_attr['rankdir'] = 'LR'
+    
 
     
     g.view()

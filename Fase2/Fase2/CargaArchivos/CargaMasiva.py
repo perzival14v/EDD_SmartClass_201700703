@@ -8,20 +8,17 @@ import json
 def cargaMasivaEstudiantes(path,arbol):
     analizador(open(path,"r"),arbol)
     
-def cargaMasicaCursosPensum(path,arbol):
-    archivo = json.loads(open(path,"r").read())
+    
+def cargaMasicaCursosPensum(path,arbol):    
+    archivo = json.loads(open(path,"r",encoding="utf-8").read())
 
     for i in archivo.get("Cursos"):
         curso_nuevo = Curso()
         curso_nuevo.codigo = i.get("Codigo")
-        curso_nuevo.nombre = i.get("Nombre")
+        curso_nuevo.nombre = i.get("Nombre") 
         curso_nuevo.creditos = i.get("Creditos")
         curso_nuevo.pre_requisitos = i.get("Prerequisitos")
-        curso_nuevo.obligatorio = i.get("Obligatorio")
-
-        print(curso_nuevo.codigo)
-
-        indice = int(curso_nuevo.codigo)
+        curso_nuevo.obligatorio = i.get("Obligatorio")    
 
         nodo = nodoArbolB(int(curso_nuevo.codigo),curso_nuevo)
         arbol.agregar(nodo)

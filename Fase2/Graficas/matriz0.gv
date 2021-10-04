@@ -1,0 +1,75 @@
+digraph G {
+	edge [dir=both]
+	nodesep=0.5
+	node [shape=box]
+	"nodo-7--1" [label="Hora: 7" group=-1]
+	"nodo-7-3" [label=1 group=3]
+	"nodo-3--1" [label="Hora: 3" group=-1]
+	"nodo-3-4" [label=1 group=4]
+	"nodo-2--1" [label="Hora: 2" group=-1]
+	"nodo-2-8" [label=1 group=8]
+	"nodo-1--1" [label="Hora: 1" group=-1]
+	"nodo-1-1" [label=3 group=1]
+	"nodo-1-2" [label=1 group=2]
+	"nodo-1-3" [label=1 group=3]
+	"nodo--1--1" [label=0 group=-1]
+	"nodo--1-1" [label="Dia: 1" group=1]
+	"nodo--1-2" [label="Dia: 2" group=2]
+	"nodo--1-3" [label="Dia: 3" group=3]
+	"nodo--1-4" [label="Dia: 4" group=4]
+	"nodo--1-8" [label="Dia: 8" group=8]
+	{
+		rank=same
+		"nodo--1--1" -> "nodo--1-1" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo--1-1" -> "nodo--1-2" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo--1-2" -> "nodo--1-3" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo--1-3" -> "nodo--1-4" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo--1-4" -> "nodo--1-8" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo-1--1" -> "nodo-1-1" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo-1-1" -> "nodo-1-2" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo-1-2" -> "nodo-1-3" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo-2--1" -> "nodo-2-8" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo-3--1" -> "nodo-3-4" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo-7--1" -> "nodo-7-3" [headport=w tailport=e]
+	}
+	"nodo--1--1" -> "nodo-1--1" [headport=n tailport=s]
+	"nodo-1--1" -> "nodo-2--1" [headport=n tailport=s]
+	"nodo-2--1" -> "nodo-3--1" [headport=n tailport=s]
+	"nodo-3--1" -> "nodo-7--1" [headport=n tailport=s]
+	"nodo--1-1" -> "nodo-1-1" [headport=n tailport=s]
+	"nodo--1-2" -> "nodo-1-2" [headport=n tailport=s]
+	"nodo--1-3" -> "nodo-1-3" [headport=n tailport=s]
+	"nodo-1-3" -> "nodo-7-3" [headport=n tailport=s]
+	"nodo--1-4" -> "nodo-3-4" [headport=n tailport=s]
+	"nodo--1-8" -> "nodo-2-8" [headport=n tailport=s]
+}

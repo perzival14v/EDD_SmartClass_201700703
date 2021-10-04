@@ -1,4 +1,6 @@
+import re
 from Fase2.Estructuras.NodoArbolAVL import nodoArbol as nA
+from Fase2.Estructuras.NodoArbolB import nodoArbolB
 from Fase2.Objetos.Estudiantes import estudiante
 import copy
 
@@ -154,4 +156,17 @@ class arbolAVL:
             self.raiz=agregar2(self.raiz, indice, e)
             
             
-            
+def buscar(nodo:nA, id_busqueda):
+
+    if id_busqueda == nodo.indice:
+        return nodo.info
+    elif id_busqueda > nodo.indice:
+        if nodo.der == None:
+            return None
+        else:
+            return buscar(nodo.der,id_busqueda)
+    elif id_busqueda < nodo.indice:
+        if nodo.izq == None:
+            return None
+        else:
+            return buscar(nodo.izq,id_busqueda)

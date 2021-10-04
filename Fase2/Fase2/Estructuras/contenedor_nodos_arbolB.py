@@ -13,7 +13,7 @@ class Contenedor:
     @staticmethod
     def agregar(contenedor,indice:int,dato:nodoArbolB,orden):
         
-        #se agrega esta linea por el error que olvida al padre de donde viene
+        
         
         index = 0
         contenedorUsado = contenedor
@@ -55,7 +55,7 @@ class Contenedor:
                     break                
                 else:                    
                     contenedor.lista.insert(index,dato)
-                    detectar_division([contenedor,len(contenedor.lista),contenedor.padre],orden)  
+                    #detectar_division([contenedor,len(contenedor.lista),contenedor.padre],orden)  
                     break
 
 

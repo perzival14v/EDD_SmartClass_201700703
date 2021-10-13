@@ -1,0 +1,7 @@
+digraph G {
+	node [height=.1 shape=record]
+	edge [dir=both]
+	nodesep=0.5
+	compound=true
+	node0 [label="<f0> |107--Mátematica Intermedia 1|<f1> |770--Introducción a la Programación y Computación 1|<f2> |960--Matemática Cómputo 1|<f3>"]
+}

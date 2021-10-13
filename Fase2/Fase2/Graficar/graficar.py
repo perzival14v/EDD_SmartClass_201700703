@@ -1,13 +1,11 @@
-from logging import info
-from re import T
-import re
 from Fase2.Estructuras.NodoLD import nodoLD
 from Fase2.Estructuras.NodoArbolAVL import nodoArbol
 from Fase2.Estructuras.ArbolB import arbolB
 from Fase2.Estructuras.matriz_dispersa import matrizDispersa
-from typing import Type
 import graphviz
 from graphviz import nohtml
+
+from Fase2.Objetos import tareas
 
 
 def graficarArbolAVLrecursivo(nodo:nodoArbol, g):
@@ -17,7 +15,7 @@ def graficarArbolAVLrecursivo(nodo:nodoArbol, g):
             g.node(str(nodo.indice), label=str(str(nodo.indice)+"\n"+str(nodo.info.nombre)+"\n"+str(nodo.info.carrera)))
             g.node(str(nodo.izq.indice), label=str(str(nodo.izq.indice)+"\n"+str(nodo.izq.info.nombre)+"\n"+str(nodo.izq.info.carrera)))
 
-            g.edge(str(nodo.indice),str(nodo.izq.indice))
+            g.edge(str(nodo.indice),str(nodo.izq.indice),tailport="w", headport="n")
             graficarArbolAVLrecursivo(nodo.izq, g)
         
         if nodo.der != None:  
@@ -25,7 +23,7 @@ def graficarArbolAVLrecursivo(nodo:nodoArbol, g):
             g.node(str(nodo.indice), label=str(str(nodo.indice)+"\n"+str(nodo.info.nombre)+"\n"+str(nodo.info.carrera)))
             g.node(str(nodo.der.indice), label=str(str(nodo.der.indice)+"\n"+str(nodo.der.info.nombre)+"\n"+str(nodo.der.info.carrera)))
 
-            g.edge(str(nodo.indice),str(nodo.der.indice))
+            g.edge(str(nodo.indice),str(nodo.der.indice),tailport="e", headport="n")
             graficarArbolAVLrecursivo(nodo.der, g)
     else:
         return
@@ -33,7 +31,7 @@ def graficarArbolAVLrecursivo(nodo:nodoArbol, g):
 def graficarArbolAVL(nodo:nodoArbol, contador):
     g = graphviz.Digraph('G', filename='Graficas/arbolAVL' + str(contador) + '.gv', format='svg')
     g.attr("node", shape="box")
-    g.attr(splines="ortho")
+    #g.attr(splines="ortho")
     g.attr(nodesep="0.5")
 
     graficarArbolAVLrecursivo(nodo, g)        
@@ -43,9 +41,22 @@ def graficarArbolAVL(nodo:nodoArbol, contador):
 def graficarLD(nodo:nodoLD, contador):
 
     g = graphviz.Digraph('G', filename='Graficas/listaDoble' + str(contador) + '.gv', format='svg')
+    g.attr("node", shape="box")
+    
+    contador=0
+
+    aux = nodo
+
+    while aux != None:
+        etiqueta = str(aux.info.carnet) + "\n" + "Nombre: " + str(aux.info.nombre)         + "\n" + "Descripcion: " + str(aux.info.descripcion) + "\n" + "Materia: " + str(aux.info.materia)    + "\n" + "Fecha: " + str(aux.info.dia) + "/" + str(aux.info.mes) + "/" + str(aux.info.anio)     + "\n" + "Hora: " + str(aux.info.hora) + "\n" + "Estado: " + str(aux.info.estado)
+        g.node("nodo"+str(contador),etiqueta)
+        contador+=1
+        aux = aux.siguiente
+
+    contador=1
 
     while nodo.siguiente != None:
-        g.edge(str(nodo.info),str(nodo.siguiente.info))
+        g.edge("nodo"+str(contador),"nodo"+str(contador+1))
         nodo = nodo.siguiente      
             
     g.graph_attr['rankdir'] = 'LR'
@@ -54,8 +65,7 @@ def graficarLD(nodo:nodoLD, contador):
     g.view()
 #cr = contador recursivo
 def graficar_arbol_b_recursivo(arbolB:arbolB, g, numeracion):
-    #contador esta adelantado en una posicion para poder elegir el siguiente nodo de la lista
-    contador = 1
+    #contador esta adelantado en una posicion para poder elegir el siguiente nodo de la lista    
     textoNodo = ""
     pos=0
     secc=0
@@ -81,19 +91,22 @@ def graficar_arbol_b_recursivo(arbolB:arbolB, g, numeracion):
             #CAMINO SI EL NODO ACTUAL TIENE UN HIJO IZQUIERDO     
             union = ":f" + str(pos)  
             numeracion+=1                 
-            g.edge(tag+union,graficar_arbol_b_recursivo(i.hijoIzq,g,numeracion))
-            
+            respuesta=graficar_arbol_b_recursivo(i.hijoIzq,g,numeracion)
+            g.edge(tag+union,respuesta[0])
+            numeracion = respuesta[1]
         
         #CAMINO SI ES EL ULTIMO NODO EN LA LISTA (SE TERMINA CON EL NODO DERECHO)
         if i.hijoDer != None and pos+1 == len(arbolB.lista):
             union = ":f" + str(pos+1)
-            numeracion+=1                 
-            g.edge(tag+union,graficar_arbol_b_recursivo(i.hijoDer,g,numeracion))                                                     
+            numeracion+=1 
+            respuesta=graficar_arbol_b_recursivo(i.hijoDer,g,numeracion)      
+            g.edge(tag+union,respuesta[0])
+            numeracion = respuesta[1]                                                     
 
         
                                     
         pos+=1
-    return tag
+    return [tag,numeracion]
 
 def graficar_arbol_b(arbolB:arbolB, contador):
     g = graphviz.Digraph('G', filename='Graficas/arbolB' + str(contador) + '.gv', format='svg'

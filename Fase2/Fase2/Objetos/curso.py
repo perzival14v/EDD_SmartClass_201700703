@@ -1,7 +1,7 @@
 class Curso:
     def __init__(self) -> "constructor":
-        codigo=None
-        nombre=None
-        creditos=None
-        pre_requisitos=None
-        obligatorio = None
+        self.codigo=None
+        self.nombre=None
+        self.creditos=None
+        self.pre_requisitos=None
+        self.obligatorio = None

@@ -62,8 +62,36 @@ class Contenedor:
         return contenedorUsado
 
     @staticmethod
+    def agregar_mismo_nivel(contenedor,indice:int,dato:nodoArbolB,orden):
+                        
+        index = 0
+        contenedorUsado = contenedor
+        
+        if contenedor.lista == []:
+            contenedor.lista.append(dato)
+            return [contenedorUsado,len(contenedor.lista)]
+
+        for x in contenedor.lista:
+
+            if indice > x.indice:                
+                if index+1 == len(contenedor.lista):
+                    
+                    contenedor.lista.insert(index+1,dato)
+                    break
+                else:
+                    index+=1
+
+            if indice <= x.indice:                                   
+                contenedor.lista.insert(index,dato)
+                #detectar_division([contenedor,len(contenedor.lista),contenedor.padre],orden)  
+                break
+
+
+        return contenedorUsado
+
+    @staticmethod
     def agregar_y_quitar(contenedor_origen,contenedor_destino,indice:int,dato:nodoArbolB,orden):
-        Contenedor.agregar(contenedor_destino,indice,dato,orden)
+        Contenedor.agregar_mismo_nivel(contenedor_destino,indice,dato,orden)
         contenedor_origen.lista.remove(dato)
 
     def subir_contenedor(contenedor_ascendente,contenedor_destino,orden):
@@ -102,9 +130,11 @@ def eliminar_hijo(padre,hijo):
     for i in padre.lista:
         if i.hijoIzq == hijo:
             i.hijoIzq = None
-        if i == padre.lista[len(padre.lista)-1]:
+        if i.hijoDer == hijo:
+            i.hijoDer = None
+        """if i == padre.lista[len(padre.lista)-1]:
             if i.hijoDer == hijo:
-                i.hijoDer = None
+                i.hijoDer = None"""
 
 def detectar_division(retorno,orden):
     if retorno[1] == orden:

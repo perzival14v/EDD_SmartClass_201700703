@@ -12,11 +12,11 @@ class arbolB:
 
     def agregar(self,dato:nodoArbolB):
 
+        
         if self.raiz == None:
             self.raiz = Contenedor()
             Contenedor.agregar(self.raiz,dato.indice,dato,self.orden)
-        else:
-            #AQUI ESTA EL ERROR                        
+        else:                                   
             self.raiz = Contenedor.agregar(self.raiz,dato.indice,dato,self.orden)
             detectar_division([self.raiz,len(self.raiz.lista),self.raiz.padre],self.orden)         
             

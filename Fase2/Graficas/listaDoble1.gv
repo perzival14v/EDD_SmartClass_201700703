@@ -1,0 +1,12 @@
+digraph G {
+	graph [rankdir=LR]
+	edge [dir=both]
+	node [shape=box]
+	nodo0 [label="201509061
+Nombre: Examen de Lenguajes Formales y de Programacion
+Descripcion: Realizar el Examen de Lenguajes Formales y de Programacion
+Materia: Lenguajes Formales y de Programacion
+Fecha: 07/07/2021
+Hora: 8
+Estado: Realizado"]
+}

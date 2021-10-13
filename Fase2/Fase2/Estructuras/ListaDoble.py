@@ -1,6 +1,5 @@
 import re
-from Fase2.Estructuras.ArbolAVL import buscar
-from Fase2.Estructuras.NodoArbolB import nodoArbolB
+
 from Fase2.Estructuras.NodoLD import nodoLD
 
 
@@ -33,7 +32,17 @@ class listaDoble:
         while aux!= None:
             if aux.info == id_buscado:
                 return aux        
-            aux.siguiente
+            aux = aux.siguiente
 
         return None
+
+    def buscar_posicion(self,posicion):
+        aux = self.cabeza
+        contador=1
+
+        while contador<posicion:                   
+            aux = aux.siguiente
+            contador+=1
+
+        return aux.info
     

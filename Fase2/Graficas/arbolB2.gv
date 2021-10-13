@@ -1,0 +1,23 @@
+digraph G {
+	node [height=.1 shape=record]
+	edge [dir=both]
+	nodesep=0.5
+	compound=true
+	node0 [label="<f0> |348--Quimica General 1|<f1>"]
+	node1 [label="<f0> |101--Matemática Básica 1|<f1> |108--Matemática Básica 1|<f2>"]
+	node2 [label="<f0> |5--Técnicas de Estudio e Investigación|<f1> |18--Filosofia de la Ciencia|<f2> |35--Deportes 1|<f3> |39--Deportes 1|<f4>"]
+	node1:f0 -> node2
+	node3 [label="<f0> |103--Matemática Básica 2|<f1> |107--Mátematica Intermedia 1|<f2>"]
+	node1:f1 -> node3
+	node4 [label="<f0> |122--Matemática Básica 2|<f1> |123--Técnicas de Estudio e Investigación|<f2> |281--Sistemas Operativos 1|<f3>"]
+	node1:f2 -> node4
+	node0:f0 -> node1
+	node5 [label="<f0> |770--Introducción a la Programación y Computación 1|<f1> |777--Organización de Lenguajes y Compiladores 1|<f2>"]
+	node6 [label="<f0> |456--Matemática Cómputo 1|<f1> |567--Quimica General 1|<f2>"]
+	node5:f0 -> node6
+	node7 [label="<f0> |772--Estructuras de Datos|<f1> |774--Sistemas de Bases de Datos 1|<f2>"]
+	node5:f1 -> node7
+	node8 [label="<f0> |789--Matemática Intermedia 1|<f1> |796--Lenguajes Formales y de Programación|<f2> |960--Matemática Cómputo 1|<f3> |2036--Práctica Intermedia|<f4>"]
+	node5:f2 -> node8
+	node0:f1 -> node5
+}

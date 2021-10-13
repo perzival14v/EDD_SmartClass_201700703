@@ -1,4 +1,4 @@
-from re import T
+from re import findall
 from Fase2.Estructuras.nodo_matriz_dispersa import *
 
 class matrizDispersa:
@@ -22,7 +22,7 @@ class matrizDispersa:
         entrar2 = True
         
 
-    #COLUMNAS-------------------------------------------------------------------------------
+        #COLUMNAS-------------------------------------------------------------------------------
         #Verificando que exista la columna
         while box.der != None:
             if columna > box.der.posicion[1]:
@@ -54,7 +54,7 @@ class matrizDispersa:
             box.der = nuevo
             box.der.tag = "Dia: " + str(columna)
             
-    #FILAS --------------------------------------------------------------------
+        #FILAS --------------------------------------------------------------------
         while box2.abajo != None:
             if  fila > box2.abajo.posicion[0]:
                 box2 = box2.abajo
@@ -148,4 +148,17 @@ class matrizDispersa:
             nuevo_dentro.abajo.arriba = nuevo_dentro
             column.abajo = nuevo_dentro
         
+
+    def buscar(self,fila:int,columna:int):
             
+        aux1 = self.raiz        
+
+        while aux1 != None:
+            aux2 = aux1.abajo
+            while aux2!= None:
+                if aux2.posicion[0] == fila and aux2.posicion[1] == columna:
+                    return aux2.info
+                aux2 = aux2.der
+            aux1 = aux1.abajo
+        
+        return None

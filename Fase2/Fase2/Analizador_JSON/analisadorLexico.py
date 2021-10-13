@@ -1,6 +1,6 @@
 from typing import IO
 from Fase2.Estructuras.ListaDoble import listaDoble
-from Fase2.Objetos.Estudiantes import *
+from Fase2.Objetos.estudiante import *
 from Fase2.Estructuras.ArbolAVL import *
 import re, copy
 
@@ -10,15 +10,19 @@ from Fase2.Objetos.tareas import Tarea
 def analizador(archivo,arbol:arbolAVL):
 
     separador=0
+    est=None
+    tar=None
 
     for line in archivo:
         if re.search("user",str.lower(line))!= None:
             separador=0
-            est = estudiante()
-            tar = Tarea()
+            est = Estudiantes()
+            
 
         if re.search("task",str.lower(line))!= None:
             separador=1
+            tar = Tarea()
+                       
 
         if separador==0 and re.search("\$element",line)==None:
             if re.search("carnet",str.lower(line)):
@@ -32,9 +36,9 @@ def analizador(archivo,arbol:arbolAVL):
             if re.search("password",str.lower(line)):
                 est.password=re.sub("\"","",re.search("\".*\"",line).group(0))
             if re.search("creditos",str.lower(line)):
-                est.creditos=re.sub("\"","",re.search("\".*\"",line).group(0))
+                est.creditos="".join(re.findall("\d",line))
             if re.search("edad",str.lower(line)):
-                est.edad=re.sub("\"","",re.search("\".*\"",line).group(0))
+                est.edad="".join(re.findall("\d",line))
         elif separador==1 and re.search("\$element",line)==None:
             if re.search("carnet",str.lower(line)):
                 tar.carnet=re.sub("\"","",re.search("\".*\"",line).group(0))                
@@ -62,10 +66,10 @@ def analizador(archivo,arbol:arbolAVL):
                 tar.estado=re.sub("\"","",re.search("\".*\"",line).group(0))
         
         if re.search("\$element",line)!=None and separador==0 and re.search("user",str.lower(line))== None:
-            arbol.agregar(copy.deepcopy(est.carnet),copy.deepcopy(est))
+            arbol.agregar(copy.deepcopy(int(est.carnet)),copy.deepcopy(est))
             est=None
         elif re.search("\$element",line)!=None and separador==1 and re.search("task",str.lower(line))== None:
-            estudiante = buscar(arbol.raiz,tar.carnet)
+            estudiante = buscar_dentro_AVL(arbol.raiz,int(tar.carnet))
 
             if estudiante == None:
                 print("Estudiante no existe no se agrega tarea")
@@ -73,6 +77,8 @@ def analizador(archivo,arbol:arbolAVL):
                 if estudiante.yearList == None:
                     estudiante.yearList = listaDoble()
                 
-                buscar_y_agregar_tarea(estudiante.yearList,tar.anio,tar.mes,tar.dia,tar)
-                print()
+                buscar_y_agregar_tarea(estudiante.yearList , copy.copy(int(tar.anio))
+                                        ,copy.copy(int(tar.mes)),copy.copy(int(tar.dia))
+                                        ,copy.copy(int(tar.hora)),copy.deepcopy(tar))                
+            tar=None
         

@@ -1,0 +1,32 @@
+digraph G {
+	edge [dir=both]
+	nodesep=0.5
+	node [shape=box]
+	"nodo-16--1" [label="Hora: 16" group=-1]
+	"nodo-16-30" [label=1 group=30]
+	"nodo-8--1" [label="Hora: 8" group=-1]
+	"nodo-8-7" [label=1 group=7]
+	"nodo--1--1" [label=0 group=-1]
+	"nodo--1-7" [label="Dia: 7" group=7]
+	"nodo--1-30" [label="Dia: 30" group=30]
+	{
+		rank=same
+		"nodo--1--1" -> "nodo--1-7" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo--1-7" -> "nodo--1-30" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo-8--1" -> "nodo-8-7" [headport=w tailport=e]
+	}
+	{
+		rank=same
+		"nodo-16--1" -> "nodo-16-30" [headport=w tailport=e]
+	}
+	"nodo--1--1" -> "nodo-8--1" [headport=n tailport=s]
+	"nodo-8--1" -> "nodo-16--1" [headport=n tailport=s]
+	"nodo--1-7" -> "nodo-8-7" [headport=n tailport=s]
+	"nodo--1-30" -> "nodo-16-30" [headport=n tailport=s]
+}

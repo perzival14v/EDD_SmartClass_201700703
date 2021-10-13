@@ -21,4 +21,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('carga/', cargaMasiva),
     path('pruebas/',pruebas),
+    path('reporte/',reportes),
+    path('estudiante/',crud_estudiantes),
+    path('recordatorios/',crud_recordatorios),
+    path('cursosEstudiantes/',crud_cursosEstudiante),
+    path('cursosPensum/',crud_cursosPensum),
 ]

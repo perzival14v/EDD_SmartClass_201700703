@@ -1,7 +1,6 @@
 import re
 from Fase2.Estructuras.NodoArbolAVL import nodoArbol as nA
-from Fase2.Estructuras.NodoArbolB import nodoArbolB
-from Fase2.Objetos.Estudiantes import estudiante
+from Fase2.Objetos.estudiante import Estudiantes
 import copy
 
 def correccionNivel(nodo:nA):
@@ -63,7 +62,7 @@ def rid(abuelo:nA):
     abuelo.izq = ri(abuelo.izq)
     return rd(abuelo)
 
-def agregar2(nodoActual:nA, indice, estudiante:estudiante):
+def agregar2(nodoActual:nA, indice, estudiante:Estudiantes):
 
     #RAMA DERECHA
     if indice >= nodoActual.indice :                 
@@ -147,7 +146,7 @@ class arbolAVL:
     def __init__(self):
         self.raiz= None  
 
-    def agregar(self, indice, e:estudiante):
+    def agregar(self, indice, e:Estudiantes):
         if self.raiz == None:
             self.raiz = nA()
             self.raiz.indice = indice
@@ -156,7 +155,7 @@ class arbolAVL:
             self.raiz=agregar2(self.raiz, indice, e)
             
             
-def buscar(nodo:nA, id_busqueda):
+def buscar_dentro_AVL(nodo:nA, id_busqueda):
 
     if id_busqueda == nodo.indice:
         return nodo.info
@@ -164,9 +163,29 @@ def buscar(nodo:nA, id_busqueda):
         if nodo.der == None:
             return None
         else:
-            return buscar(nodo.der,id_busqueda)
+            return buscar_dentro_AVL(nodo.der,id_busqueda)
     elif id_busqueda < nodo.indice:
         if nodo.izq == None:
             return None
         else:
-            return buscar(nodo.izq,id_busqueda)
+            return buscar_dentro_AVL(nodo.izq,id_busqueda)
+
+
+def borrar_nodo(nodo:nA, id_busqueda):
+
+    if id_busqueda == nodo.indice:
+        nodo = None        
+    elif id_busqueda > nodo.indice:
+        if nodo.der == None:
+            return None
+        elif nodo.der.indice == id_busqueda:
+            nodo.der = None            
+        else:
+            return buscar_dentro_AVL(nodo.der,id_busqueda)
+    elif id_busqueda < nodo.indice:
+        if nodo.izq == None:
+            return None
+        elif nodo.izq.indice == id_busqueda:
+            nodo.izq = None            
+        else:
+            return buscar_dentro_AVL(nodo.izq,id_busqueda)

@@ -1,11 +1,17 @@
 from django import http
+from django.http.response import HttpResponseBase
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
+from django.shortcuts import render
+
+from Fase2.settings import path_archivo
+
 from Fase2.Estructuras.ArbolB import arbolB
 from Fase2.Graficar.graficar import *
 from Fase2.CargaArchivos.CargaMasiva import *
 from Fase2.Estructuras.ArbolAVL import *
 from Fase2.Estructuras.matriz_dispersa import *
+from Fase2.Estructuras.tabla_hash import tablaHash
 import json,gc
 
 from Fase2.Objetos import estudiante
@@ -14,8 +20,12 @@ from Fase2.Objetos.tareas import Tarea
 arbolEstudiantes = arbolAVL()
 arbol_cursos_pensum = arbolB(5)
 indice_reporte=0
+apuntes_tabla_hash = tablaHash(7)
 
-
+@csrf_exempt
+def home_page(request):
+    
+    return render(request,"Fase2/login.html")
 
 @csrf_exempt
 def cargaMasiva(request):    
@@ -349,17 +359,5 @@ def crud_cursosPensum(request):
     return HttpResponse("buenas")
 
 @csrf_exempt
-def pruebas(request):    
-    if request.method=="POST":        
-        #instrucciones_json = json.loads(request.body)
-        matriz_prueba.agregar(1,1,1)
-        matriz_prueba.agregar(1,1,122)
-        matriz_prueba.agregar(1,1,133)
-        matriz_prueba.agregar(1,3,2)
-        matriz_prueba.agregar(1,2,3)
-        matriz_prueba.agregar(2,8,4)
-        matriz_prueba.agregar(3,4,5)
-        matriz_prueba.agregar(7,3,6)
-        graficar_matriz_dispersa(matriz_prueba,0)
-
+def pruebas(request):                 
     return HttpResponse("Buenas")

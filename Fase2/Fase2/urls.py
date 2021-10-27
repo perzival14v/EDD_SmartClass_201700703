@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
+    path('', home_page),
     path('admin/', admin.site.urls),
     path('carga/', cargaMasiva),
     path('pruebas/',pruebas),

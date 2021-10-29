@@ -4,8 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from Fase2.settings import path_archivo
-
+from Fase2.Objetos.red_estudio import redEstudio
 from Fase2.Estructuras.ArbolB import arbolB
 from Fase2.Graficar.graficar import *
 from Fase2.CargaArchivos.CargaMasiva import *
@@ -359,5 +358,12 @@ def crud_cursosPensum(request):
     return HttpResponse("buenas")
 
 @csrf_exempt
-def pruebas(request):                 
+def pruebas(request):
+    instrucciones_json = json.loads(request.body)
+    curso_ingresado = instrucciones_json.get("curso")     
+
+    pensum = redEstudio()
+    graficar_prerequisitos(curso_ingresado,pensum.red_de_estudio,1)
+
+
     return HttpResponse("Buenas")

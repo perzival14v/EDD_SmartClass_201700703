@@ -1,3 +1,5 @@
+import re
+from typing import List
 from Fase2.Estructuras.NodoLD import nodoLD
 from Fase2.Estructuras.NodoArbolAVL import nodoArbol
 from Fase2.Estructuras.ArbolB import arbolB
@@ -174,5 +176,35 @@ def graficar_matriz_dispersa(matriz:matrizDispersa, contador):
             ,tailport="s", headport="n")            
             aux2 = aux2.abajo        
         aux = aux.der
+
+    g.view()
+
+
+def graficar_prerequisito_recursivo(curso,lista_cursos:List,g,lista_usados:List,cola:List):
+    if curso not in lista_usados:        
+        label = curso + " - " + lista_cursos[curso][1]
+        g.node(curso,label=label)
+
+        lista_usados.append(curso)
+        cola.extend(lista_cursos[curso][3])
+
+        for i in cola:
+            graficar_prerequisito_recursivo(i,lista_cursos,g,lista_usados,[])
+            g.edge(curso,i,label=lista_cursos[i][2],tailport="w", headport="e")    
+        
+    
+
+    return None
+
+def graficar_prerequisitos(curso,lista_cursos,contador):
+    g = graphviz.Digraph('G', filename='Graficas/PreRequisito_'+str(curso) +"_"+ str(contador) + '.gv', format='svg')    
+    
+    g.attr(nodesep="0.5")
+    g.attr("node", shape="box")    
+    g.edge_attr['dir'] = 'back'          
+    g.graph_attr['rankdir'] = 'RL'      
+    
+    graficar_prerequisito_recursivo(curso,lista_cursos,g,[],[])
+
 
     g.view()

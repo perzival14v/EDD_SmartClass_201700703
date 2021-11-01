@@ -358,6 +358,41 @@ def crud_cursosPensum(request):
     return HttpResponse("buenas")
 
 @csrf_exempt
+def pre_requisitos(request):
+    instrucciones_json = json.loads(request.body)
+    curso_ingresado = instrucciones_json.get("curso")     
+
+    pensum = redEstudio()
+    graficar_prerequisitos(curso_ingresado,pensum.red_de_estudio,1)
+
+
+    return HttpResponse("Curso analizado")
+
+@csrf_exempt
+def cargar_apuntes(request):
+    instrucciones_json = json.loads(request.body)
+    curso_ingresado = instrucciones_json.get("curso")     
+
+    pensum = redEstudio()
+    graficar_prerequisitos(curso_ingresado,pensum.red_de_estudio,1)
+
+
+    return HttpResponse("Curso analizado")
+
+
+@csrf_exempt
+def graficar_apuntes(request):
+    instrucciones_json = json.loads(request.body)
+    curso_ingresado = instrucciones_json.get("curso")     
+
+    pensum = redEstudio()
+    graficar_prerequisitos(curso_ingresado,pensum.red_de_estudio,1)
+
+
+    return HttpResponse("Curso analizado")
+
+
+@csrf_exempt
 def pruebas(request):
     instrucciones_json = json.loads(request.body)
     curso_ingresado = instrucciones_json.get("curso")     
@@ -366,4 +401,4 @@ def pruebas(request):
     graficar_prerequisitos(curso_ingresado,pensum.red_de_estudio,1)
 
 
-    return HttpResponse("Buenas")
+    return HttpResponse("Curso analizado")

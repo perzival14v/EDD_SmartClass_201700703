@@ -42,6 +42,8 @@ def cargaMasiva(request):
                 cargaMasicaCursosPensum(instrucciones_json[0].get("path"), arbol_cursos_pensum)                
             elif str.lower(instrucciones_json[0].get("tipo")) == "curso":
                 cargaMasivaCursos(instrucciones_json[0].get("path"), arbolEstudiantes)
+            elif str.lower(instrucciones_json[0].get("tipo")) == "apuntes":
+                cargaMasivaApuntes(instrucciones_json[0].get("path"), apuntes_tabla_hash)
                 
         else:
             print("MALA CARGA")
@@ -370,14 +372,25 @@ def pre_requisitos(request):
 
 @csrf_exempt
 def cargar_apuntes(request):
-    instrucciones_json = json.loads(request.body)
-    curso_ingresado = instrucciones_json.get("curso")     
+    global apuntes_tabla_hash
 
-    pensum = redEstudio()
-    graficar_prerequisitos(curso_ingresado,pensum.red_de_estudio,1)
+    if request.method=="POST":        
+        instrucciones_json = json.loads(request.body)
+        if "tipo" in instrucciones_json[0].keys():
+            #Carga de estudiantes dentro del arbol AVL
+            if str.lower(instrucciones_json[0].get("tipo")) == "estudiante":                
+                cargaMasivaEstudiantes(instrucciones_json[0].get("path"), arbolEstudiantes)               
+            #Carga de cursos de pensum dentro de arbol B                
+            elif str.lower(instrucciones_json[0].get("tipo")) == "cursos_pensum":
+                cargaMasicaCursosPensum(instrucciones_json[0].get("path"), arbol_cursos_pensum)                
+            elif str.lower(instrucciones_json[0].get("tipo")) == "curso":
+                cargaMasivaCursos(instrucciones_json[0].get("path"), arbolEstudiantes)
+                
+        else:
+            print("MALA CARGA")
 
 
-    return HttpResponse("Curso analizado")
+    return HttpResponse("Cargado con exito")
 
 
 @csrf_exempt

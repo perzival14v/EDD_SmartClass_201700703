@@ -16,16 +16,39 @@ def siguiente_primo(numero):
         else:
             prueba+=1        
 
-def agregar(diccionario,nodo:nodoHash,indice,tamaño,apunte):
+def reposicionar(arreglo,nodo:nodoHash,indice,tamaño):
+    n=1
+        
+    #BUSCAR SI EXISTE YA EL INDICE Y LA INFORMACION
+    if nodo.llave == arreglo[indice][1].llave:
+        arreglo[indice][1]=nodo
+        return arreglo
+
+    #SI HAY COLISION HACER REPOSICIONAMIENTO CUADRATICO
+    while arreglo[indice][1].llave!=None:
+        aumento = n*n                           
+
+        if indice+aumento > tamaño:
+            indice = (indice+aumento)%tamaño
+        else:
+            indice += aumento
+        n+=1
+    
+    arreglo[indice][1]=nodo
+    return arreglo
+
+
+def agregar(arreglo,nodo:nodoHash,indice,tamaño,apunte):
     #AGREGAR Y BUSCAR INDICE        
         n=1
         
-        if nodo.llave == diccionario[indice].llave:
-            diccionario[indice].lista.agregar(apunte)
-            return diccionario
+        #BUSCAR SI EXISTE YA EL INDICE Y LA INFORMACION
+        if nodo.llave == arreglo[indice][1].llave:
+            arreglo[indice][1].lista.agregar(apunte)
+            return [arreglo,0]
 
-
-        while indice in diccionario:
+        #SI HAY COLISION HACER REPOSICIONAMIENTO CUADRATICO
+        while arreglo[indice][1].llave!=None:
             aumento = n*n                           
 
             if indice+aumento > tamaño:
@@ -35,34 +58,42 @@ def agregar(diccionario,nodo:nodoHash,indice,tamaño,apunte):
             n+=1
 
         nodo.lista.agregar(apunte)
-        diccionario[indice]=nodo
-        return diccionario
+        arreglo[indice][1]=nodo
+        return [arreglo,1]
 
 class tablaHash(object):
     def __init__(self,tamaño):
-        self.tabla_hash = {}
+        self.tabla_hash = []
         self.tamaño=tamaño
         self.datos_ingresados=0
+        for i in range(0,self.tamaño):
+            self.tabla_hash.append([i,nodoHash()])
 
-    def funcion(k,m):
+    def funcion(self,k,m):
         return k%m
 
     def agregar(self,nodo:nodoHash,apunte):
         indice = self.funcion(nodo.llave,self.tamaño)
 
-        self.tabla_hash=agregar(self.tabla_hash,nodo,indice,self.tamaño,apunte)
-        self.datos_ingresados+=1
+        resultado = agregar(self.tabla_hash,nodo,indice,self.tamaño,apunte)
+        self.tabla_hash= resultado[0]
+        self.datos_ingresados+= resultado[1]
 
         #REDIMENSIONAR TABLA HASH
 
         if self.datos_ingresados/self.tamaño >=0.5:
             self.tamaño=siguiente_primo(self.tamaño)
 
-            aux={}
+            aux=[]
 
-            for y in self.tabla_hash.values():
-                indice = self.funcion(y.llave,self.tamaño)
-                aux=agregar(aux,y,indice,self.tamaño)
+            for i in range(0,self.tamaño):
+                aux.append([i,nodoHash()])
+
+
+            for j in self.tabla_hash:
+                if j[1].llave !=None:
+                    indice = self.funcion(j[1].llave,self.tamaño)
+                    aux=reposicionar(aux,j[1],indice,self.tamaño)
 
             self.tabla_hash=aux
 

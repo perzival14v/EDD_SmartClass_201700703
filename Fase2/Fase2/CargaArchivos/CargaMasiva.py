@@ -1,8 +1,12 @@
 import re
 from Fase2.Analizador_JSON.analisadorLexico import analizador
-from Fase2.Estructuras import ArbolAVL, ListaDoble
+from Fase2.Estructuras import ArbolAVL, ListaDoble, nodo_hash
 from Fase2.Estructuras.ArbolAVL import *
 from Fase2.Estructuras.ArbolB import arbolB
+from Fase2.Estructuras.tabla_hash import tablaHash
+from Fase2.Estructuras.nodo_hash import nodoHash
+from Fase2.Objetos import apunte
+from Fase2.Objetos.apunte import Apunte
 from Fase2.Objetos import curso
 from Fase2.Objetos.estudiante import *
 from Fase2.Objetos.curso import *
@@ -93,3 +97,25 @@ def cargaMasivaCursos(path,arbol:arbolAVL()):
         else:
             print("Estudiante " + carnet +" no existe, se salta la informacion")
 
+
+def cargaMasivaApuntes(path,tabla_hash):
+    archivo = json.loads(open(path,"r",encoding="utf-8").read())
+
+    datos = archivo.get("usuarios")
+
+    for i in datos:
+        carnet = i.get("carnet")
+        apuntes = i.get("apuntes")
+        for j in apuntes:
+            titulo = j.get("Título")
+            contenido=j.get("Contenido")
+
+            #Creacion del nodo
+            nodo = nodoHash()
+            nodo.llave = int(carnet)        
+
+            #Creacion del apunte
+            anotacion = Apunte(titulo,contenido)
+
+            #Agregar a la tabla hash
+            tabla_hash.agregar(nodo,anotacion)

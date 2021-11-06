@@ -1,7 +1,7 @@
 {
     "usuarios": [
         {
-            "carnet":20210000003,
+            "carnet":202100003,
             "apuntes":[
                 {
                     "Título":"Lab edd -18/10",
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "carnet":20210000004,
+            "carnet":202100004,
             "apuntes":[
                 {
                     "Título":"tareas pendientes",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "carnet":20210000001,
+            "carnet":202100001,
             "apuntes":[
                 {
                     "Título":"pendientes",
@@ -35,6 +35,23 @@
                 },
                 {
                     "Título":"tabla hash",
+                    "Contenido":"es una estructura de datos, en gran medida como una matriz, excepto que cada valor (objeto) se almacena mediante una clave. Se trata de un almacén básicos de clave-valor. Primero, se crea una tabla hash vacía."  
+                }
+            ]
+        },
+        {
+            "carnet":201700703,
+            "apuntes":[
+                {
+                    "Título":"PRUEBA1",
+                    "Contenido":"- hacer hoja de calificacion fase 3 \n -calificar tareas \n - reporte de notas estudiantes"  
+                },
+                {
+                    "Título":"FINAL1",
+                    "Contenido":"¿Que es blockchain? \n Blockchain es una base de datos que almacena información en bloques en lugar de tablas como las bases de datos tradicionales. Cuando el bloque alcanza su capacidad máxima de datos, se “encadena” a los bloques anteriores. Una vez que se encadenan permanecerán vinculados para siempre, creando una línea de tiempo en los datos de la “cadena de bloques” que permite una mayor transparencia de las transacciones. "  
+                },
+                {
+                    "Título":"ONICHAN1",
                     "Contenido":"es una estructura de datos, en gran medida como una matriz, excepto que cada valor (objeto) se almacena mediante una clave. Se trata de un almacén básicos de clave-valor. Primero, se crea una tabla hash vacía."  
                 }
             ]

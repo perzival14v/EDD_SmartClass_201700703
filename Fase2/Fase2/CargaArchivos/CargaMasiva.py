@@ -107,8 +107,8 @@ def cargaMasivaApuntes(path,tabla_hash):
         carnet = i.get("carnet")
         apuntes = i.get("apuntes")
         for j in apuntes:
-            titulo = j.get("Título")
-            contenido=j.get("Contenido")
+            titulo = j.get("titulo")
+            contenido=j.get("contenido")
 
             #Creacion del nodo
             nodo = nodoHash()

@@ -3,6 +3,7 @@ from django.http.response import HttpResponseBase
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 from django.shortcuts import render
+from Fase2.Estructuras import tabla_hash
 
 from Fase2.Objetos.red_estudio import redEstudio
 from Fase2.Estructuras.ArbolB import arbolB
@@ -44,6 +45,7 @@ def cargaMasiva(request):
                 cargaMasivaCursos(instrucciones_json[0].get("path"), arbolEstudiantes)
             elif str.lower(instrucciones_json[0].get("tipo")) == "apuntes":
                 cargaMasivaApuntes(instrucciones_json[0].get("path"), apuntes_tabla_hash)
+                print()
                 
         else:
             print("MALA CARGA")
@@ -392,18 +394,45 @@ def cargar_apuntes(request):
 
     return HttpResponse("Cargado con exito")
 
+@csrf_exempt
+def graficar_apuntes(request):        
+
+    global apuntes_tabla_hash
+    
+    graficar_tabla_hash(apuntes_tabla_hash.tabla_hash,1)
+
+    return HttpResponse("Graficado")
 
 @csrf_exempt
-def graficar_apuntes(request):
+def agregar_apunte(request):        
+
+    global apuntes_tabla_hash
+    
     instrucciones_json = json.loads(request.body)
-    curso_ingresado = instrucciones_json.get("curso")     
+    titulo = instrucciones_json[0].get("titulo")
+    nota = instrucciones_json[0].get("contenido")
+    carne = instrucciones_json[0].get("carnet")
+    
+    apunte_nuevo = Apunte(titulo,nota)
+    nodo = nodoHash()
+    nodo.llave = int(carne)
 
-    pensum = redEstudio()
-    graficar_prerequisitos(curso_ingresado,pensum.red_de_estudio,1)
 
+    apuntes_tabla_hash.agregar(nodo,apunte_nuevo)
 
-    return HttpResponse("Curso analizado")
+    return HttpResponse("apunte agregado con exito")
 
+@csrf_exempt
+def ver_apunte(request):        
+
+    global apuntes_tabla_hash
+    
+    instrucciones_json = json.loads(request.body)    
+    carne = instrucciones_json[0].get("carnet")        
+    
+    graficar_apuntes_estudiante(apuntes_tabla_hash.tabla_hash,carne)
+
+    return HttpResponse("apuntes graficado")
 
 @csrf_exempt
 def pruebas(request):

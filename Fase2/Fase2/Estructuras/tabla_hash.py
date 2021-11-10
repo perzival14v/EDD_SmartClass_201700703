@@ -23,20 +23,25 @@ def reposicionar(arreglo,nodo:nodoHash,indice,tamaño):
     if nodo.llave == arreglo[indice][1].llave:
         arreglo[indice][1]=nodo
         return arreglo
+    
 
+
+    anterior = 0    
     #SI HAY COLISION HACER REPOSICIONAMIENTO CUADRATICO
     while arreglo[indice][1].llave!=None:
-        aumento = n*n                           
+        aumento = n*n                                   
 
-        if indice+aumento > tamaño:
-            indice = (indice+aumento)%tamaño
+        if indice+aumento >= tamaño:
+            indice -=anterior
+            indice = (indice+aumento)%tamaño            
         else:
-            indice += aumento
+            indice -=anterior
+            indice += aumento 
+            anterior = aumento
         n+=1
     
     arreglo[indice][1]=nodo
     return arreglo
-
 
 def agregar(arreglo,nodo:nodoHash,indice,tamaño,apunte):
     #AGREGAR Y BUSCAR INDICE        
@@ -46,15 +51,27 @@ def agregar(arreglo,nodo:nodoHash,indice,tamaño,apunte):
         if nodo.llave == arreglo[indice][1].llave:
             arreglo[indice][1].lista.agregar(apunte)
             return [arreglo,0]
+        #SI HUBO COLISION Y YA ESTA DENTRO DE LA TABLA HASH
+        elif arreglo[indice][1].llave!=None:
+            anterior = 0
+            #SI HUBO COLISION Y HAY QUE ENCONTRAR DONDE ESTA
+            for i in arreglo:
+                if i[1].llave == nodo.llave:
+                    i[1].lista.agregar(apunte)
+                    return [arreglo,0]
 
+        anterior = 0
         #SI HAY COLISION HACER REPOSICIONAMIENTO CUADRATICO
         while arreglo[indice][1].llave!=None:
-            aumento = n*n                           
+            aumento = n*n                                   
 
-            if indice+aumento > tamaño:
+            if indice+aumento >= tamaño:
+                indice -=anterior
                 indice = (indice+aumento)%tamaño
             else:
-                indice += aumento
+                indice -=anterior
+                indice += aumento 
+                anterior = aumento
             n+=1
 
         nodo.lista.agregar(apunte)

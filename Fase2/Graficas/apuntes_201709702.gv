@@ -1,0 +1,31 @@
+digraph G {
+	graph [rankdir=LR]
+	edge [dir=both]
+	nodesep=0.5
+	node [shape=box]
+	carne [label=201709702]
+	nodo_1 [label="Apunte 0
+Multi-lateral explicit installation"]
+	carne -> nodo_1
+	nodo_2 [label="Apunte 1
+Realigned static encryption"]
+	nodo_1 -> nodo_2
+	nodo_3 [label="Apunte 2
+Expanded attitude-oriented model"]
+	nodo_2 -> nodo_3
+	nodo_4 [label="Apunte 3
+Mandatory well-modulated internet solution"]
+	nodo_3 -> nodo_4
+	nodo_5 [label="Apunte 4
+Organic well-modulated groupware"]
+	nodo_4 -> nodo_5
+	nodo_6 [label="Apunte 5
+Balanced 5th generation capability"]
+	nodo_5 -> nodo_6
+	nodo_7 [label="Apunte 6
+Enterprise-wide real-time data-warehouse"]
+	nodo_6 -> nodo_7
+	nodo_8 [label="Apunte 7
+Programmable holistic product"]
+	nodo_7 -> nodo_8
+}

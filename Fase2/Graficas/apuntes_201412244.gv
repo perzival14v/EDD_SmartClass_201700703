@@ -1,0 +1,19 @@
+digraph G {
+	graph [rankdir=LR]
+	edge [dir=both]
+	nodesep=0.5
+	node [shape=box]
+	carne [label=201412244]
+	nodo_1 [label="Apunte 0
+Distributed web-enabled application"]
+	carne -> nodo_1
+	nodo_2 [label="Apunte 1
+Switchable local projection"]
+	nodo_1 -> nodo_2
+	nodo_3 [label="Apunte 2
+Versatile responsive intranet"]
+	nodo_2 -> nodo_3
+	nodo_4 [label="Apunte 3
+Sharable maximized infrastructure"]
+	nodo_3 -> nodo_4
+}

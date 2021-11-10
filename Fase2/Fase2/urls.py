@@ -28,4 +28,7 @@ urlpatterns = [
     path('cursosEstudiantes/',crud_cursosEstudiante),
     path('cursosPensum/',crud_cursosPensum),
     path('prerequisito/',pre_requisitos),
+    path('graficarApuntes/',graficar_apuntes),
+    path('crearApuntes/',agregar_apunte),
+    path('verApuntes/',ver_apunte),
 ]

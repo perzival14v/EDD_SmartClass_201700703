@@ -83,7 +83,7 @@ class redEstudio(object):
 
 
         #Decimo Semestre
-        self.red_de_estudio["786"]=["786","Sistemas Organizacionales y Gerenciales 2","4",["786"]]
+        self.red_de_estudio["787"]=["786","Sistemas Organizacionales y Gerenciales 2","4",["786"]]
         self.red_de_estudio["720"]=["720","Modelacion y Simulacion 2","5",["729"]]
         self.red_de_estudio["780"]=["780","Software Avanzado","6",["785"]]
         self.red_de_estudio["799"]=["799","Seminario de Investigacion","3",["798"]]

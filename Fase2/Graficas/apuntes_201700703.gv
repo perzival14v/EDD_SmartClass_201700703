@@ -1,0 +1,13 @@
+digraph G {
+	graph [rankdir=LR]
+	nodesep=0.5
+	node [shape=box]
+	nodo_1 [label="TITULO2
+esto es un apunte 2"]
+	nodo_2 [label="TITULO2
+esto es un apunte 2"]
+	nodo_1 -> nodo_2
+	nodo_3 [label="TITULO2
+esto es un apunte 2"]
+	nodo_2 -> nodo_3
+}

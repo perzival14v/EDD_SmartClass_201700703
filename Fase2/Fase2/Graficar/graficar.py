@@ -1,5 +1,7 @@
 import re
 from typing import List
+from Fase2.CargaArchivos.CargaMasiva import cargaMasicaCursosPensum
+from Fase2.Estructuras import nodo_hash
 from Fase2.Estructuras.NodoLD import nodoLD
 from Fase2.Estructuras.NodoArbolAVL import nodoArbol
 from Fase2.Estructuras.ArbolB import arbolB
@@ -7,7 +9,7 @@ from Fase2.Estructuras.matriz_dispersa import matrizDispersa
 import graphviz
 from graphviz import nohtml
 
-from Fase2.Objetos import tareas
+from Fase2.Objetos import estudiante, tareas
 
 
 def graficarArbolAVLrecursivo(nodo:nodoArbol, g):
@@ -179,7 +181,6 @@ def graficar_matriz_dispersa(matriz:matrizDispersa, contador):
 
     g.view()
 
-
 def graficar_prerequisito_recursivo(curso,lista_cursos:List,g,lista_usados:List,cola:List):
     if curso not in lista_usados:        
         label = curso + " - " + lista_cursos[curso][1]
@@ -194,7 +195,7 @@ def graficar_prerequisito_recursivo(curso,lista_cursos:List,g,lista_usados:List,
         
     
 
-    return None
+    return lista_usados
 
 def graficar_prerequisitos(curso,lista_cursos,contador):
     g = graphviz.Digraph('G', filename='Graficas/PreRequisito_'+str(curso) +"_"+ str(contador) + '.gv', format='svg')    
@@ -203,8 +204,100 @@ def graficar_prerequisitos(curso,lista_cursos,contador):
     g.attr("node", shape="box")    
     g.edge_attr['dir'] = 'back'          
     g.graph_attr['rankdir'] = 'RL'      
-    
-    graficar_prerequisito_recursivo(curso,lista_cursos,g,[],[])
+    if curso=="todos":        
+        usados=[]
+        suma = 0
+        for i in lista_cursos:
+            usados=graficar_prerequisito_recursivo(i,lista_cursos,g,usados,[])
+            suma += int(lista_cursos[i][2])
+        print(suma)
+        
+    else:
+        graficar_prerequisito_recursivo(curso,lista_cursos,g,[],[])
 
 
     g.view()
+
+def graficar_tabla_hash(tabla_hash, contador):
+    g = graphviz.Digraph('G', filename='Graficas/TablaHash_'+ str(contador) + '.gv', 
+                        format='svg',node_attr={'shape': 'plaintext'})            
+    g.attr(nodesep="0.5")
+    g.graph_attr['rankdir'] = 'LR' 
+
+    tablaHTML = '''<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="30">'''
+    puerto = 0
+    for i in tabla_hash:
+        #Creacion de los nodos
+        puerto+=1       
+
+        if i[1].llave == None:
+            carne = "<BR/>"
+        else:
+            carne = str(i[1].llave)
+
+        tablaHTML += '''
+        <TR>
+            <TD PORT="f'''+str(puerto)+'''">''' + carne + '''</TD>
+        </TR>'''
+
+    tablaHTML+="""
+    </TABLE>>"""    
+    g.node('struct1',tablaHTML)
+    g.attr("node", shape="ellipse")
+    puerto = 0
+    for i in tabla_hash:
+        #Creacion de los nodos
+        puerto+=1       
+
+        if i[1].llave == None:
+            continue
+        else:
+            aux = i[1].lista.cabeza
+            cuenta = 0
+            anterior = "struct1:f"+str(puerto)
+            while aux != None:
+                cuenta+=1
+                nombre = "nodo_f" + str(puerto) + str(cuenta)
+                g.node(nombre,label="apunte "+str(cuenta))
+                g.edge(anterior,nombre)
+                anterior = nombre
+                aux = aux.siguiente
+            
+
+    
+
+    g.view()
+
+def graficar_apuntes_estudiante(tabla_hash,carne):
+
+    g = graphviz.Digraph('G', filename='Graficas/apuntes_'+ str(carne) + '.gv', 
+                        format='svg')            
+    g.attr(nodesep="0.5")
+    g.graph_attr['rankdir'] = 'LR'
+    g.attr("node", shape="box") 
+
+    for i in tabla_hash:
+        if i[1].llave == int(carne):
+            aux = i[1].lista.cabeza
+            cuenta = 0
+            anterior = "carne"
+            g.node(anterior,label=carne)
+            while aux != None:
+                g.edge_attr['dir'] = 'both'
+                cuenta+=1
+                nombre = "nodo_" + str(cuenta)
+                label = aux.info.titulo
+                label+= "\n" + aux.info.apunte
+                g.node(nombre,label=label)                
+                g.edge(anterior,nombre)
+                anterior = nombre
+                aux = aux.siguiente
+
+
+    g.view()
+
+
+
+
+
